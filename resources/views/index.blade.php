@@ -226,8 +226,8 @@
                 alt="{{$p->cover_image}}">
             <div class="card-body">
                 <h5 class="card-title"><a href="{{route('blogs.show', $p->id)}}">{{ $p->title }}</a></h5>
-                <p>{{$p->body}}</p>
-                <a href="{{route('blogs.show', $p->id)}}">Read more </a>
+                <!--<p>{{$p->body}}</p>-->
+                <a class="btn btn-primary" href="{{route('blogs.show', $p->id)}}">Read more </a>
             </div>
         </div>
         @endforeach

@@ -194,6 +194,7 @@
                     <!--end col-->
                     <div class="col-lg-4">
                         <p class="lead">Email :</p>
+                        <p class="nav-link">
                         <i class="fa fa-envelope" style="margin-right: 5px;"></i>info@balidwipa.ac.id
                         </p>
                     </div>
@@ -205,12 +206,11 @@
         </section>
 
         <footer>
-            <p class="text-center">Universitas Bali Dwipa 2019</p>
+            <p class="text-center">Universitas Bali Dwipa 2020</p>
             <div class="text-center">
                 Icons made by
                 <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a>
-                from
-                <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+                from www.flaticon.com and Freepik.com</a>
             </div>
         </footer>
 

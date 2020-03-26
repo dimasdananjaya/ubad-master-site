@@ -137,6 +137,7 @@
                         </ul>
                     </li>
                     <li class="nav-item"><a href="https://siakad.balidwipa.ac.id/" class="nav-link">SIAKAD</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">E-Library</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right ml-auto">
                     <li class="nav-item">
@@ -174,7 +175,8 @@
                     <!--end col-->
                     <div class="col-lg-4">
                         <p class="lead">Email :</p>
-                        <i class="fa fa-envelope" style="margin-right: 5px;"></i>info@balidwipa.ac.id
+                        <p class="nav-link">
+                            <i class="fa fa-envelope" style="margin-right: 5px;"></i>info@balidwipa.ac.id
                         </p>
                     </div>
                     <!--end col-->
@@ -184,12 +186,11 @@
             <!--end container-->
         </section>
         <footer>
-            <p class="text-center">Universitas Bali Dwipa 2019</p>
+            <p class="text-center">Universitas Bali Dwipa 2020</p>
             <div class="text-center">
                 Icons made by
                 <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a>
-                from
-                <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+                from www.flaticon.com and Freepik.com</a>
             </div>
         </footer>
    
