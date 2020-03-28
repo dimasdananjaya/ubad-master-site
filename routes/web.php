@@ -36,3 +36,4 @@ Route::get('/staff', 'RouteController@staffPage')->name('staff');
 // Blogs route
 
 Route::resource('blogs', 'BlogController');
+Route::resource('pendaftaran', 'Pendaftaran');
