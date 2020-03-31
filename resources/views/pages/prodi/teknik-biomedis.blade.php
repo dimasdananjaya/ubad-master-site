@@ -50,7 +50,7 @@
                     Sistem Biomedis memberikan dukungan bagi para profesional medis dalam melakukan prosedur medis termasuk pengumpulan data, analisis, diagnosis, dan terapi. Untuk mengembangkan bidang lintas disiplin ini, diperlukan ilmu dan teknik dasar, termasuk dasar elektronika dan lanjutan, komputer, anatomi dan fisiologi, fisika biomedika, transduser biomedis dan instrumentasi, serta desain sistem biomedis.
                 </p>
                 <hr />
-                <h3><b> APA ITU TEKNIK BIOMEDIS ?</b></h3>
+                <h3><b> PRODI TEKNIK BIOMEDIS BELAJAR APA SAJA?</b></h3>
                 <p>
                     Teknik Biomedis adalah pengaplikasian teknik dan prinsip teknik
                     dalam bidang medis. Bidang ini menggabungkan kemampuan desain dan

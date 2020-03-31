@@ -6,6 +6,11 @@ html {
     padding: 0;
     font-family: "Varela Round", sans-serif !important;
     background-color: #fff !important;
+ 
+}
+
+body{
+    padding-top: 68px !important;
 }
 
 .container {
@@ -144,6 +149,18 @@ header p {
 }
 
 /****** Prodi Carousel ****/
+
+.carousel {
+    width: 90%;
+    margin: 0px auto;
+}
+.slick-slide {
+    margin: 10px;
+}
+.slick-slide img {
+    width: 100%;
+    border: 2px solid #fff;
+}
 #prodi .card-img-top {
     width: 100%;
     height: 15vh;
@@ -179,8 +196,11 @@ header p {
     padding-bottom: 15px;
 }
 
+
+
 #why .why-title {
     text-align: center;
+    font-size: 1.8em;
     margin-bottom: 30px;
 }
 
@@ -211,13 +231,36 @@ header p {
 
 /********* end why ******/
 
+/********* pendaftaran-prodi ******/
+#pendaftaran-prodi {
+    min-height: 25vh;
+    color: #fff;
+    background-color: #157f94;
+    padding-top: 2%;
+    padding-bottom: 0.5%;
+    text-align: center;
+}
+
+/***** pendaftaran-prodi *****/
+
 /***** pendaftaran *****/
+#pendaftaran .jarak {
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
 #pendaftaran {
     min-height: 25vh;
-    background-color: #157f94;
     color: #fff;
-    padding-top: 3%;
-    padding-bottom: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+#pendaftaran h2{
+    text-align: center;
+    color: #393d3e;
+    font-size: 1.8em;
 }
 
 .square_btn {
@@ -236,19 +279,24 @@ header p {
     background-image: linear-gradient(45deg, #ffc107 0%, #f76a35 100%);
 }
 
-.carousel {
-    width: 90%;
-    margin: 0px auto;
-}
-.slick-slide {
-    margin: 10px;
-}
-.slick-slide img {
-    width: 100%;
-    border: 2px solid #fff;
+/******* Contact Us ******/
+#contact-us{
+    margin-top: -1%;
+    margin-bottom: -1%;
 }
 
-/******* Kelas ******/
+#contact-us h2,p{
+    text-align: center;
+}
+
+#contact-us h2{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+/******* contact Us ******/
+
+/******* Kelas tidak digunakan ******/
 
 #kelas .card {
     margin: 0 auto; /* Added */

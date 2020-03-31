@@ -24,7 +24,12 @@
                             <form action="{{route('pendaftaran.store')}}" method="POST" enctype="multipart/form-data">
                                 {{ csrf_field() }}
                                 <div class="form-group">
-                                    <label for="title">Nama</label>
+                                    <label for="title">Nama Lengkap</label>
+                                    <input type="title" class="form-control" name="nama" id="nama"
+                                        placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="title">Tempat Lahir</label>
                                     <input type="title" class="form-control" name="title" id="title"
                                         placeholder="Your post title here!">
                                 </div>

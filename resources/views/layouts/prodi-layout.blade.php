@@ -56,7 +56,7 @@
 
 <body>
     <div id="app">
-        <nav class="navbar navbar-default navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-default navbar-expand-lg navbar-light fixed-top">
             <div class="navbar-header d-flex col">
                 <a class="navbar-brand" href="{{URL::route('index')}}"><img src="/resources/logo/balidwipa.png"
                         class="navbar-logo" />Universitas Bali Dwipa
@@ -154,7 +154,7 @@
         @yield('content')
 
         <!--Pendaftaran-->
-        <section id="pendaftaran">
+        <section id="pendaftaran-prodi">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12 text-center">
@@ -162,7 +162,7 @@
                             TERTARIK BERGABUNG BERSAMA PRODI DI UNIVERSITAS BALI DWIPA ?
                         </h6>
                         <p class="lead">Daftar Sekarang !</p>
-                        <a href="https://siakad.balidwipa.ac.id/index.php?m=pmb.umum.periode"
+                        <a href="{{URL::route('mahasiswa-baru')}}"
                             class="square_btn">Daftar</a>
                         <a href="http://bit.do/balidwipa" class="square_btn">Seleksi Online</a>
                     </div>

@@ -56,7 +56,7 @@
 
 <body>
    
-        <nav class="navbar navbar-default navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-default navbar-expand-lg navbar-light fixed-top">
             <div class="navbar-header d-flex col">
                 <a class="navbar-brand" href="{{URL::route('index')}}"><img src="/resources/logo/balidwipa.png"
                         class="navbar-logo" />Universitas Bali Dwipa
