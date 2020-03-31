@@ -81,4 +81,8 @@ class Pendaftaran extends Controller
     {
         //
     }
+
+    public function validated(){
+        return view('pages.pendaftaran.validated');
+    }
 }

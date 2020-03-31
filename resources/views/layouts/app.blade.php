@@ -52,6 +52,10 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
+    <!--jquery ui-->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" defer>
+
+
 </head>
 
 <body>
@@ -199,19 +203,17 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
+
     <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
-
-
-
-
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" defer></script>
     <script>
         AOS.init();
 
         $(".carousel").slick({
-            dots: true,
+            arrows: true,
             infinite: false,
-            speed: 300,
+            speed: 150,
             autoplay: true,
             autoplaySpeed: 3000,
             slidesToShow: 5,
@@ -222,19 +224,21 @@
                 slidesToShow: 3,
                 slidesToScroll: 3,
                 infinite: true,
-                dots: true
+                arrows: true
                 }
             }, {
                 breakpoint: 600,
                 settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToScroll: 2,
+                arrows: true
                 }
             }, {
                 breakpoint: 480,
                 settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                arrows: true
                 }
             } // You can unslick at a given breakpoint now by adding:
             // settings: "unslick"
@@ -244,6 +248,7 @@
 
             $(".carousel-berita").slick({
             dots: false,
+            arrows:true,
             infinite: false,
             speed: 300,
             autoplay: true,
@@ -275,6 +280,11 @@
             // instead of a settings object
             ]
             });
+
+            $( function() {
+                $( "#datepicker" ).datepicker();
+            } );
+        
     </script>
 
 <!--Start of Tawk.to Script

@@ -33,6 +33,7 @@ Route::get('/mahasiswa-baru', 'RouteController@mahasiswaBaruPage')->name('mahasi
 Route::get('/seleksi-online', 'RouteController@seleksiOnlinePage')->name('seleksi-online');
 Route::get('/staff', 'RouteController@staffPage')->name('staff');
 
+Route::get('/validated', 'Pendaftaran@validated')->name('validated');
 // Blogs route
 
 Route::resource('blogs', 'BlogController');

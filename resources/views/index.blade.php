@@ -130,11 +130,12 @@
                     <p class="card-text">
                         Jenjang Pendidikan : S1
                     </p>
-                    <a href={{URL::route('teknologi-pangan')}} class="btn tombol-tema">Lihat Detail</a>
+                    <a href={{URL::route('sistem-informasi')}} class="btn tombol-tema">Lihat Detail</a>
                 </div>
             </div>
         </div>
         <!--end carousel-->
+        <p data-aos="fade-left" class="text-center">Geser Kartu Untuk Lihat Selanjutnya</p>
     </div>
     <!--end container-->
 </section>
@@ -215,11 +216,11 @@
             <div data-aos="fade-right" class="col-lg-4">
                 <h2>Perlu Informasi Lainnya?</h2>
                 <p>Hubungi Kami Pada Kontak Dibawah Ini</p>
-                <ol>
+                <ul>
                     <li>Whatsapp : 085792463944 </li>
                     <li>Phone    : 081339827770</li>
                     <li>Email    : info@balidwipa.ac.id</li>
-                </ol>
+                </ul>
             </div>
             <div class="jarak col-lg-8">
                 <img data-aos="fade-left" src="/resources/logo/contact-us.jpg">
@@ -275,7 +276,7 @@
         @endforeach
         
     </div>
-    <a href={{route('blogs.index')}} class="btn btn-primary align-items-center">Lihat Semua Berita</a>
+    <a href={{route('blogs.index')}} class="btn btn-primary text-center btn-block">Lihat Semua Berita</a>
     </div><!--aos-->
 </article>
 
