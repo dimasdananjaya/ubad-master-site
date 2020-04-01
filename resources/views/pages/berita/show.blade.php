@@ -15,8 +15,7 @@
                 <p>{!! $post->body !!}</p>
             </div>
         </div>
-        @if(!Auth::guest())
-        @if ($post->user_id === Auth::user()->id)
+    
         <div class="col-md-4">
             <div class="well">
                 <h1>Options</h1>
@@ -29,8 +28,7 @@
                 </form>
             </div>
         </div>
-        @endif
-        @endif
+ 
     </div>
     {{-- @include('inc.footer') --}}
 </div>

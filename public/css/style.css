@@ -969,3 +969,48 @@ text-align: center;
 }
 
 /**** end Form Pendaftaran ****/
+
+
+/****************************************** admin area *****************************/
+
+/**===================================admin-page************************/
+#admin-page .card{
+    padding: 20px 20px 20px 20px;
+    margin-top: 15px;
+    box-shadow: 2px 2px #c6e0f5;
+}
+
+#admin-page .card-img-top{
+    height: 10rem;
+    width: 10rem;
+}
+
+#admin-page .card-text, .card-title{
+    text-align: center;
+}
+
+
+
+
+/**===================================end admin-page************************/
+
+/***************** daftar-pendaftar *********/
+#daftar-pendaftar .container{
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+#daftar-pendaftar h3{
+    font-size: 1.6em;
+}
+
+#daftar-pendaftar .tombol-back{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#daftar-pendaftar .card{
+    padding: 2em 2em 2em 2em;
+    box-shadow: 5px 5px 0px 0px #b3d9ff;
+}
+/****************end daftar-pendaftar*************/

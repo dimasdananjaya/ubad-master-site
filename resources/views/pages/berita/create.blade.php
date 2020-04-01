@@ -28,10 +28,10 @@
                 <div class="form-group">
                     <label for="cover_image">File input</label>
                     <input type="file" id="cover_image" name="cover_image">
-                    <p class="help-block">Post cover image here.</p>
+                    <p class="help-block">gambar maksimal 2 mb</p>
                 </div>
 
-                <button type="submit" class="btn btn-default">Submit</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
     </div>

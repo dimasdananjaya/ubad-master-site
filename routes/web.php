@@ -33,7 +33,9 @@ Route::get('/mahasiswa-baru', 'RouteController@mahasiswaBaruPage')->name('mahasi
 Route::get('/seleksi-online', 'RouteController@seleksiOnlinePage')->name('seleksi-online');
 Route::get('/staff', 'RouteController@staffPage')->name('staff');
 
-Route::get('/validated', 'Pendaftaran@validated')->name('validated');
+Route::get('/admin-page', 'Admin@adminPage')->name('admin-page');
+Route::get('/daftar-pendaftar', 'Admin@daftarPendaftar')->name('daftar-pendaftar');
+Route::get('/periode', 'Admin@periode')->name('periode');
 // Blogs route
 
 Route::resource('blogs', 'BlogController');

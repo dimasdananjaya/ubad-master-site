@@ -117,8 +117,22 @@
                                     </div><!--end col-->
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <label for="status">Pekerjaan</label>
+                                            <label for="pekerjaan">Pekerjaan</label>
                                             <input type="text" class="form-control" name="pekerjaan" id="pekerjaan"
+                                            placeholder="">
+                                        </div>
+                                    </div><!--end col-->
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="no_hp">No, Handphone</label>
+                                            <input type="text" class="form-control" name="no_hp" id="no_hp"
+                                            placeholder="">
+                                        </div>
+                                    </div><!--end col-->
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="email">Email</label>
+                                            <input type="text" class="form-control" name="email" id="email"
                                             placeholder="">
                                         </div>
                                     </div><!--end col-->

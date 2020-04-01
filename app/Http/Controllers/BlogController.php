@@ -97,9 +97,7 @@ class BlogController extends Controller
     {
         $post = Blogs::find($id);
         // check of correct user
-        if (auth()->user()->id !== $post->user_id) {
-            return back()->with('error', 'You are not allowed to edit this post.');
-        }
+
         return view('pages.berita.edit')->with('post', $post);
     }
 
@@ -146,14 +144,7 @@ class BlogController extends Controller
     {
         $post = Blogs::find($id);
         // check of correct user
-        if (auth()->user()->id !== $post->user_id) {
-            return back()->with('error', 'You are not allowed to delete this post.');
-        }
 
-        if ($post->cover_image !== 'noimage.jpg') {
-            //Delete image
-            Storage::delete('public/images/cover_images/' . $post->cover_image);
-        }
         $post->delete();
         return redirect('/blogs')->with('success', 'Post deleted successfully');
     }

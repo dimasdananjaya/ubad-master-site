@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class Pendaftaran extends Controller
+class Admin extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -17,9 +17,10 @@ class Pendaftaran extends Controller
         $this->middleware('auth');
     }
 
+
     public function index()
     {
-        return view('pages.pendaftaran.form-pendaftaran');
+        //
     }
 
     /**
@@ -88,8 +89,15 @@ class Pendaftaran extends Controller
         //
     }
 
-    public function validated(){
-        return view('pages.pendaftaran.validated');
+    public function adminPage(){
+        return view('pages.pendaftaran.admin-page');
     }
 
+    public function daftarPendaftar(){
+        return view('pages.pendaftaran.daftar-pendaftar');
+    }
+
+    public function periode(){
+        return view('pages.pendaftaran.periode');
+    }
 }
