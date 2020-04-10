@@ -75,6 +75,17 @@ class RouteController extends Controller
         return view('pages/pendaftaran/seleksi-online');
     }
 
+    public function validated(){
+        return view('pages.pendaftaran.validated');
+    }
+
+    public function formPendaftaran(){
+
+        return view('pages.pendaftaran.form-pendaftaran');
+
+    }
+
+
 
     //HALAMAN PROFIL STAFF
     public function staffPage(){

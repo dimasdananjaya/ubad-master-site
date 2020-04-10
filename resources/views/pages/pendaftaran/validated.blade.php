@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <section id="form-pendaftaran">
+    <section id="validated">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -18,7 +18,9 @@
                     <hr>
                     <p style="text-align:justify" class="text-center" data-aos="fade-left" class="why-dosen lead">
                         Anda telah berhasil melakukan pendaftaran, admin kami akan memproses data anda, selanjutnya silahkan menunggu
-                        kontak dari admin kami dalam waktu 4-7 hari.
+                        kontak dari admin kami dalam waktu 4-7 hari. Info Lebih lanjut klik ikon whatsapp di kanan bawah atau hubungi : <br>
+                        <b>Whatsapp : 085792463944<b><br>
+                        <b>Phone    : 081339827770</b>
                      <p>
                     <a href="/" class="btn btn-lg btn-primary text-center">Kembali Ke Home</a>
                 </div>

@@ -20,120 +20,47 @@
                     <div class="card">
                         <div class="card-body">
                             <h3><b>Formulir Pendaftaran</b></h3>
-                            <small>*diisi sesuai data Kartu Keluarga dan KTP</small>
+                            
                             <hr>
                             <form action="{{route('pendaftaran.store')}}" method="POST" enctype="multipart/form-data">
                                 {{ csrf_field() }}
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="form-group">
-                                            <label for="nama">NIK KTP</label>
-                                            <input type="text" class="form-control" name="nik" id="nik"
-                                                placeholder="">
-                                        </div>
-                                    </div><!--end col-->
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
                                             <label for="nama">Nama Lengkap</label>
                                             <input type="nama" class="form-control" name="nama" id="nama"
                                                 placeholder="">
                                         </div>
-                                    </div><!--end col-->
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="tempat-lahir">Tempat Lahir</label>
-                                            <input type="tempat-lahir" class="form-control" name="tempat-lahir" id="tempat-lahir"
-                                                placeholder="">
-                                        </div>
-                                    </div><!--end col-->
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="tanggal-lahir">Tanggal Lahir (dd/mm/yyyy)</label>
-                                            <div class="input-group">
-                                                <input type="text" id="datepicker" class="form-control">
-                                                <div class="input-group-addon">
-                                                    <span class="glyphicon glyphicon-th"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div><!--end col-->
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="jenis-kelamin">Jenis Kelamin</label>
-                                            <input type="text" class="form-control" name="jenis-kelamin" id="jenis-kelamin"
-                                                placeholder="">
-                                        </div>
-                                    </div><!--end col-->
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="golongan-darah">Golongan Darah</label>
-                                            <input type="text" class="form-control" name="golongan-darah" id="golongan-darah"
-                                                placeholder="">
-                                        </div>
-                                    </div><!--end col-->
+                                    </div>
                                     <div class="col-lg-12">
                                         <div class="form-group">
-                                            <label for="alamat">Alamat</label>
-                                            <input type="text" class="form-control" name="alamat" id="alamat"
-                                                placeholder="">
-                                        </div>
-                                    </div><!--end col-->
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="RT/RW">RT/RW</label>
-                                            <input type="text" class="form-control" name="rtrw" id="rtrw"
-                                                placeholder="">
-                                        </div>
-                                    </div><!--end col-->
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="RT/RW">Kelurahan/Desa</label>
-                                            <input type="text" class="form-control" name="keldes" id="keldes"
-                                                placeholder="">
-                                        </div>
-                                    </div><!--end col-->
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="kecamatan">Kecamatan</label>
-                                            <input type="text" class="form-control" name="kecamatan" id="kecamatan"
-                                                placeholder="">
-                                        </div>
-                                    </div><!--end col-->
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="agama">Agama</label>
-                                            <input type="text" class="form-control" name="agama" id="agama"
-                                                placeholder="">
-                                        </div>
-                                    </div><!--end col-->
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="status">Status Perkwaninan</label>
-                                            <select name="status" class="form-control">
-                                                <option class="form-control" value="Kawin">Kawin</option>
-                                                <option class="form-control" value="Belum_Kawin">Belum Kawin</option>
-                                            </select>
-                                        </div>
-                                    </div><!--end col-->
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="pekerjaan">Pekerjaan</label>
-                                            <input type="text" class="form-control" name="pekerjaan" id="pekerjaan"
-                                            placeholder="">
-                                        </div>
-                                    </div><!--end col-->
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="no_hp">No, Handphone</label>
+                                            <label for="no_hp">No Handphone/Whatsapp</label>
                                             <input type="text" class="form-control" name="no_hp" id="no_hp"
                                             placeholder="">
                                         </div>
                                     </div><!--end col-->
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-12">
                                         <div class="form-group">
                                             <label for="email">Email</label>
                                             <input type="text" class="form-control" name="email" id="email"
                                             placeholder="">
+                                        </div>
+                                    </div><!--end col-->
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label for="prodi">Program Studi Pilihan</label>
+                                            <select name="prodi" class="form-group form-control">
+                                                <option value="Teknologi Pangan" class="form-control">Teknologi Pangan</option>
+                                                <option value="Gizi" class="form-control">Gizi</option>
+                                                <option value="Farmasi" class="form-control">Farmasi</option>
+                                                <option value="Psikologi" class="form-control">Psikologi</option>
+                                                <option value="Teknik Biomedis" class="form-control">Teknik Biomedis</option>
+                                                <option value="Hukum" class="form-control">Hukum</option>
+                                                <option value="Akuntansi" class="form-control">Akuntansi</option>
+                                                <option value="Bahasa Inggris" class="form-control">Bahasa Inggris</option>
+                                                <option value="Hubungan Masyarakat" class="form-control">Hubungan Masyarakat</option>
+                                                <option value="Sistem Informasi" class="form-control">Sistem Informasi</option>
+                                            </select>
                                         </div>
                                     </div><!--end col-->
 

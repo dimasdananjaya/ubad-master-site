@@ -36,6 +36,9 @@ Route::get('/staff', 'RouteController@staffPage')->name('staff');
 Route::get('/admin-page', 'Admin@adminPage')->name('admin-page');
 Route::get('/daftar-pendaftar', 'Admin@daftarPendaftar')->name('daftar-pendaftar');
 Route::get('/periode', 'Admin@periode')->name('periode');
+
+Route::get('/validated', 'RouteController@validated')->name('validated');
+Route::get('/form-pendaftaran', 'RouteController@formPendaftaran')->name('form-pendaftaran');
 // Blogs route
 
 Route::resource('blogs', 'BlogController');

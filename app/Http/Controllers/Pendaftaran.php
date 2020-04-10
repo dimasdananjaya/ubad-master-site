@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\PendaftaranModel;
 
 class Pendaftaran extends Controller
 {
@@ -11,15 +12,14 @@ class Pendaftaran extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware('auth', ['except' => ['store']]);
     }
 
     public function index()
     {
-        return view('pages.pendaftaran.form-pendaftaran');
+
     }
 
     /**
@@ -40,7 +40,12 @@ class Pendaftaran extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $simpan=new PendaftaranModel;
+        $simpan->nama=$request->input('nama');
+        $simpan->email=$request->input('email');
+        $simpan->no_hp=$request->input('no_hp');
+        $simpan->jurusan=$request->input('jurusan');
+        $simpan->periode=$request->input('periode');   
     }
 
     /**
@@ -85,11 +90,9 @@ class Pendaftaran extends Controller
      */
     public function destroy($id)
     {
-        //
-    }
-
-    public function validated(){
-        return view('pages.pendaftaran.validated');
+        DB::table('pendaftaran')->where('id_pendaftaran', '=', $id)->delete();
+        alert()->success('Data Terhapus !', '');
+        return back();
     }
 
 }
