@@ -12,10 +12,10 @@ class Pendaftaran extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function __construct()
-    {
-        $this->middleware('auth', ['except' => ['store']]);
-    }
+    //public function __construct()
+  //  {
+ //       $this->middleware('auth', ['except' => ['store']]);
+ //   }
 
     public function index()
     {
@@ -44,8 +44,13 @@ class Pendaftaran extends Controller
         $simpan->nama=$request->input('nama');
         $simpan->email=$request->input('email');
         $simpan->no_hp=$request->input('no_hp');
-        $simpan->jurusan=$request->input('jurusan');
-        $simpan->periode=$request->input('periode');   
+        $simpan->no_whatsapp=$request->input('no_whatsapp');
+        $simpan->tanggal_pendaftaran=now();
+        $simpan->prodi=$request->input('prodi');
+        
+        $simpan->save();
+        alert()->success('Data Tersimpan !', '');
+        return view('pages.pendaftaran.validated');
     }
 
     /**

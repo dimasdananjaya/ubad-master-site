@@ -33,7 +33,7 @@
                           <li>2. Mengisi Formulir Pendaftaran di Website</li>
                           <li>3. Nilai Rapor Kelas X s/d XII Semester 1</li>
                       </ul>
-                      <a href=/pendaftaran class="btn btn-primary btn-md text-center">Isi Formulir Pendaftaran Disini</a>
+                      <a href=/form-pendaftaran class="btn btn-primary btn-md text-center">Isi Formulir Pendaftaran Disini</a>
                     </div>
                   </div>
             </div>
@@ -52,7 +52,7 @@
                           <li>3. Nilai Rapor Kelas X s/d XII Semester 1</li>
                           <li>4. Mengikuti Tes Minat dan Bakat</li>
                       </ul>
-                        <a href="/pendaftaran" class="btn btn-primary btn-md mx-auto">Isi Formulir Pendaftaran Disini</a>
+                        <a href="/form-pendaftaran" class="btn btn-primary btn-md mx-auto">Isi Formulir Pendaftaran Disini</a>
                     </div>
                   </div>
             </div><!--col-->

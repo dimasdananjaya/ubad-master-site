@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\PendaftaranModel;
 
 class Admin extends Controller
 {
@@ -14,6 +15,7 @@ class Admin extends Controller
 
     public function __construct()
     {
+        
         $this->middleware('auth');
     }
 
@@ -90,11 +92,13 @@ class Admin extends Controller
     }
 
     public function adminPage(){
+        
         return view('pages.pendaftaran.admin-page');
     }
 
     public function daftarPendaftar(){
-        return view('pages.pendaftaran.daftar-pendaftar');
+        $dataPendaftar=PendaftaranModel::all();
+        return view('pages.pendaftaran.daftar-pendaftar')->with('dataPendaftar',$dataPendaftar);
     }
 
     public function periode(){

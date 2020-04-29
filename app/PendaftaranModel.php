@@ -4,9 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Pendaftaran extends Model
+class PendaftaranModel extends Model
 {
     protected $table = 'pendaftaran';
-    public $timestamps = true;
+    public $timestamps = false;
     public $primaryKey = 'id_pendaftaran';
 }

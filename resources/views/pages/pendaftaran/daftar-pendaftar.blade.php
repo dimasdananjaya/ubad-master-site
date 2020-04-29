@@ -5,25 +5,31 @@
         <div class="container">
             <div class="card">
                 <h3>Daftar Calon Mahasiswa</h3>
-            <div class="table-responsive table-hover">
+            <div class="table-responsive table-hover table-responsive">
                 <table id="tabel" class="table">
                     <thead>
-                        <th>No.</th>
-                        <th>NIK</th>
+                        <th>ID.</th>
                         <th>Nama</th>
                         <th>No. Hp</th>
+                        <th>No. Whatsapp</th>
                         <th>Email</th>
+                        <th>Prodi</th>
+                        <th>Tanggal Pendaftaran</th>
                         <th>Aksi</th>
                     </thead>
                     <tbody>
+                    @foreach($dataPendaftar as $dtp)
                         <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>{{$dtp->id_pendaftaran}}</td>
+                            <td>{{$dtp->nama}}</td>
+                            <td>{{$dtp->no_hp}}</td>
+                            <td>{{$dtp->no_whatsapp}}</td>
+                            <td>{{$dtp->email}}</td>
+                            <td>{{$dtp->prodi}}</td>
+                            <td>{{$dtp->tanggal_pendaftaran}}</td>
                             <td></td>
                         </tr>
+                    @endforeach
                     </tbody>
                 </table>
             </div>

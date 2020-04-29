@@ -34,15 +34,22 @@
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-group">
-                                            <label for="no_hp">No Handphone/Whatsapp</label>
+                                            <label for="no_hp">No Handphone</label>
                                             <input type="text" class="form-control" name="no_hp" id="no_hp"
                                             placeholder="">
                                         </div>
                                     </div><!--end col-->
                                     <div class="col-lg-12">
                                         <div class="form-group">
+                                            <label for="no_whatsapp">No Whatsapp</label>
+                                            <input type="text" class="form-control" name="no_whatsapp" id="no_whatsapp"
+                                            placeholder="">
+                                        </div>
+                                    </div><!--end col-->
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
                                             <label for="email">Email</label>
-                                            <input type="text" class="form-control" name="email" id="email"
+                                            <input type="email" class="form-control" name="email" id="email"
                                             placeholder="">
                                         </div>
                                     </div><!--end col-->
