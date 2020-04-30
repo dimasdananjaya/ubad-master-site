@@ -50,7 +50,7 @@
                     Dalam teknologi pangan, dipelajari sifat fisis, mikrobiologis, dan kimia dari bahan pangan dan proses yang mengolah bahan pangan tersebut. Spesialisasinya beragam, di antaranya pemrosesan, pengawetan, pengemasan, penyimpanan, dan sebagainya.
                 </p>
                 <hr />
-                <h3><b> PRODI TEKNOLOGI PANGAN BELAJAR APA SAJA? ?</h3></p>
+                <h3><b> PRODI TEKNOLOGI PANGAN BELAJAR APA SAJA? ?</b></h3></p>
                 <p>
                     Di tahun pertama, yang dipelajari dari dasar, mulai dari fisika,
                     biologi, kimia, dan teknik. Dengan dasar tersebut mahasiswa akan

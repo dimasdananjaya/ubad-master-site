@@ -19,7 +19,7 @@
 <section id="prodi" class="py-5">
     <div class="container-fluid">
         <div data-aos="fade-down">
-            <h2 class="text-center">10 Pilihan Program Studi</h2>
+            <h2 data-aos="fade-up" class="text-center">10 Pilihan Program Studi</h2>
         </div>
         <!--AOS-->
         <div data-aos="fade-down" class="carousel">
@@ -31,7 +31,7 @@
                         Jenjang Pendidikan : S1
                     </p>
                     <a {{URL::route('teknologi-pangan')}} href={{URL::route('teknologi-pangan')}}
-                        class="btn tombol-tema">Lihat Detail</a>
+                        class="tombol-tema mx-auto d-block text-center">Lihat Detail</a>
                 </div>
             </div>
 
@@ -42,7 +42,7 @@
                     <p class="card-text">
                         Jenjang Pendidikan : S1
                     </p>
-                    <a href={{URL::route('teknik-biomedis')}} class="btn tombol-tema">Lihat Detail</a>
+                    <a href={{URL::route('teknik-biomedis')}} class="tombol-tema mx-auto d-block text-center">Lihat Detail</a>
                 </div>
             </div>
 
@@ -53,7 +53,7 @@
                     <p class="card-text">
                         Jenjang Pendidikan : S1
                     </p>
-                    <a href={{URL::route('psikologi')}} class="btn tombol-tema">Lihat Detail</a>
+                    <a href={{URL::route('psikologi')}} class="tombol-tema mx-auto d-block text-center">Lihat Detail</a>
                 </div>
             </div>
 
@@ -64,7 +64,7 @@
                     <p class="card-text">
                         Jenjang Pendidikan : S1
                     </p>
-                    <a href={{URL::route('gizi')}} class="btn tombol-tema">Lihat Detail</a>
+                    <a href={{URL::route('gizi')}} class="tombol-tema mx-auto d-block text-center">Lihat Detail</a>
                 </div>
             </div>
 
@@ -75,7 +75,7 @@
                     <p class="card-text">
                         Jenjang Pendidikan : S1
                     </p>
-                    <a href={{URL::route('farmasi')}} class="btn tombol-tema">Lihat Detail</a>
+                    <a href={{URL::route('farmasi')}} class="tombol-tema mx-auto d-block text-center">Lihat Detail</a>
                 </div>
             </div>
 
@@ -86,7 +86,7 @@
                     <p class="card-text">
                         Jenjang Pendidikan : S1
                     </p>
-                    <a href={{URL::route('akuntansi')}} class="btn tombol-tema">Lihat Detail</a>
+                    <a href={{URL::route('akuntansi')}} class="tombol-tema mx-auto d-block text-center">Lihat Detail</a>
                 </div>
             </div>
 
@@ -97,7 +97,7 @@
                     <p class="card-text">
                         Jenjang Pendidikan : S1
                     </p>
-                    <a href={{URL::route('hubungan-masyarakat')}} class="btn tombol-tema">Lihat Detail</a>
+                    <a href={{URL::route('hubungan-masyarakat')}} class="tombol-tema mx-auto d-block text-center">Lihat Detail</a>
                 </div>
             </div>
 
@@ -108,7 +108,7 @@
                     <p class="card-text">
                         Jenjang Pendidikan : S1
                     </p>
-                    <a href={{URL::route('bahasa-inggris')}} class="btn tombol-tema">Lihat Detail</a>
+                    <a href={{URL::route('bahasa-inggris')}} class="tombol-tema mx-auto d-block text-center">Lihat Detail</a>
                 </div>
             </div>
 
@@ -119,7 +119,7 @@
                     <p class="card-text">
                         Jenjang Pendidikan : S1
                     </p>
-                    <a href={{URL::route('hukum')}} class="btn tombol-tema">Lihat Detail</a>
+                    <a href={{URL::route('hukum')}} class="tombol-tema mx-auto d-block text-center">Lihat Detail</a>
                 </div>
             </div>
 
@@ -130,12 +130,12 @@
                     <p class="card-text">
                         Jenjang Pendidikan : S1
                     </p>
-                    <a href={{URL::route('sistem-informasi')}} class="btn tombol-tema">Lihat Detail</a>
+                    <a href={{URL::route('sistem-informasi')}} class="tombol-tema mx-auto d-block text-center">Lihat Detail</a>
                 </div>
             </div>
         </div>
         <!--end carousel-->
-        <p data-aos="fade-left" class="text-center">Geser Kartu Untuk Lihat Selanjutnya</p>
+        <p data-aos="fade-left" style="color:#fff;" class="text-center">Geser Kartu Untuk Lihat Selanjutnya</p>
     </div>
     <!--end container-->
 </section>
@@ -183,16 +183,15 @@
 
 <!--Pendaftaran-->
 <section id="pendaftaran">
-    <hr>
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-lg-12">
                 <h2 data-aos="fade-down">Pendaftaran Mahasiswa Baru</h2>
             </div>
             <div class="col-lg-6">
-                <img data-aos="fade-left" src="/resources/logo/home-pendaftaran.jpg">
+                <img data-aos="fade-left" src="/resources/logo/home-pendaftaran.png">
             </div>
-            <div style="background-color:#157f94;" class="jarak col-lg-6">
+            <div style="background-color:#157f94; border-radius:20px;" class="jarak col-lg-6">
                 <div data-aos="fade-right">
                     <h5 class="font-weight-bold">
                         <b>PENDAFTARAN DAN SELEKSI ONLINE MAHASISWA BARU 24 JAM KAPANPUN DIMANAPUN</b>
@@ -210,7 +209,6 @@
 
 <!--contact us-->
 <section id="contact-us">
-    <hr>
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div data-aos="fade-right" class="col-lg-4">
@@ -261,7 +259,7 @@
 <article id="berita">
     <div data-aos="fade-up">
     <h2 class="text-center">Berita / Artikel</h2>
-    <hr />
+  
     <div class="carousel-berita">
         @foreach ($posts as $p)
         <div class="card">
@@ -270,14 +268,16 @@
             <div class="card-body">
                 <h5 class="card-title"><a href="{{route('blogs.show', $p->id)}}">{{ $p->title }}</a></h5>
                 <!--<p>{{$p->body}}</p>-->
-                <a class="btn btn-primary" href="{{route('blogs.show', $p->id)}}">Read more </a>
+                <a class="btn btn-primary text-center d-block mx-auto" href="{{route('blogs.show', $p->id)}}">Read more </a>
             </div>
         </div>
         @endforeach
         
     </div>
-    <a href={{route('blogs.index')}} class="btn btn-primary text-center btn-block">Lihat Semua Berita</a>
-    </div><!--aos-->
+    <div class="col-lg-12">
+        <a href={{route('blogs.index')}} style="color:#fff; background-color:#6886c5; text-align:center !important;" class="btn mx-auto text-center">Lihat Semua Berita</a>
+    </div>
+  </div><!--aos-->
 </article>
 
 

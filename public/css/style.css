@@ -162,22 +162,31 @@ header p {
     border: 2px solid #fff;
 }
 
+#prodi{
+    background-color: #40bad5;
+}
+
+#prodi h2{
+    color: #fff;
+}
 
 #prodi .card-img-top {
     width: 100%;
     height: 15vh;
     padding-top: 2%;
     object-fit: contain;
+    border: none;
 }
 
 #prodi .card {
     min-height: 20vh;
-    box-shadow: 5px 5px 0px 0px #b3d9ff;
+    box-shadow: 5px 5px 0px 0px #00909e;
+    border-radius: 30px;
 }
 
 #prodi .card-text {
     font-size: 13px;
-    text-align: left;
+    text-align: center;
 }
 
 #prodi .card-title {
@@ -185,7 +194,14 @@ header p {
 }
 
 #prodi .tombol-tema {
-    background-color: #157f94;
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #fff;
+    background: rgb(7,121,228);
+    background: linear-gradient(90deg, rgba(7,121,228,1) 18%, rgba(6,137,233,1) 47%, rgba(3,179,245,1) 78%, rgba(0,212,255,1) 100%);
+    transition: 0.4s;
 }
 
 #prodi a {
@@ -199,7 +215,9 @@ header p {
     padding-bottom: 15px;
 }
 
-
+#why{
+    background-color: #fff;
+}
 
 #why .why-title {
     text-align: center;
@@ -238,7 +256,7 @@ header p {
 #pendaftaran-prodi {
     min-height: 25vh;
     color: #fff;
-    background-color: #157f94;
+    background-color: #40bad5;
     padding-top: 2%;
     padding-bottom: 0.5%;
     text-align: center;
@@ -252,12 +270,17 @@ header p {
     padding-bottom: 4%;
 }
 
+#pendaftaran h2{
+    color: #fff !important;
+}
+
 #pendaftaran {
     min-height: 25vh;
     color: #fff;
     padding-top: 1%;
-    padding-bottom: 1%;
     text-align: center;
+    background-color: #4cbbb9;
+    margin-bottom: 1em;
 }
 
 #pendaftaran h2{
@@ -272,15 +295,11 @@ header p {
     border-radius: 25px;
     text-decoration: none;
     color: #fff;
-    background-image: -webkit-linear-gradient(45deg, #ffc107 0%, #ff8b5f 100%);
-    background-image: linear-gradient(45deg, #ffc107 0%, #ff8b5f 100%);
+    background: rgb(7,121,228);
+    background: linear-gradient(90deg, rgba(7,121,228,1) 18%, rgba(6,137,233,1) 47%, rgba(3,179,245,1) 78%, rgba(0,212,255,1) 100%);
     transition: 0.4s;
 }
 
-.square_btn:hover {
-    background-image: -webkit-linear-gradient(45deg, #ffc107 0%, #f76a35 100%);
-    background-image: linear-gradient(45deg, #ffc107 0%, #f76a35 100%);
-}
 
 /******* Contact Us ******/
 #contact-us{
@@ -368,7 +387,7 @@ header p {
 /***** berita *****/
 #berita {
     min-height: 60vh;
-    background-color: #fff;
+    background-color: #77d8d8;
     color: black;
     padding-top: 3%;
     padding-left: 2%;
@@ -380,6 +399,10 @@ header p {
     width: 100%;
     min-height: 15vw;
     object-fit: cover;
+}
+
+#berita h2{
+    color: #fff;
 }
 
 /***** contact ****/

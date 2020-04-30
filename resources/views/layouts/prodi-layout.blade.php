@@ -164,7 +164,6 @@
                         <p class="lead">Daftar Sekarang !</p>
                         <a href="{{URL::route('mahasiswa-baru')}}"
                             class="square_btn">Daftar</a>
-                        <a href="http://bit.do/balidwipa" class="square_btn">Seleksi Online</a>
                     </div>
                 </div>
             </div>
