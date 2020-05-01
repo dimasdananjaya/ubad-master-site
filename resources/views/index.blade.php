@@ -170,8 +170,7 @@
                 <img src="/resources/logo/price.png">
                 <h3 class="text-center"><b>Biaya Kuliah Yang Terjangkau</b></h3>
                 <p data-aos="fade-right" class="why-kelas">Ingin kuliah tapi bermasalah dengan keuangan? Jangan khawatir
-                    di Universitas Bali Dwipa biaya perkuliahan dapat dicicil tiap semesternya, tersedia juga beasiswa
-                    bagi setiap mahasiswa berprestasi atau yang tidak mampu<p>
+                    di Universitas Bali Dwipa biaya perkuliahan dapat dicicil tiap semesternya<p>
             </div>
 
         </div>
@@ -227,33 +226,6 @@
     </div>
 </section>
 
-<!--NIIT
-<section id="niit-banner">
-  
-    <div class="layer">
-        <div class="container text-center">
-     
-            <div data-aos="fade-left">
-                <h1 class="lead">KERJASAMA INTERNATIONAL</h1>
-                <img src="/resources/logo/niituniv.jpg" class="niit-logo img-responsive">
-                <h5>NIIT University - India</h5>
-                <h5>Program Sertifikasi & Double Degree</h5>
-            </div>
-        </div>
-    </div>
-  
-    <div class="row">
-        <div class="col-lg-4">
-            <img src="/resources/logo/niituniv.jpg" class="niit-logo img-responsive">
-        </div>
-        <div class="col-lg-8">
-            <h3>
-
-            </h3>
-        </div>
-    </div>
-</section>
--->
 
 <!--Berita-->
 <article id="berita">
