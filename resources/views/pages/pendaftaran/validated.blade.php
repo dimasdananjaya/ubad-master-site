@@ -22,7 +22,7 @@
                         <b>Whatsapp : 085792463944<b><br>
                         <b>Phone    : 081339827770</b>
                      <p>
-                    <a href="/" class="btn btn-lg btn-primary text-center">Kembali Ke Home</a>
+                    <a href="/" class="btn btn-lg btn-block btn-primary text-center">Kembali Ke Home</a>
                 </div>
             </div><!--row-->
         </div><!--container-->

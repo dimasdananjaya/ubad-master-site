@@ -217,8 +217,8 @@ header p {
 }
 
 #why img {
-    width: 10em;
-    height: 10em;
+    width: 23em;
+    height: 20em;
     display: block;
     margin: 0 auto;
     margin-bottom: 2em;
@@ -239,6 +239,7 @@ header p {
 
 #why .col-lg-4 p{
     text-align: justify;
+    color: black;
 }
 
 /********* end why ******/
@@ -266,12 +267,12 @@ header p {
 }
 
 #pendaftaran {
-    min-height: 25vh;
+
     color: #fff;
     padding-top: 1%;
     text-align: center;
     background-color: #4cbbb9;
-    margin-bottom: 1em;
+    padding-bottom: 20px;
 }
 
 #pendaftaran h2{
@@ -296,56 +297,64 @@ header p {
 #contact-us{
     margin-top: -1%;
     margin-bottom: -1%;
+    background-color: #035aa6;
+
 }
 
-#contact-us h2,p{
+#contact-us p{
+    color: #ffffff;
     text-align: center;
 }
 
+#contact-us ul{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
+
 #contact-us h2{
-    font-size: 1.8em;
+    font-size: 2.2em;
     font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+#contact-us{
+    padding: 20px 20px 20px 20px;
+    
 }
 
 /******* contact Us ******/
 
-/******* Kelas tidak digunakan ******/
-
-#kelas .card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
-    height: 300px;
+/******* QA ******/
+#qa .faq-title{
+    margin-top: 1.7em;
+    text-align: center;
 }
 
-#kelas .card-sore {
-    background-color: #f5802c;
-    color: #fff;
-    box-shadow: 4px 4px #e1e6ed;
+#qa .card{
+    min-height: 15rem;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 12px;
+    text-align: justify;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.73);
 }
 
-#kelas .card-pagi {
-    color: #fff;
-    background-color: #157f94;
-    box-shadow: 4px 4px #e1e6ed;
+#qa .qa-icon{
+    width: 44px;
+    height: 44px;
+    float: left;
+    margin-right: 7px;
 }
 
-#kelas .card-eksekutif {
-    color: #fff;
-    background-color: #ffc107;
-    box-shadow: 4px 4px #e1e6ed;
+#qa .qa-question{
+    font-size: 1.1em;
+    margin-top: 10px;
 }
-
-#kelas .card-title {
-    font-weight: bold;
-}
-
-#kelas .card-img-top {
-    width: 100%;
-    height: 15vh;
-    padding-top: 2%;
-    object-fit: contain;
-}
+/******* end QA******/
 
 /*******NIIT University *****/
 
@@ -823,31 +832,37 @@ footer {
 /*=================================================================================================*/
 
 /****************************************** Staff ***********************/
-#team {
-    background: #77d8d8 !important;
+#staff {
+    background:#40bad5;
 }
 
-#team .card{
+#staff .small-center{
+    color: black !important;
+    text-align: center;
+}
+
+#staff .card{
     box-shadow: 5px 5px 0px 0px #00909e;
     border-radius: 40px;
     margin: 15px 15px 15px 15px;
+    background-color: #ffffff;
 }
 
-#team h1{
+#staff h1{
     margin-bottom: 20px;
     margin-top: 20px;
     color:#fff !important;
 }
 
-#team .card-title{
-    color: black;
+#staff .card-title{
+    color: black !important;
 }
 
-#team .card h5{
+#staff .card h5{
     margin-bottom: 0.5em;
 }
 
-#team .card-img-top{
+#staff .card-img-top{
     border-radius: 50%;
     padding: 20px 20px 20px 20px;
     width: 200px;
@@ -855,7 +870,7 @@ footer {
     
 }
 
-#team .logo-pendidikan{
+#staff .logo-pendidikan{
     width: 44px;
     height: 44px;
     margin-bottom: 1em;
@@ -864,31 +879,37 @@ footer {
     margin-right: auto;
 }
 
-#team .card-text{
+#staff .card-text{
     text-align: center;
     font-size: 1.1em;
     margin-left: 0.4em;
 }
 
-#team .s1{
+#staff .s1{
     background-color: #4cbbb9;
     color: #fff;
     margin-bottom: 5px;
     border-radius: 10px;
 }
 
-#team .s2{
+#staff .s2{
     background-color: #00909e;
     color: #fff;
     margin-bottom: 5px;
     border-radius: 10px;
 }
 
-#team .s3{
+#staff .s3{
     background-color: #0779e4;
     color: #fff;
     margin-bottom: 5px;
     border-radius: 10px;
+}
+
+#staff .rektor, .ketua-yayasan{
+    margin-top: 10px;
+    width: 10rem;
+    color: #ffffff;
 }
 /*****************************************************************/
 

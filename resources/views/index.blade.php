@@ -146,8 +146,8 @@
         <hr>
         <div class="row">
             <div data-aos="fade-right" class="col-lg-4">
-                <img src="/resources/logo/calendar.png">
                 <h3 data-aos="fade-left" class="text-center"><b>Kelas Perkuliahan Yang Cocok Dengan Jadwalmu</b></h3>
+                <img src="/resources/logo/why-kelas.png">
                 <p data-aos="fade-right" class="why-kelas">Ingin kuliah penuh dari pagi sampai sore atau kuliah part
                     time sambil kerja? Jangan
                     khawatir kamu
@@ -157,18 +157,18 @@
             </div>
 
             <div data-aos="fade-left" class="col-lg-4">
-                <img src="/resources/logo/teacher.png">
                 <h3 class="text-center" data-aos="fade-left"><b>Dosen Dan Tenaga Kependidikan Handal</b></h3>
+                <img src="/resources/logo/why-dosen.png">
                 <p data-aos="fade-left" class="why-dosen">Dosen di Universitas Bali Dwipa merupakan dosen-dosen yang
                     ahli dibidangnya dengan gelar Magister, Doktor, Professor, hingga Philosophy Doctor (Ph.D) tamatan
-                    perguruan Tinggi Negeri, Swasta dan Luar Negeri serta merupakan praktisi dibidangnya masin-masing.
-                    Para Dosen ini siap memberimu ilmu yang kamu
-                    perlukan untuk menjadi seorang sarjana yang dapat berkontribusi kepada pendidikan dan masyarakat<p>
+                    perguruan Tinggi Negeri, Swasta dan Luar Negeri serta merupakan praktisi dibidangnya masing-masing.
+                <p>
             </div>
 
             <div data-aos="fade-right" class="col-lg-4">
-                <img src="/resources/logo/price.png">
                 <h3 class="text-center"><b>Biaya Kuliah Yang Terjangkau</b></h3>
+                <img src="/resources/logo/why-keuangan.png">
+                
                 <p data-aos="fade-right" class="why-kelas">Ingin kuliah tapi bermasalah dengan keuangan? Jangan khawatir
                     di Universitas Bali Dwipa biaya perkuliahan dapat dicicil tiap semesternya<p>
             </div>
@@ -206,6 +206,58 @@
     </div>
 </section>
 
+<!--QA-->
+<section id="qa">
+    <div class="container h-100">
+        <div class="col-lg-12">
+            <h2 class="faq-title">Frequently Asked Question</h2>
+        </div>
+            <div class="carousel-qa">
+        
+                    <div class="card">
+                        <div class="card-head">
+                            <img class="qa-icon" src="/resources/logo/qa.png"><p class="qa-question"><b>Kapan Jadwal Pendaftaran Mahasiswa Baru?</b></p>
+                        </div>
+                        <div class="card-body">
+                            <p>Pendaftaran Jalur Bebas Tes diadakan 1 April s/d 31 Mei 2020 
+                            <br>Pendaftaran  Jalur Seleksi diadakan 1 Juni s/d 1 Juli 2020<p>
+                        </div>
+                    </div>
+   
+                    <div class="card">
+                        <div class="card-head">
+                            <img class="qa-icon" src="/resources/logo/qa.png"><p class="qa-question"><b>Kapan Jadwal Pendaftaran Mahasiswa Baru?</b></p>
+                        </div>
+                        <div class="card-body">
+                            <p>Pendaftaran Jalur Bebas Tes diadakan 1 April s/d 31 Mei 2020 
+                            <br>Pendaftaran  Jalur Seleksi diadakan 1 Juni s/d 1 Juli 2020<p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-head">
+                            <img class="qa-icon" src="/resources/logo/qa.png"><p class="qa-question"><b>Kapan Jadwal Pendaftaran Mahasiswa Baru?</b></p>
+                        </div>
+                        <div class="card-body">
+                            <p>Pendaftaran Jalur Bebas Tes diadakan 1 April s/d 31 Mei 2020 
+                            <br>Pendaftaran  Jalur Seleksi diadakan 1 Juni s/d 1 Juli 2020<p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-head">
+                            <img class="qa-icon" src="/resources/logo/qa.png"><p class="qa-question"><b>Kapan Jadwal Pendaftaran Mahasiswa Baru?</b></p>
+                        </div>
+                        <div class="card-body">
+                            <p>Pendaftaran Jalur Bebas Tes diadakan 1 April s/d 31 Mei 2020 
+                            <br>Pendaftaran  Jalur Seleksi diadakan 1 Juni s/d 1 Juli 2020<p>
+                        </div>
+                    </div>
+     
+            </div><!--carousel-->
+    </div>
+</section>
+
 <!--contact us-->
 <section id="contact-us">
     <div class="container h-100">
@@ -220,12 +272,11 @@
                 </ul>
             </div>
             <div class="jarak col-lg-8">
-                <img data-aos="fade-left" src="/resources/logo/contact-us.jpg">
+                <img data-aos="fade-left" src="/resources/logo/contactus.png">
             </div>
         </div>
     </div>
 </section>
-
 
 <!--Berita-->
 <article id="berita">
