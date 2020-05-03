@@ -214,45 +214,18 @@
         </div>
             <div class="carousel-qa">
         
+                @foreach($dataFAQ as $dtf)
                     <div class="card">
                         <div class="card-head">
-                            <img class="qa-icon" src="/resources/logo/qa.png"><p class="qa-question"><b>Kapan Jadwal Pendaftaran Mahasiswa Baru?</b></p>
+                        <img class="qa-icon" src="/resources/logo/qa.png"><p class="qa-question"><b>{{$dtf->pertanyaan}}</b></p>
                         </div>
                         <div class="card-body">
-                            <p>Pendaftaran Jalur Bebas Tes diadakan 1 April s/d 31 Mei 2020 
-                            <br>Pendaftaran  Jalur Seleksi diadakan 1 Juni s/d 1 Juli 2020<p>
+                            <p>
+                                {{$dtf->jawaban}}
+                            <p>
                         </div>
                     </div>
-   
-                    <div class="card">
-                        <div class="card-head">
-                            <img class="qa-icon" src="/resources/logo/qa.png"><p class="qa-question"><b>Kapan Jadwal Pendaftaran Mahasiswa Baru?</b></p>
-                        </div>
-                        <div class="card-body">
-                            <p>Pendaftaran Jalur Bebas Tes diadakan 1 April s/d 31 Mei 2020 
-                            <br>Pendaftaran  Jalur Seleksi diadakan 1 Juni s/d 1 Juli 2020<p>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-head">
-                            <img class="qa-icon" src="/resources/logo/qa.png"><p class="qa-question"><b>Kapan Jadwal Pendaftaran Mahasiswa Baru?</b></p>
-                        </div>
-                        <div class="card-body">
-                            <p>Pendaftaran Jalur Bebas Tes diadakan 1 April s/d 31 Mei 2020 
-                            <br>Pendaftaran  Jalur Seleksi diadakan 1 Juni s/d 1 Juli 2020<p>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-head">
-                            <img class="qa-icon" src="/resources/logo/qa.png"><p class="qa-question"><b>Kapan Jadwal Pendaftaran Mahasiswa Baru?</b></p>
-                        </div>
-                        <div class="card-body">
-                            <p>Pendaftaran Jalur Bebas Tes diadakan 1 April s/d 31 Mei 2020 
-                            <br>Pendaftaran  Jalur Seleksi diadakan 1 Juni s/d 1 Juli 2020<p>
-                        </div>
-                    </div>
+                @endforeach
      
             </div><!--carousel-->
     </div>

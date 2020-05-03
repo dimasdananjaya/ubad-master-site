@@ -25,13 +25,24 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-12">
+                    <div class="col-lg-6">
                         <div class="card">
                             <img class="card-img-top mx-auto" src="/resources/logo/blog.png" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title">Blog</h5>
                               <p class="card-text">Kelola Blog/Berita Website Ubad</p>
                               <a href="/blogs" class="btn btn-primary btn-block">Pilih</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <img class="card-img-top mx-auto" src="/resources/logo/qa.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">FAQ</h5>
+                              <p class="card-text">Kelola FAQ </p>
+                              <a href="/faq" class="btn btn-primary btn-block">Pilih</a>
                             </div>
                         </div>
                     </div>

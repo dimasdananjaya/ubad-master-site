@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Blogs;
+use App\FAQModel;
 
 class HomeController extends Controller
 {
@@ -27,6 +28,9 @@ class HomeController extends Controller
     public function index()
     {
         $posts = Blogs::all();
-        return view('index')->with('posts', $posts);
+        $dataFAQ=FAQModel::all();
+        return view('index')
+        ->with('posts', $posts)
+        ->with('dataFAQ', $dataFAQ);
     }
 }

@@ -43,3 +43,4 @@ Route::get('/form-pendaftaran', 'RouteController@formPendaftaran')->name('form-p
 
 Route::resource('blogs', 'BlogController');
 Route::resource('pendaftaran', 'Pendaftaran');
+Route::resource('faq', 'FAQController');
