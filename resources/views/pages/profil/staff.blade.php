@@ -159,6 +159,8 @@
                         </div><!--card deck-->
                     <!-- ./Team member -->      
                 </div><!--row-->
+                <h1 class="text-center" style="margin-top: 30px;">Dan Lebih Dari 20+ Dosen Lainnya </h1>
+                <p class="text-center" style="color: #fff;"><small>Halaman Ini Akan Diperbarui Untuk <br> Menampilkan Seluruh Dosen</small></p>
         </section>
     </div>
 @endsection

@@ -140,14 +140,15 @@
     <!--end container-->
 </section>
 
+
 <section id="why">
     <div class="container">
         <h1 class="why-title">Bergabung Dengan Universitas Bali Dwipa</h1>
         <hr>
         <div class="row">
             <div data-aos="fade-right" class="col-lg-4">
-                <h3 data-aos="fade-left" class="text-center"><b>Kelas Perkuliahan Yang Cocok Dengan Jadwalmu</b></h3>
-                <img src="/resources/logo/why-kelas.png">
+                <h4 data-aos="fade-left" class="text-center"><b>Kelas Perkuliahan Yang Cocok Dengan Jadwalmu</b></h4>
+                <img class="img-fluid" src="/resources/logo/why-kelas.png">
                 <p data-aos="fade-right" class="why-kelas">Ingin kuliah penuh dari pagi sampai sore atau kuliah part
                     time sambil kerja? Jangan
                     khawatir kamu
@@ -157,8 +158,8 @@
             </div>
 
             <div data-aos="fade-left" class="col-lg-4">
-                <h3 class="text-center" data-aos="fade-left"><b>Dosen Dan Tenaga Kependidikan Handal</b></h3>
-                <img src="/resources/logo/why-dosen.png">
+                <h4 class="text-center" data-aos="fade-left"><b>Dosen Dan Tenaga Kependidikan Handal</b></h4>
+                <img class="img-fluid" src="/resources/logo/why-dosen.png">
                 <p data-aos="fade-left" class="why-dosen">Dosen di Universitas Bali Dwipa merupakan dosen-dosen yang
                     ahli dibidangnya dengan gelar Magister, Doktor, Professor, hingga Philosophy Doctor (Ph.D) tamatan
                     perguruan Tinggi Negeri, Swasta dan Luar Negeri serta merupakan praktisi dibidangnya masing-masing.
@@ -166,8 +167,8 @@
             </div>
 
             <div data-aos="fade-right" class="col-lg-4">
-                <h3 class="text-center"><b>Biaya Kuliah Yang Terjangkau</b></h3>
-                <img src="/resources/logo/why-keuangan.png">
+                <h4 class="text-center"><b>Biaya Perkuliahan Yang Terjangkau</b></h4>
+                <img class="img-fluid" src="/resources/logo/why-keuangan.png">
                 
                 <p data-aos="fade-right" class="why-kelas">Ingin kuliah tapi bermasalah dengan keuangan? Jangan khawatir
                     di Universitas Bali Dwipa biaya perkuliahan dapat dicicil tiap semesternya<p>
@@ -179,7 +180,67 @@
     <!--end container-->
 </section>
 
+<div class="row">
+    <div class="col-lg-12">
+        <hr>
+    </div>
+</div>
 
+<!--Fitur-->
+<section class="fdb-block" id="fasilitas">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <h2>Fasilitas Perkuliahan</h2>
+      </div>
+    </div>
+
+    <div class="row mt-5 justify-content-center">
+      <div class="col-8">
+        <img alt="image" src="/resources/logo/fitur2.jpg">
+      </div>
+    </div>
+
+    <div class="row text-left mt-5">
+        <div class="col-12 col-md-4">
+          <div class="row">
+            <div class="col-3">
+              <img alt="image" class="fdb-icon" src="/resources/logo/ac.svg">
+            </div>
+            <div class="col-9">
+              <h5><strong>AC Ruangan</strong></h5>
+              <p>Ruangan dengan AC Untuk Menambah Kenyamanan Saat Proses Perkuliahan</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
+          <div class="row">
+            <div class="col-3">
+              <img alt="image" class="fdb-icon" src="/resources/logo/wifi.svg">
+            </div>
+            <div class="col-9">
+              <h5><strong>High Speed Wifi</strong></h5>
+              <p>Internet Kencang Untuk Mendukung Perkuliahan Dalam Mengakses Dunia Digital</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
+          <div class="row">
+            <div class="col-3">
+              <img alt="image" class="fdb-icon" src="/resources/logo/online.svg">
+            </div>
+            <div class="col-9">
+              <h5><strong>Online Learning</strong></h5>
+              <p>Fasilitas Pembelajaran Online Untuk Perkuliahan Dimanapun dan Kapanpun</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+<!--end fitur-->
 <!--Pendaftaran-->
 <section id="pendaftaran">
     <div class="container h-100">

@@ -15,6 +15,7 @@
                         <th>Email</th>
                         <th>Prodi</th>
                         <th>Tanggal Pendaftaran</th>
+                        <th>Kelas</th>
                         <th>Aksi</th>
                     </thead>
                     <tbody>
@@ -27,6 +28,7 @@
                             <td>{{$dtp->email}}</td>
                             <td>{{$dtp->prodi}}</td>
                             <td>{{$dtp->tanggal_pendaftaran}}</td>
+                            <td>{{$dtp->kelas}}</td>
                             <td></td>
                         </tr>
                     @endforeach

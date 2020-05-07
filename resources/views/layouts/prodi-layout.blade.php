@@ -169,49 +169,37 @@
             </div>
         </section>
 
-        <div style="margin-top:3px;">
-        </div>
-        <section id="contact">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <p class="lead">Contact :</p>
-                        <p class="nav-link">
-                            <i class="fa fa-phone" style="margin-right: 5px;"></i>(Whatsapp) : 085792463944
-                        </p>
-                    </div>
-                    <!--end col-->
-                    <div class="col-lg-4">
-                        <p class="lead">Alamat :</p>
-                        <p class="nav-link">
-                            <i class="fa fa-map-marker" style="margin-right: 5px;"></i>Jalan Pulau Flores No.5, Dauh
-                            Puri Klod
-                            Denpasar Barat, Bali
-                            80114
-                        </p>
-                    </div>
-                    <!--end col-->
-                    <div class="col-lg-4">
-                        <p class="lead">Email :</p>
-                        <p class="nav-link">
-                        <i class="fa fa-envelope" style="margin-right: 5px;"></i>info@balidwipa.ac.id
-                        </p>
-                    </div>
-                    <!--end col-->
-                </div>
-                <!--end row-->
-            </div>
-            <!--end container-->
-        </section>
 
-        <footer>
-            <p class="text-center">Universitas Bali Dwipa 2020</p>
-            <div class="text-center">
-                Icons made by
-                <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a>
-                from www.flaticon.com and Freepik.com</a>
+        <div class="row">
+            <div class="col-lg-12">
+                <hr>
             </div>
-        </footer>
+        </div>
+        <footer class="fdb-block footer-large">
+            <div class="container">
+                <div class="row text-center">
+                <div class="col">
+                    <a style="color: black;" class="navbar-brand" href="{{URL::route('index')}}"><img src="/resources/logo/balidwipa.png"
+                        class="navbar-logo" />Universitas Bali Dwipa
+                    </a>
+                    <p>Jalan Pulau Flores No.5<br>Denpasar, Bali 80114</p>
+                    <p>Email : info@balidwipa.ac.id</p>
+                    <p>Whatsapp : 085792463944</p>
+                    <p>Phone : 081339827770</p>
+                </div>
+                </div>
+    
+                <div class="row mt-4">
+                <div class="col text-center">
+                    <p class="lead">
+                    <a href="https://www.facebook.com/ubadbali/" class="mx-2"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/universitasbalidwipa/" class="mx-2"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#" class="mx-2"><i class="fab fa-google" aria-hidden="true"></i></a>
+                    </p>
+                </div>
+                </div>
+            </div>
+            </footer>
 
     </div>
     <!-- Optional JavaScript -->

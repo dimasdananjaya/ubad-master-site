@@ -47,6 +47,7 @@ class Pendaftaran extends Controller
         $simpan->no_whatsapp=$request->input('no_whatsapp');
         $simpan->tanggal_pendaftaran=now();
         $simpan->prodi=$request->input('prodi');
+        $simpan->kelas=$request->input('kelas');
         
         $simpan->save();
         alert()->success('Data Tersimpan !', '');

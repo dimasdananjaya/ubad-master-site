@@ -244,6 +244,16 @@ header p {
 
 /********* end why ******/
 
+/**********Fasilitas *********/
+
+#fasilitas img {
+    
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+/***** end Fasilitas*******/
+
 /********* pendaftaran-prodi ******/
 #pendaftaran-prodi {
     min-height: 25vh;
@@ -422,8 +432,8 @@ header p {
 
 /**** footer ****/
 footer {
-    background-color: #393d3e;
-    color: #fff;
+    background-color: #fff;
+    color: black;
     font-size: 13px;
 }
 
