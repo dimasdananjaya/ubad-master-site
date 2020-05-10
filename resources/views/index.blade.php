@@ -186,24 +186,27 @@
     </div>
 </div>
 
-<!--Fitur-->
+<!--Fasilitas-->
 <section class="fdb-block" id="fasilitas">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 text-center">
-        <h2>Fasilitas Perkuliahan</h2>
-      </div>
-    </div>
+        <div class="col-12 text-center">
+            <h2>Fasilitas Perkuliahan</h2>
+        </div>
+        <div class="col-8">
+            <img alt="image" src="/resources/logo/fitur2.jpg">
+        </div>
 
-    <div class="row mt-5 justify-content-center">
-      <div class="col-8">
-        <img alt="image" src="/resources/logo/fitur2.jpg">
-      </div>
-    </div>
-
-    <div class="row text-left mt-5">
-        <div class="col-12 col-md-4">
+        <div class="col-md-4">
           <div class="row">
+            <div class="col-3">
+              <img alt="image" class="fdb-icon" src="/resources/logo/wifi.svg">
+            </div>
+            <div class="col-9">
+              <h5><strong>High Speed Wifi</strong></h5>
+              <p>Wifi berkecepatan tinggi untuk mendukung proses perkuliahan dengan dunia digital</p>
+            </div>
+
             <div class="col-3">
               <img alt="image" class="fdb-icon" src="/resources/logo/ac.svg">
             </div>
@@ -211,34 +214,26 @@
               <h5><strong>AC Ruangan</strong></h5>
               <p>Ruangan dengan AC Untuk Menambah Kenyamanan Saat Proses Perkuliahan</p>
             </div>
-          </div>
-        </div>
-  
-        <div class="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
-          <div class="row">
-            <div class="col-3">
-              <img alt="image" class="fdb-icon" src="/resources/logo/wifi.svg">
-            </div>
-            <div class="col-9">
-              <h5><strong>High Speed Wifi</strong></h5>
-              <p>Internet Kencang Untuk Mendukung Perkuliahan Dalam Mengakses Dunia Digital</p>
-            </div>
-          </div>
-        </div>
-  
-        <div class="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
-          <div class="row">
+
             <div class="col-3">
               <img alt="image" class="fdb-icon" src="/resources/logo/online.svg">
             </div>
             <div class="col-9">
               <h5><strong>Online Learning</strong></h5>
-              <p>Fasilitas Pembelajaran Online Untuk Perkuliahan Dimanapun dan Kapanpun</p>
+              <p>Fasilitas pembalajaran online untuk mendukung kegiatan perkuliahan jarak jauh</p>
             </div>
-          </div>
-        </div>
-      </div>
-  </div>
+            <div class="col-3">
+              <img alt="image" class="fdb-icon" src="/resources/logo/projector.svg">
+            </div>
+            <div class="col-9">
+              <h5><strong>Proyektor dan Whiteboard</strong></h5>
+              <p>Untuk mendukung media pembelajaran interaktif</p>
+            </div>
+
+          </div><!--end row-->
+        </div><!--end col-->
+    </div><!--row-->
+  </div><!--container-->
 </section>
 <!--end fitur-->
 <!--Pendaftaran-->

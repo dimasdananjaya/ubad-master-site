@@ -16,6 +16,7 @@
                         <th>Prodi</th>
                         <th>Tanggal Pendaftaran</th>
                         <th>Kelas</th>
+                        <th>Status</th>
                         <th>Aksi</th>
                     </thead>
                     <tbody>
@@ -29,8 +30,44 @@
                             <td>{{$dtp->prodi}}</td>
                             <td>{{$dtp->tanggal_pendaftaran}}</td>
                             <td>{{$dtp->kelas}}</td>
-                            <td></td>
+                            <td>{{$dtp->status}}</td>
+                            <td>
+                                <a class="btn btn-success" style="color:#fff;float:left; margin-right:20px;" data-toggle="modal" data-target="#pendaftar-edit-modal{{$dtp->id_pendaftaran}}">Edit</a>
+                            </td>
                         </tr>
+                                
+                        <!-- Modal Edit pendaftar-->
+                        <div class="modal fade" id="pendaftar-edit-modal{{$dtp->id_pendaftaran}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h2>Edit Pendaftar</h2>   
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">                  
+                                        {!!Form::open(['action'=>['Pendaftaran@update', $dtp->id_pendaftaran], 'method'=>'PUT'])!!}
+                                 
+                                            {{Form::label('Kelas','Kelas :')}}
+                                            <select name="kelas" class="form-group form-control">
+                                                <option value="reguler">Reguler</option>
+                                                <option value="karyawan">Karyawan</option>
+                                            </select>
+                                            {{Form::label('Status','Status :')}}
+                                            <select name="status" class="form-group form-control">
+                                                <option value="reguler">Diterima</option>
+                                                <option value="karyawan">Batal</option>
+                                            </select>
+                                            {{Form::submit('Update',['class'=>'btn btn-warning'])}}
+                                        {!!Form::close()!!}
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     @endforeach
                     </tbody>
                 </table>

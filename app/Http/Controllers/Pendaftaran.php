@@ -48,6 +48,7 @@ class Pendaftaran extends Controller
         $simpan->tanggal_pendaftaran=now();
         $simpan->prodi=$request->input('prodi');
         $simpan->kelas=$request->input('kelas');
+        $simpan->status='Diproses';
         
         $simpan->save();
         alert()->success('Data Tersimpan !', '');
@@ -73,7 +74,7 @@ class Pendaftaran extends Controller
      */
     public function edit($id)
     {
-        //
+
     }
 
     /**
@@ -85,7 +86,14 @@ class Pendaftaran extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $simpan=PendaftaranModel::find($id);
+
+        $simpan->kelas=$request->input('kelas');
+        $simpan->status=$request->input('status');
+        
+        $simpan->save();
+        alert()->success('Data Tersimpan !', '');
+        return redirect()->back();
     }
 
     /**
