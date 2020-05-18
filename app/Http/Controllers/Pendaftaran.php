@@ -89,7 +89,6 @@ class Pendaftaran extends Controller
     {
         $simpan=PendaftaranModel::find($id);
 
-        $simpan->kelas=$request->input('kelas');
         $simpan->status=$request->input('status');
         
         $simpan->save();
