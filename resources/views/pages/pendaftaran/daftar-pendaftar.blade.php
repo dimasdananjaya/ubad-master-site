@@ -1,102 +1,61 @@
 @extends('layouts.app')
 
 @section('content')
-    <section id="daftar-pendaftar">
+    <section id="admin-page">
         <div class="container">
-            <div class="card">
-                <h3>Daftar Calon Mahasiswa</h3>
-            <div class="table-responsive table-hover table-responsive">
-                <table id="tabel" class="table">
-                    <thead>
-                        <th>ID.</th>
-                        <th>Nama</th>
-                        <th>No. Hp</th>
-                        <th>No. Whatsapp</th>
-                        <th>Email</th>
-                        <th>Prodi</th>
-                        <th>Tanggal Pendaftaran</th>
-                        <th>Kelas</th>
-                        <th>Status</th>
-                        <th>Aksi</th>
-                    </thead>
-                    <tbody>
-                    @foreach($dataPendaftar as $dtp)
-                        <tr>
-                            <td>{{$dtp->id_pendaftaran}}</td>
-                            <td>{{$dtp->nama}}</td>
-                            <td>{{$dtp->no_hp}}</td>
-                            <td>{{$dtp->no_whatsapp}}</td>
-                            <td>{{$dtp->email}}</td>
-                            <td>{{$dtp->prodi}}</td>
-                            <td>{{$dtp->tanggal_pendaftaran}}</td>
-                            <td>{{$dtp->kelas}}</td>
-                            <td>{{$dtp->status}}</td>
-                            <td>
-                                <a class="btn btn-success" style="color:#fff;float:left; margin-right:20px;" data-toggle="modal" data-target="#pendaftar-edit-modal{{$dtp->id_pendaftaran}}">Edit</a>
-                            </td>
-                        </tr>
-                                
-                        <!-- Modal Edit pendaftar-->
-                        <div class="modal fade" id="pendaftar-edit-modal{{$dtp->id_pendaftaran}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h2>Edit Pendaftar</h2>   
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    </div>
-                                    <div class="modal-body">                  
-                                        {!!Form::open(['action'=>['Pendaftaran@update', $dtp->id_pendaftaran], 'method'=>'PUT'])!!}
-                                 
-                                            {{Form::label('Kelas','Kelas :')}}
-                                            <select name="kelas" class="form-group form-control">
-                                                <option value="reguler">Reguler</option>
-                                                <option value="karyawan">Karyawan</option>
-                                            </select>
-                                            {{Form::label('Status','Status :')}}
-                                            <select name="status" class="form-group form-control">
-                                                <option value="reguler">Diterima</option>
-                                                <option value="karyawan">Batal</option>
-                                            </select>
-                                            {{Form::submit('Update',['class'=>'btn btn-warning'])}}
-                                        {!!Form::close()!!}
-                                    </div>
-                                    <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
-                                    </div>
-                                </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <img class="card-img-top mx-auto" src="/resources/logo/partner.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Daftar Pendaftar</h5>
+                          <p class="card-text">Kelola Data Pendaftaran Calon Mahasiswa</p>
+                          <a href="/daftar-pendaftar" class="btn btn-primary btn-block">Pilih</a>
+                        </div>
+                    </div>
+                </div>
+        
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <img class="card-img-top mx-auto" src="/resources/logo/periode.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Periode</h5>
+                              <p class="card-text">Kelola Periode Pendaftaran</p>
+                              <a href="/periode" class="btn btn-primary btn-block">Pilih</a>
                             </div>
                         </div>
-                    @endforeach
-                    </tbody>
-                </table>
-            </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <img class="card-img-top mx-auto" src="/resources/logo/blog.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Blog</h5>
+                              <p class="card-text">Kelola Blog/Berita Website Ubad</p>
+                              <a href="/blogs" class="btn btn-primary btn-block">Pilih</a>
+                            </div>
+                        </div>
+                    </div>
 
-            </div>   
-            <a href="/admin-page" class="btn btn-primary tombol-back">Kembali Ke Halaman Admin</a>
-        </div><!--end container-->
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <img class="card-img-top mx-auto" src="/resources/logo/qa.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">FAQ</h5>
+                              <p class="card-text">Kelola FAQ </p>
+                              <a href="/faq" class="btn btn-primary btn-block">Pilih</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top:15px;" class="col-lg-12">
+                        <a class="btn btn-danger btn-block" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('frm-logout').submit();">
+                            Logout
+                        </a>    
+                        <form id="frm-logout" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            {{ csrf_field() }}
+                        </form>
+                    </div>
+            </div><!--row-->
+        <div><!--container-->
     </section>
-
-    <script type="text/javascript">
-        $(document).ready(function() {
-            var t = $('#tabel').DataTable( {
-                "columnDefs": [ {
-                    "searchable": false,
-                    "orderable": false,
-                    "targets": 0
-                } ],
-                "order": [[ 1, 'asc' ]],
-                "language": {
-                "url": "//cdn.datatables.net/plug-ins/1.10.19/i18n/Indonesian.json"
-            }
-            } );
-        
-            t.on( 'order.dt search.dt', function () {
-                t.column(0, {search:'applied', order:'applied'}).nodes().each( function (cell, i) {
-                    cell.innerHTML = i+1;
-                } );
-            } ).draw();        
-        } );
-    </script>
 @endsection
