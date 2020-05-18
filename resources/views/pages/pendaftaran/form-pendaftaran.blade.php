@@ -29,28 +29,28 @@
                                         <div class="form-group">
                                             <label for="nama">Nama Lengkap</label>
                                             <input type="nama" class="form-control" name="nama" id="nama"
-                                                placeholder="">
+                                                placeholder="" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-group">
                                             <label for="no_hp">No Handphone</label>
                                             <input type="text" class="form-control" name="no_hp" id="no_hp"
-                                            placeholder="">
+                                            placeholder="" required>
                                         </div>
                                     </div><!--end col-->
                                     <div class="col-lg-12">
                                         <div class="form-group">
                                             <label for="no_whatsapp">No Whatsapp</label>
                                             <input type="text" class="form-control" name="no_whatsapp" id="no_whatsapp"
-                                            placeholder="">
+                                            placeholder="" required>
                                         </div>
                                     </div><!--end col-->
                                     <div class="col-lg-12">
                                         <div class="form-group">
                                             <label for="email">Email</label>
                                             <input type="email" class="form-control" name="email" id="email"
-                                            placeholder="">
+                                            placeholder="" required>
                                         </div>
                                     </div><!--end col-->
                                     <div class="col-lg-12">
