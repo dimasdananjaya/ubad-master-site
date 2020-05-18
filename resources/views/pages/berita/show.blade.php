@@ -2,17 +2,17 @@
 
 @section('content')
 <div class="container">
-    <a class="btn btn-primary" href="{{route('blogs.index')}}">Kembali Ke Blogs</a>
-
+    
     <div class="row">
         <div class="col-md-8">
             <div class="well">
                 <h1>{{ $post->title }}</h1>
-                <img style="width:100%; height:100%;" src="/public/images/cover_image/{{$post->cover_image}}"
-                alt="{{$post->cover_image}}">
+           <img style="width:100%; height:100%;" src="/ubad-master/public/public/images/cover_image/{{$post->cover_image}}"
+                            alt="{{$post->cover_image}}">
                 <br><br>
                 <p class="blog-post-meta">Posted at : {{ $post->created_at }} | by : {{ $post->user->name}}</p>
                 <p>{!! $post->body !!}</p>
+                <a class="btn btn-primary" href="{{route('blogs.index')}}">Kembali Ke Halaman Berita</a>
             </div>
         </div>
     

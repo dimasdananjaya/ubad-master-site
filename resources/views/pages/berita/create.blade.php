@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8">
-            <h1>Create new Post</h1>
+            <h1>Buat Berita Baru</h1>
             <br />
             @if(session()->has('message'))
             <div class="alert alert-success">

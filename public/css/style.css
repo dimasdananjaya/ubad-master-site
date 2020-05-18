@@ -126,9 +126,9 @@ nav .navbar-nav li a {
 
 /**** banner section ****/
 .masthead {
-    width: 110%;
+    width: 100%;
     height: 30vw;
-    background-image: url("/resources/logo/banneubad.jpg");
+    background-image: url("/resources/logo/hero.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -800,6 +800,7 @@ footer {
 /*=================================================================================================*/
 
 /****************************************** Staff ***********************/
+
 #staff {
     background:#40bad5;
 }
@@ -879,6 +880,7 @@ footer {
     width: 10rem;
     color: #ffffff;
 }
+
 /*****************************************************************/
 
 /**** Mahasiswa baru ****/

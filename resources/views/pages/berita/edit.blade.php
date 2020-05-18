@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8">
-            <h1>Edit Post</h1>
+            <h1>Edit Berita</h1>
             <br />
 
             <form action="{{route('blogs.update', $post->id)}}" method="POST" enctype="multipart/form-data">
