@@ -1,6 +1,6 @@
-<p align="center"><img src="https://https://github.com/dimasdananjaya/ubad-master-site/blob/master/public/resources/readme/pic1.png?raw=true)"></p>
-<p align="center"><img src="https://https://github.com/dimasdananjaya/ubad-master-site/blob/master/public/resources/readme/pic2.png?raw=true)"></p>
-<p align="center"><img src="https://https://github.com/dimasdananjaya/ubad-master-site/blob/master/public/resources/readme/pic3.png?raw=true)"></p>
+<p align="center"><img src="https://github.com/dimasdananjaya/ubad-master-site/blob/master/public/resources/readme/pic1.png?raw=true)"></p>
+<p align="center"><img src="https://github.com/dimasdananjaya/ubad-master-site/blob/master/public/resources/readme/pic2.png?raw=true)"></p>
+<p align="center"><img src="https://github.com/dimasdananjaya/ubad-master-site/blob/master/public/resources/readme/pic3.png?raw=true)"></p>
 
 
 ## About This Repositories
