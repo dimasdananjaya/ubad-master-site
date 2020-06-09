@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.admin-layout')
 
 @section('content')
     <section id="daftar-pendaftar">
@@ -57,12 +57,12 @@
                                     </div>
                                     <div class="modal-body">                  
                                         {!!Form::open(['action'=>['Pendaftaran@update', $dtp->id_pendaftaran], 'method'=>'PUT'])!!}
-                                 
-                            
                                             {{Form::label('Status','Status :')}}
                                             <select name="status" class="form-group form-control">
-                                                <option value="reguler">Diterima</option>
-                                                <option value="karyawan">Batal</option>
+                                                <option value="Diterima">Diterima</option>
+                                                <option value="Forward KPT">Forward KPT</option>
+                                                <option value="Forward Ubad">Forward Ubad</option>
+                                                <option value="Batal">Batal</option>
                                             </select>
                                             {{Form::submit('Update',['class'=>'btn btn-warning'])}}
                                         {!!Form::close()!!}

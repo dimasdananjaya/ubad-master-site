@@ -14,6 +14,7 @@
         "laravel/tinker": "^2.0",
         "laravel/ui": "^1.1",
         "laravelcollective/html": "^6.1",
+        "te7a-houdini/laravel-trix": "^2.0",
         "uxweb/sweet-alert": "^2.0"
     },
     "require-dev": {

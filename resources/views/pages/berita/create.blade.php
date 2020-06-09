@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.admin-layout')
 
 @section('content')
 <div class="container">
@@ -21,7 +21,7 @@
                 </div>
                 <div class="form-group">
                     <label for="body">Post description</label>
-                    <textarea class="form-control" name="body" id="article-ckeditor" cols="30" rows="10"
+                    <textarea id="editor" class="form-control" name="body"
                         placeholder="Your post description here!"></textarea>
                 </div>
 
@@ -35,6 +35,8 @@
             </form>
         </div>
     </div>
-    {{-- @include('inc.footer') --}}
+
 </div>
+
+
 @endsection
