@@ -17,7 +17,7 @@
                 </div>
                 <div class="form-group">
                     <label for="body">Post description</label>
-                    <textarea class="form-control" name="body" id="article-ckeditor" cols="30" rows="10"
+                    <textarea id="editor" class="form-control" name="body" id="article-ckeditor" cols="30" rows="10"
                         required>{!! $post->body !!}</textarea>
                 </div>
                 <div class="form-group">

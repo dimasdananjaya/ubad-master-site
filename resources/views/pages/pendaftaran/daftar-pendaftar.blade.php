@@ -1,13 +1,13 @@
-@extends('layouts.admin-layout')
+@extends('layouts.app')
 
 @section('content')
     <section id="daftar-pendaftar">
-        <div class="container">
-            <div class="card">
+        <div class="container-fluid">
+            <div style="margin-top:20px;" class="card">
                 <h3>Daftar Calon Mahasiswa</h3>
-            <div class="table-responsive table-hover table-responsive">
-                <table id="tabel" class="table">
+                <table id="tabel-pendaftar" class="table table-sm">
                     <thead>
+                        <th>No.</th>
                         <th>ID.</th>
                         <th>Nama</th>
                         <th>No. Hp</th>
@@ -18,10 +18,12 @@
                         <th>Kelas</th>
                         <th>Status</th>
                         <th>Aksi</th>
+                        <th></th>
                     </thead>
                     <tbody>
                     @foreach($dataPendaftar as $dtp)
                         <tr>
+                            <td></td>
                             <td>{{$dtp->id_pendaftaran}}</td>
                             <td>{{$dtp->nama}}</td>
                             <td>{{$dtp->no_hp}}</td>
@@ -33,16 +35,14 @@
                             <td>{{$dtp->status}}</td>
                             <td>
                                 <a class="btn btn-success" style="color:#fff;float:left; margin-right:20px;" data-toggle="modal" data-target="#pendaftar-edit-modal{{$dtp->id_pendaftaran}}">Edit</a>
+
                             </td>
                             <td>
-                                
-                                {!!Form::open(['action'=>['Pendaftaran@destroy', $dtp->id_pendaftaran]])!!}
-                                    {{Form::hidden('_method', 'DELETE')}}
-                                    
-                                    {{Form::submit('Hapus',['class'=>'btn btn-danger'])}}
-
+                                {!!Form::open(['action'=>['PendaftaranController@destroy', $dtp->id_pendaftaran]])!!}
+                                    {{Form::hidden('_method', 'DELETE')}}                            
+                                    {{Form::submit('Hapus',['class'=>'btn btn-danger'])}}   
                                 {!!Form::close()!!}
-                            </td>
+                                </td>
                         </tr>
                                 
                         <!-- Modal Edit pendaftar-->
@@ -56,13 +56,16 @@
                                     </button>
                                     </div>
                                     <div class="modal-body">                  
-                                        {!!Form::open(['action'=>['Pendaftaran@update', $dtp->id_pendaftaran], 'method'=>'PUT'])!!}
+                                        {!!Form::open(['action'=>['PendaftaranController@update', $dtp->id_pendaftaran], 'method'=>'PUT'])!!}
+                                 
+                                         
                                             {{Form::label('Status','Status :')}}
                                             <select name="status" class="form-group form-control">
-                                                <option value="Diterima">Diterima</option>
-                                                <option value="Forward KPT">Forward KPT</option>
-                                                <option value="Forward Ubad">Forward Ubad</option>
-                                                <option value="Batal">Batal</option>
+                                                <option value="diproses">Diproses</option>
+                                                <option value="diterima">Diterima</option>
+                                                <option value="penyerahan-persyaratan">Penyerahan Persyaratan</option>
+                                                <option value="pembayaran1">Pembayaran Pendaftaran dan Initial Payment</option>
+                                                <option value="pembayaran2">Pembayaran DP3 dan Semester</option>
                                             </select>
                                             {{Form::submit('Update',['class'=>'btn btn-warning'])}}
                                         {!!Form::close()!!}
@@ -76,16 +79,14 @@
                     @endforeach
                     </tbody>
                 </table>
-            </div>
-
-            </div>   
+            </div><!--card-->   
             <a href="/admin-page" class="btn btn-primary tombol-back">Kembali Ke Halaman Admin</a>
         </div><!--end container-->
     </section>
 
     <script type="text/javascript">
         $(document).ready(function() {
-            var t = $('#tabel').DataTable( {
+            var t = $('#tabel-pendaftar').DataTable( {
                 "columnDefs": [ {
                     "searchable": false,
                     "orderable": false,

@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\PendaftaranModel;
 use DB;
 
-class Pendaftaran extends Controller
+class PendaftaranController extends Controller
 {
     /**
      * Display a listing of the resource.

@@ -182,6 +182,7 @@ header p {
 
 #prodi .card-title {
     font-weight: bold;
+    color: #17706e;
 }
 
 #prodi .tombol-tema {
@@ -210,15 +211,24 @@ header p {
     background-color: #fff;
 }
 
+#why .card{
+    padding: 1em 1em 1em 1em;
+    border-radius: 1em;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    margin-top: 1em;
+}
+
 #why .why-title {
     text-align: center;
     font-size: 1.8em;
     margin-bottom: 30px;
+    color: #0e9aa7;
 }
 
 #why img {
-    width: 23em;
-    height: 20em;
+    width: 15em;
+    height: 12em;
     display: block;
     margin: 0 auto;
     margin-bottom: 2em;
@@ -237,6 +247,11 @@ header p {
     padding-bottom: 15px;
 }
 
+#why h4{
+    margin-bottom: 1em;
+    color: #17706e;
+}
+
 #why .col-lg-4 p{
     text-align: justify;
     color: black;
@@ -245,9 +260,15 @@ header p {
 /********* end why ******/
 
 /**********Fasilitas *********/
+#fasilitas h2{
+    color: #0e9aa7;
+}
+
+#fasilitas h5{
+    color: #17706e;
+}
 
 #fasilitas img {
-    
     display: block;
     margin: 0 auto;
     margin-bottom: 2em;
@@ -263,6 +284,8 @@ header p {
     padding-bottom: 0.5%;
     text-align: center;
 }
+
+
 
 /***** pendaftaran-prodi *****/
 
@@ -341,6 +364,7 @@ header p {
 #qa .faq-title{
     margin-top: 1.7em;
     text-align: center;
+    color: #0e9aa7;
 }
 
 #qa .card{
@@ -586,7 +610,7 @@ footer {
     margin: 0 auto;
 }
 
-#prodi-content p {
+#prodi-content p{
     text-align: justify;
 }
 
@@ -922,7 +946,57 @@ text-align: center;
     margin-top: 20px;
 }
 
+#validated h2{
+    color: #0e9aa7;;
+}
+
 /**** end validated ****/
+
+/**** status-pendaftaran ****/
+#status-pendaftaran {
+    margin-top: 2em;
+}
+
+#status-pendaftaran .status-pendaftaran-img{
+    width: 15em;
+    height: 15em;
+    margin-top: -2em;
+    margin-bottom: -1em;
+}
+
+
+
+#status-pendaftaran .faq-title{
+    margin-top: 1.7em;
+    text-align: center;
+    color: #0e9aa7;
+}
+
+#status-pendaftaran .card{
+    min-height: 10rem;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 12px;
+    text-align: justify;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.73);
+}
+
+#status-pendaftaran .qa-icon{
+    width: 44px;
+    height: 44px;
+    float: left;
+    margin-right: 7px;
+}
+
+#status-pendaftaran .qa-question{
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+
+/**** status-pendaftaran ****/
 
 
 /****************************************** admin area *****************************/

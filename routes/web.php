@@ -39,8 +39,9 @@ Route::get('/periode', 'Admin@periode')->name('periode');
 
 Route::get('/validated', 'RouteController@validated')->name('validated');
 Route::get('/form-pendaftaran', 'RouteController@formPendaftaran')->name('form-pendaftaran');
+Route::get('/status-pendaftaran', 'RouteController@statusPendaftaranPage')->name('status-pendaftaran');
 // Blogs route
 
 Route::resource('blogs', 'BlogController');
-Route::resource('pendaftaran', 'Pendaftaran');
+Route::resource('pendaftaran', 'PendaftaranController');
 Route::resource('faq', 'FAQController');

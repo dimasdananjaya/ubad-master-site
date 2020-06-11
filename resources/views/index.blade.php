@@ -147,31 +147,36 @@
         <hr>
         <div class="row">
             <div data-aos="fade-right" class="col-lg-4">
-                <h4 data-aos="fade-left" class="text-center"><b>Kelas Perkuliahan Yang Cocok Dengan Jadwalmu</b></h4>
-                <img class="img-fluid" src="/resources/logo/why-kelas.png">
-                <p data-aos="fade-right" class="why-kelas">Ingin kuliah penuh dari pagi sampai sore atau kuliah part
-                    time sambil kerja? Jangan
-                    khawatir kamu
-                    dapat memilih Kelas Reguler atau Kelas Karyawan Universitas Bali Dwipa, Kelas Reguler cocok untuk
-                    kamu yang ingin menghabiskan waktu penuh untuk belajar di kampus dan Kelas Karyawan cocok untuk kamu
-                    yang sedang mencari penghasilan tapi ingin melanjutkan kuliah<p>
+                <div class="card">
+                    <h4 data-aos="fade-left" class="text-center"><b>Kelas Perkuliahan Yang Cocok Dengan Jadwalmu</b></h4>
+                    <img class="img-fluid" src="/resources/logo/why-kelas.png">
+                    <p data-aos="fade-right" class="why-kelas">Ingin kuliah penuh dari pagi sampai sore atau kuliah part
+                        time sambil kerja? Jangan
+                        khawatir kamu
+                        dapat memilih Kelas Reguler atau Kelas Karyawan Universitas Bali Dwipa, Kelas Reguler cocok untuk
+                        kamu yang ingin menghabiskan waktu penuh untuk belajar di kampus dan Kelas Karyawan cocok untuk kamu
+                        yang sedang mencari penghasilan tapi ingin melanjutkan kuliah<p>
+                </div>
             </div>
 
             <div data-aos="fade-left" class="col-lg-4">
-                <h4 class="text-center" data-aos="fade-left"><b>Dosen Dan Tenaga Kependidikan Handal</b></h4>
-                <img class="img-fluid" src="/resources/logo/why-dosen.png">
-                <p data-aos="fade-left" class="why-dosen">Dosen di Universitas Bali Dwipa merupakan dosen-dosen yang
-                    ahli dibidangnya dengan gelar Magister, Doktor, Professor, hingga Philosophy Doctor (Ph.D) tamatan
-                    perguruan Tinggi Negeri, Swasta dan Luar Negeri serta merupakan praktisi dibidangnya masing-masing.
-                <p>
+                <div class="card">
+                    <h4 class="text-center" data-aos="fade-left"><b>Dosen Dan Tenaga Kependidikan Handal</b></h4>
+                    <img class="img-fluid" src="/resources/logo/why-dosen.png">
+                    <p data-aos="fade-left" class="why-dosen">Dosen di Universitas Bali Dwipa merupakan dosen-dosen yang
+                        ahli dibidangnya dengan gelar Magister, Doktor, Professor, hingga Philosophy Doctor (Ph.D) tamatan
+                        perguruan Tinggi Negeri, Swasta dan Luar Negeri serta merupakan praktisi dibidangnya masing-masing.
+                    <p>
+                </div>
             </div>
 
             <div data-aos="fade-right" class="col-lg-4">
-                <h4 class="text-center"><b>Biaya Perkuliahan Yang Terjangkau</b></h4>
-                <img class="img-fluid" src="/resources/logo/why-keuangan.png">
-                
-                <p data-aos="fade-right" class="why-kelas">Ingin kuliah tapi bermasalah dengan keuangan? Jangan khawatir
-                    di Universitas Bali Dwipa biaya perkuliahan dapat dicicil tiap semesternya<p>
+                <div class="card">
+                    <h4 class="text-center"><b>Biaya Perkuliahan Yang Terjangkau</b></h4>
+                    <img class="img-fluid" src="/resources/logo/why-keuangan.png">
+                    <p data-aos="fade-right" class="why-kelas">Ingin kuliah tapi bermasalah dengan keuangan? Jangan khawatir
+                        di Universitas Bali Dwipa biaya perkuliahan dapat dicicil tiap semesternya<p>
+                </div>
             </div>
 
         </div>
@@ -194,7 +199,7 @@
             <h2>Fasilitas Perkuliahan</h2>
         </div>
         <div class="col-8">
-            <img alt="image" src="/resources/logo/fitur2.jpg">
+            <img alt="image" src="/resources/logo/fitur2.svg">
         </div>
 
         <div class="col-md-4">
@@ -273,7 +278,7 @@
                 @foreach($dataFAQ as $dtf)
                     <div class="card">
                         <div class="card-head">
-                        <img class="qa-icon" src="/resources/logo/qa.png"><p class="qa-question"><b>{{$dtf->pertanyaan}}</b></p>
+                        <img class="qa-icon" src="/resources/logo/qa.svg"><p class="qa-question"><b>{{$dtf->pertanyaan}}</b></p>
                         </div>
                         <div class="card-body">
                             <p>
@@ -315,8 +320,8 @@
     <div class="carousel-berita">
         @foreach ($posts as $p)
         <div class="card">
-            <img style="width:100%; height:40vh;" src="public/images/cover_image/{{$p->cover_image}}"
-                alt="{{$p->cover_image}}">
+            <img style="width:100%; height:200px;" src="ubad-master/public/public/images/cover_image/{{$p->cover_image}}"
+            alt="{{$p->cover_image}}">
             <div class="card-body">
                 <h5 class="card-title"><a href="{{route('blogs.show', $p->id)}}">{{ $p->title }}</a></h5>
                 <!--<p>{{$p->body}}</p>-->

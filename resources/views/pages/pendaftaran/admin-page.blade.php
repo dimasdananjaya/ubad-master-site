@@ -38,7 +38,7 @@
 
                     <div class="col-lg-6">
                         <div class="card">
-                            <img class="card-img-top mx-auto" src="/resources/logo/qa.png" alt="Card image cap">
+                            <img class="card-img-top mx-auto" src="/resources/logo/qa.svg" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title">FAQ</h5>
                               <p class="card-text">Kelola FAQ </p>
@@ -47,6 +47,15 @@
                         </div>
                     </div>
             </div><!--row-->
+            <a class="btn btn-block btn-primary mt-3" href="{{ route('logout') }}"
+            onclick="event.preventDefault();
+                            document.getElementById('logout-form').submit();">
+                {{ __('Logout') }}
+            </a>
+
+            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                @csrf
+            </form>
         <div><!--container-->
     </section>
 @endsection

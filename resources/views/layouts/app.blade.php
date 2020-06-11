@@ -2,6 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Universitas Bali Dwipa merupakan perguruan tinggi
@@ -10,7 +11,6 @@
     Bahasa Inggris, Sistem Informasi, Gizi, Hukum
     ">
     <meta name=”robots” content="index, follow">
-
     	
     <link rel='icon' href='/resources/logo/balidwipa.png'>
     <link rel="shortcut icon" href="/resources/logo/balidwipa.png" />
@@ -55,12 +55,10 @@
     <!--jquery ui-->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" defer>
 
-    <!--datatables
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
     <script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" defer></script>
     <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
-    -->
 
 </head>
 
@@ -142,7 +140,7 @@
                                     Baru</a>
                             </li>
                             <li>
-                                <a href="{{URL::route('seleksi-online')}}" class="dropdown-item">Seleksi Online</a>
+                                <a href="{{URL::route('status-pendaftaran')}}" class="dropdown-item">Cek Status Pendaftaran</a>
                             </li>
                         </ul>
                     </li>
@@ -199,6 +197,7 @@
     <!-- Optional JavaScript -->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
 
 
     <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
@@ -334,6 +333,8 @@
     })();
 </script>
 <!-- /Getbutton.io widget -->
+
+<!--end datatable-->
 </body>
 
 </html>

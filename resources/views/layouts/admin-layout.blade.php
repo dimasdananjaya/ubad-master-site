@@ -2,6 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Universitas Bali Dwipa merupakan perguruan tinggi
@@ -142,7 +143,7 @@
                                     Baru</a>
                             </li>
                             <li>
-                                <a href="{{URL::route('seleksi-online')}}" class="dropdown-item">Seleksi Online</a>
+                                <a href="{{URL::route('status-pendaftaran')}}" class="dropdown-item">Cek Status Pendaftaran</a>
                             </li>
                         </ul>
                     </li>

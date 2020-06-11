@@ -1,6 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
+use DB;
+use App\PendaftaranModel;
 
 class RouteController extends Controller
 {
@@ -80,12 +82,13 @@ class RouteController extends Controller
     }
 
     public function formPendaftaran(){
-
         return view('pages.pendaftaran.form-pendaftaran');
-
     }
 
-
+    public function statusPendaftaranPage(){
+        $dataPendaftar=DB::table('pendaftaran')->orderBy('nama','asc')->get();
+        return view('pages.pendaftaran.status-pendaftaran')->with('dataPendaftar',$dataPendaftar);
+    }
 
     //HALAMAN PROFIL STAFF
     public function staffPage(){
