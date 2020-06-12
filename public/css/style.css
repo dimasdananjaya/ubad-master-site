@@ -162,10 +162,12 @@ header p {
 }
 
 #prodi .card-img-top {
-    width: 100%;
-    height: 15vh;
-    padding-top: 2%;
-    object-fit: contain;
+    width: 9em;
+    height: 7em;
+    padding-top: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border: none;
 }
 
@@ -395,7 +397,7 @@ header p {
 /***** berita *****/
 #berita {
     min-height: 60vh;
-    background-color: #77d8d8;
+    background-color: #00909e;
     color: black;
     padding-top: 3%;
     padding-left: 2%;
@@ -597,15 +599,15 @@ footer {
 }
 
 #prodi-content .prodi-icon {
-    width: 100%;
-    height: 15vh;
+    width: 18em;
+    height: 20em;
     padding-top: 2%;
-    object-fit: contain;
+
 }
 
 #prodi-content .col-lg-4 img {
-    width: 40vh;
-    height: 40vh;
+    width: 16em;
+    height: 18em;
     display: block;
     margin: 0 auto;
 }
@@ -817,8 +819,8 @@ footer {
 /******************************************************** Halaman Berita ***********************************/
 #halaman-berita .col-lg-4,
 .col-lg-8 {
-    margin-top: 15px;
-    margin-bottom: 10px;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 /*=================================================================================================*/
@@ -908,10 +910,25 @@ footer {
 /*****************************************************************/
 
 /**** Mahasiswa baru ****/
+#mahasiswa-baru .maba-header{
+    color: #fff;
+    background-color: #0e9aa7;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+}
+
+#mahasiswa-baru img{
+    width: 30em;
+    height: 30em;
+    
+}
 
 #mahasiswa-baru .card-img-top {
-    width: 100%;
-    height: 15vh;
+    width: 15em;
+    height: 12em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 2%;
     object-fit: contain;
 }
@@ -919,6 +936,8 @@ footer {
 #mahasiswa-baru .card-text {
     text-align: justify;
 }
+
+
 
 #mahasiswa-baru .card {
     box-shadow: 5px 5px 0px 0px #b3d9ff;
@@ -930,6 +949,24 @@ footer {
 text-align: center;
 }
 
+#mahasiswa-baru .mahasiswa-baru-question{
+    background-color: #00909e;
+    color:#fff;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: 1em;
+}
+
+#mahasiswa-baru ul{
+    list-style-type: none;
+}
+
+#mahasiswa-baru li{
+    text-align: center;
+}
+
+
+
 
 
 /**** Mahasiswa baru ****/
@@ -938,6 +975,7 @@ text-align: center;
 #form-pendaftaran h2,h3{
     font-size: 1.5rem;
 }
+
 
 /**** end Form Pendaftaran ****/
 

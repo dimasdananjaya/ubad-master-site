@@ -181,6 +181,7 @@
                 <p>Email : info@balidwipa.ac.id</p>
                 <p>Whatsapp : 085792463944</p>
                 <p>Phone : 081339827770</p>
+                <p><small>Icons and Pictures by: freepik.com and flaticon.com</small></p>
             </div>
             </div>
 

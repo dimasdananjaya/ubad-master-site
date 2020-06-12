@@ -94,6 +94,20 @@
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-head">
+                    <img class="qa-icon" src="/resources/logo/qa.svg"><p class="qa-question"><b>Penyerahan Persyaratan</b></p>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Jika status pendaftaran adalah <b>'Penyerahan Persyaratan'</b> maka calon mahasiswa harus mengumpulkan berkas Persyaratan
+                            , lihat berkas persyaratan klik<a class="btn btn-primary" href="/mahasiswa-baru">disini</a>
+                        <p>
+                    </div><!--card-body-->
+                </div><!--card-->
+            </div><!--end col-->
+
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-head">
                     <img class="qa-icon" src="/resources/logo/qa.svg"><p class="qa-question"><b>Pembayaran Pendaftaran dan Initial Payment</b></p>
                     </div>
                     <div class="card-body">

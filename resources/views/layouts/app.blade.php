@@ -24,6 +24,7 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
+
     <script src="https://kit.fontawesome.com/4f161c1c95.js" crossorigin="anonymous"></script>
 
     <!-- Fonts -->
@@ -31,7 +32,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css?ver=1') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 
@@ -178,6 +179,7 @@
                 <p>Email : info@balidwipa.ac.id</p>
                 <p>Whatsapp : 085792463944</p>
                 <p>Phone : 081339827770</p>
+                <p><small>Icons and Pictures by: freepik.com and flaticon.com</small></p>
             </div>
             </div>
 

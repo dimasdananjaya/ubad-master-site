@@ -49,7 +49,7 @@ class PendaftaranController extends Controller
         $simpan->tanggal_pendaftaran=now();
         $simpan->prodi=$request->input('prodi');
         $simpan->kelas=$request->input('kelas');
-        $simpan->status='Diproses';
+        $simpan->status='diproses';
         
         $simpan->save();
         alert()->success('Data Tersimpan !', '');
