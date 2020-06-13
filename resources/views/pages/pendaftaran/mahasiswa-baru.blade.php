@@ -39,7 +39,7 @@
                         <p class="card-text">Setelah mengisi formulir secara online admin kami akan memproses formulir dan akan menghubungi via Whatsapp
                             dalam waktu 24 jam
                         </p>
-                        <a href="/form-pendaftaran" class="btn btn-primary btn-md text-center">Cek Status Pendaftaran</a>
+                        <a href="/status-pendaftaran" class="btn btn-primary btn-md text-center">Cek Status Pendaftaran</a>
                     </div><!--card body-->
                 </div><!--card-->
             </div><!--col 6-->
@@ -48,7 +48,7 @@
                 <div class="card">
                     <img class="card-img-top" src="/resources/logo/pembayaran.svg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title"><b>3.A Pembayaran Pendaftaran dan Initial Payment</b></h5>
+                        <h5 class="card-title"><b>3. Pembayaran Pendaftaran dan Initial Payment</b></h5>
                         <p class="card-text">Setelah data divalidasi selanjutnya calon mahasiswa wajib membayar <b>Biaya Pendaftaran dan Initial Payment</b>
                         jumlah biaya bergantung pada Program Studi yang dipilih, hubungi admin kami dengan menekan tombol Whatsapp di pojok kanan bawah
                         untuk mengetahui biaya yang harus dibayar
@@ -59,12 +59,12 @@
 
             <div class="col-lg-6">
                 <div class="card">
-                    <img class="card-img-top" src="/resources/logo/pembayaran.svg" alt="Card image cap">
+                    <img class="card-img-top" src="/resources/logo/registrasi-ulang.svg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title"><b>3.B Pembayaran DP3 dan Semester</b></h5>
-                        <p class="card-text">Setelah melakukan <b>Pembayaran Pendaftaran dan Initial Payment (3.A)</b> selanjutnya calon mahasiswa wajib membayar <b>DP3</b> dan <b>Semester</b>
-                        jumlah biaya bergantung pada Program Studi yang dipilih, hubungi admin kami dengan menekan tombol Whatsapp di pojok kanan bawah
-                        untuk mengetahui biaya yang harus dibayar
+                        <h5 class="card-title"><b>4. Registrasi Ulang</b></h5>
+                        <p class="card-text">Setelah melakukan <b>Pembayaran Pendaftaran dan Initial Payment (3)</b> selanjutnya calon mahasiswa wajib melakukan <b>Registrasi Ulang</b>
+                        Registrasi Ulang adalah proses administrasi yang <b>Wajib</b> dilakukan oleh seluruh calon mahasiswa, proses ini mencakup melengkapi administrasi, pengumpulan
+                        dokumen, dan pelunasan DP3 dan Semester. 
                         </p>
                     </div><!--card body-->
                 </div><!--card-->
@@ -74,9 +74,9 @@
                 <div class="card">
                     <img class="card-img-top" src="/resources/logo/selesai.svg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title"><b>4. Selesai</b></h5>
-                        <p class="card-text">Setelah calon Mahasiswa Baru menyelesaikan seluruh pembayaran, maka telah terdaftar sebagai Mahasiswa resmi Universitas Bali Dwipa. Calon mahasiswa menunggu untuk pengumuman Masa Orientasi</p>
-                        <a href="/form-pendaftaran" class="btn btn-primary btn-md text-center">Cek Status Pendaftaran</a>
+                        <h5 class="card-title"><b>5. Selesai</b></h5>
+                        <p class="card-text">Setelah calon Mahasiswa Baru menyelesaikan seluruh proses 1-4, maka telah terdaftar sebagai resmi Calon Mahasiswa Universitas Bali Dwipa. Calon mahasiswa menunggu untuk pengumuman Masa Orientasi</p>
+                        <a href="/status-pendaftaran" class="btn btn-primary btn-md text-center">Cek Status Pendaftaran</a>
                     </div><!--card body-->
                 </div><!--card-->
             </div><!--col 6-->
