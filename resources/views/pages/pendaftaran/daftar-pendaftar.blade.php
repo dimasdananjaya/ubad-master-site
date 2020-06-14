@@ -65,7 +65,7 @@
                                                 <option value="diterima">Diterima</option>
                                                 <option value="penyerahan-persyaratan">Penyerahan Persyaratan</option>
                                                 <option value="pembayaran1">Pembayaran Pendaftaran dan Initial Payment</option>
-                                                <option value="pembayaran2">Pembayaran DP3 dan Semester</option>
+                                                <option value="registrasi-ulang">Registrasi Ulang</option>
                                             </select>
                                             {{Form::submit('Update',['class'=>'btn btn-warning'])}}
                                         {!!Form::close()!!}

@@ -35,8 +35,8 @@
                             <td>Penyerahan Persyaratan</td>
                             @elseif($dp->status=='pembayaran1')
                             <td>Pembayaran Pendaftaran dan Initial Payment</td>
-                            @elseif($dp->status=='pembayaran2')
-                            <td>Pembayaran DP3 dan Semester</td>
+                            @elseif($dp->status=='registrasi-ulang')
+                            <td>Registrasi Ulang</td>
                             @elseif($dp->status=='selesai')
                             <td>Selesai, Terdaftar Mahasiswa Baru</td>
                             @endif
@@ -46,9 +46,9 @@
                             @elseif($dp->status=='penyerahan-persyaratan')
                             <td>Pembayaran Pendaftaran dan Initial Payment</td>
                             @elseif($dp->status=='pembayaran1')
-                            <td>Pembayaran DP3 dan Semester</td>
-                            @elseif($dp->status=='pembayaran2')
-                            <td>Menunggu Proses Verifikasi Pembayaran</td>
+                            <td>Registrasi Ulang</td>
+                            @elseif($dp->status=='registrasi-ulang')
+                            <td>Menunggu Proses Penyelesaian</td>
                             @elseif($dp->status=='diproses')
                             <td>Menunggu Diproses</td>
                             @elseif($dp->status=='selesai')
@@ -99,7 +99,7 @@
                     <div class="card-body">
                         <p>
                             Jika status pendaftaran adalah <b>'Penyerahan Persyaratan'</b> maka calon mahasiswa harus mengumpulkan berkas Persyaratan
-                            , lihat berkas persyaratan klik<a class="btn btn-primary" href="/mahasiswa-baru">disini</a>
+                            , lihat berkas persyaratan klik<a class="btn btn-primary ml-1" href="/mahasiswa-baru">Disini</a>
                         <p>
                     </div><!--card-body-->
                 </div><!--card-->
@@ -122,11 +122,12 @@
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-head">
-                    <img class="qa-icon" src="/resources/logo/qa.svg"><p class="qa-question"><b>Pembayaran DP3 dan Semester</b></p>
+                    <img class="qa-icon" src="/resources/logo/qa.svg"><p class="qa-question"><b>Registrasi Ulang</b></p>
                     </div>
                     <div class="card-body">
                         <p>
-                            Jika status pendaftaran adalah <b>'Pembayaran DP3 dan Semester'</b> maka calon mahasiswa harus melunasi <p>pembayaran
+                            Jika status pendaftaran adalah <b>'Registrasi Ulang'</b> maka calon mahasiswa harus melakukan proses
+                            administrasi ulang untuk melengkapi dokumen dan administrasi kampus lainnya, serta melunasi pembayaran DP3 dan Semester
                             DP3 dan Semester</p>
                         <p>
                     </div><!--card-body-->
