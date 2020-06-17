@@ -11,7 +11,6 @@
     Bahasa Inggris, Sistem Informasi, Gizi, Hukum
     ">
     <meta name=”robots” content="index, follow">
-
     	
     <link rel='icon' href='/resources/logo/balidwipa.png'>
     <link rel="shortcut icon" href="/resources/logo/balidwipa.png" />
@@ -24,6 +23,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 
     <script src="https://kit.fontawesome.com/4f161c1c95.js" crossorigin="anonymous"></script>
 
@@ -32,7 +32,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css?v=1') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 
@@ -54,15 +54,8 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <!--jquery ui-->
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" defer>
-
-  
     <script src="https://unpkg.com/@popperjs/core@2"></script>
-    <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
-    <script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" defer></script>
-    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
-    
-    <script src="https://cdn.ckeditor.com/ckeditor5/19.0.0/classic/ckeditor.js"></script>
+
 </head>
 
 <body>
@@ -201,24 +194,125 @@
     <!-- Optional JavaScript -->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
-
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js" defer></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js" defer></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" defer></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-
     <script>
-        ClassicEditor
-                .create( document.querySelector( '#editor' ) )
-                .then( editor => {
-                        console.log( editor );
-                } )
-                .catch( error => {
-                        console.error( error );
-                } );
-</script>
+        AOS.init();
+
+        $(".carousel").slick({
+            arrows: true,
+            infinite: false,
+            speed: 150,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            slidesToShow: 5,
+            slidesToScroll: 3,
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                arrows: true
+                }
+            }, {
+                breakpoint: 600,
+                settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                arrows: true
+                }
+            }, {
+                breakpoint: 480,
+                settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: true
+                }
+            } // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+            ]
+            });
+
+            $(".carousel-berita").slick({
+            dots: false,
+            arrows:true,
+            infinite: false,
+            speed: 300,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: false,
+                dots: false
+                }
+            }, {
+                breakpoint: 600,
+                settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+                }
+            }, {
+                breakpoint: 480,
+                settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+                }
+            } // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+            ]
+            });
+
+            $(".carousel-qa").slick({
+            dots: true,
+            arrows:true,
+            infinite: false,
+            speed: 300,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: false,
+                dots: false
+                }
+            }, {
+                breakpoint: 600,
+                settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+                }
+            }, {
+                breakpoint: 480,
+                settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+                }
+            } // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+            ]
+            });
+
+            $( function() {
+                $( "#datepicker" ).datepicker();
+            } );
+        
+    </script>
+
 <!-- Getbutton.io widget -->
 <script type="text/javascript">
     (function () {
@@ -234,6 +328,8 @@
     })();
 </script>
 <!-- /Getbutton.io widget -->
+
+<!--end datatable-->
 </body>
 
 </html>

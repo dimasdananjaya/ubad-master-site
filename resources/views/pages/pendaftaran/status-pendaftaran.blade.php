@@ -151,18 +151,26 @@
 </section>
 
 <script type="text/javascript">
-    $(document).ready(function() {
+$(document).ready(function() {
         var t = $('#tabel-status-pendaftaran').DataTable( {
             "columnDefs": [ {
                 "searchable": false,
                 "orderable": false,
                 "targets": 0
             } ],
+            "columnDefs": [
+                {
+                    "targets": [ 0 ],
+                    "visible": false,
+                    "searchable": false
+                },
+            ],
             "order": [[ 1, 'asc' ]],
             "language": {
             "url": "//cdn.datatables.net/plug-ins/1.10.19/i18n/Indonesian.json"
         }
         } );
+
     
         t.on( 'order.dt search.dt', function () {
             t.column(0, {search:'applied', order:'applied'}).nodes().each( function (cell, i) {
