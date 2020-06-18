@@ -17,12 +17,12 @@
                     <hr>
                     <p style="text-align:justify" class="text-center" data-aos="fade-left" class="why-dosen lead">
                         Anda telah berhasil melakukan pendaftaran, admin kami akan memproses data anda, selanjutnya silahkan menunggu
-                        kontak dari admin kami dalam waktu 24 Jam. Anda dapat cek status pendaftaran pada tombol dibawah atau pada tombol menu di pojok kanan atas Info Lebih lanjut klik ikon whatsapp di kanan bawah atau hubungi : <br>
+                        kontak dari admin kami dalam waktu 18 Jam. Anda dapat cek status pendaftaran pada tombol dibawah atau pada tombol menu di pojok kanan atas Info Lebih lanjut klik ikon whatsapp di kanan bawah atau hubungi : <br>
                         <b>Whatsapp : 085792463944<b><br>
                         <b>Phone    : 081339827770</b>
                      <p>
+                    <a href="/status-pendaftaran" class="btn btn-lg btn-block btn-success text-center">Cek Status Pendaftaran</a>
                     <a href="/" class="btn btn-lg btn-block btn-primary text-center">Kembali Ke Home</a>
-                    <a href="/status-pendaftaran" class="btn btn-lg btn-block btn-primary text-center">Cek Status Pendaftaran</a>
                 </div>
             </div><!--row-->
         </div><!--container-->

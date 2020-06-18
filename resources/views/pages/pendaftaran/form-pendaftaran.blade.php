@@ -80,6 +80,15 @@
                                         </div>
                                     </div><!--end col-->
 
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label for="kelas">Kode Referral</label>
+                                            <p><small>*diisi jika memiliki kode Referral dari marketing</small></p>
+                                            <input type="text" class="form-control" name="referral" id="referral"
+                                            placeholder="xxxx-xxxxx-xxxxx" required>
+                                        </div>
+                                    </div><!--end col-->
+
                                 </div><!--end row-->
                                 <button type="submit" class="btn btn-primary btn-block">Submit</button>
                             </form>

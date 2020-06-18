@@ -3,9 +3,9 @@
 @section('content')
     <section id="daftar-pendaftar">
         <div class="container-fluid">
-            <div style="margin-top:20px;" class="card">
+            <div class="card">
                 <h3>Daftar Calon Mahasiswa</h3>
-                <table id="tabel-pendaftar" class="table table-sm table-striped table-hover table-responsive-sm table-responsive-md">
+                <table id="tabel-pendaftar" class="table table-sm table-striped table-hover table-responsive-sm table-responsive-md" style="width: 100%;">
                     <thead>
                         <th>No.</th>
                         <th>ID.</th>
@@ -17,6 +17,7 @@
                         <th>Tanggal Pendaftaran</th>
                         <th>Kelas</th>
                         <th>Status</th>
+                        <th>Referral</th>
                         <th>Aksi</th>
                         <th></th>
                     </thead>
@@ -33,6 +34,7 @@
                             <td>{{$dtp->tanggal_pendaftaran}}</td>
                             <td>{{$dtp->kelas}}</td>
                             <td>{{$dtp->status}}</td>
+                            <td>{{$dtp->referral}}</td>
                             <td>
                                 <a class="btn btn-success" style="color:#fff;float:left; margin-right:20px;" data-toggle="modal" data-target="#pendaftar-edit-modal{{$dtp->id_pendaftaran}}">Edit</a>
 

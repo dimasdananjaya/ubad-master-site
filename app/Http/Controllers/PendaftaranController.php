@@ -49,6 +49,7 @@ class PendaftaranController extends Controller
         $simpan->tanggal_pendaftaran=now();
         $simpan->prodi=$request->input('prodi');
         $simpan->kelas=$request->input('kelas');
+        $simpan->referral=$request->input('referral');
         $simpan->status='diproses';
         
         $simpan->save();
