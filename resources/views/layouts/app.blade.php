@@ -24,7 +24,6 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-
     <script src="https://kit.fontawesome.com/4f161c1c95.js" crossorigin="anonymous"></script>
 
     <!-- Fonts -->
@@ -34,7 +33,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/style.css?ver=1') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
+    <link href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css" rel="stylesheet">
 
     <!--font-->
     <link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Raleway" rel="stylesheet">
@@ -307,11 +306,6 @@
             // instead of a settings object
             ]
             });
-
-            $( function() {
-                $( "#datepicker" ).datepicker();
-            } );
-        
     </script>
 
 <!-- Getbutton.io widget -->

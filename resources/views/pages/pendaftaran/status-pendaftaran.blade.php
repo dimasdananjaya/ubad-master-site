@@ -15,9 +15,8 @@
 
         <hr>
         <div class="card">
-            <table id="tabel-status-pendaftaran" class="table table-striped table-responsive-md table-responsive-sm">
+            <table id="tabel-status-pendaftaran" class="table table-sm table-striped table-hover table-responsive-sm table-responsive-md">
                 <thead>
-                    <th>No</th>
                     <th>Nama</th>
                     <th>Status Pendaftaran</th>
                     <th>Tahap Selanjutnya</th>
@@ -25,7 +24,6 @@
                 <tbody>
                     @foreach ($dataPendaftar as $dp)
                         <tr>
-                            <td></td>
                             <td>{{$dp->nama}}</td>
                             @if($dp->status=='diproses')
                             <td>Diproses</td>
@@ -153,30 +151,12 @@
 <script type="text/javascript">
 $(document).ready(function() {
         var t = $('#tabel-status-pendaftaran').DataTable( {
-            "columnDefs": [ {
-                "searchable": false,
-                "orderable": false,
-                "targets": 0
-            } ],
-            "columnDefs": [
-                {
-                    "targets": [ 0 ],
-                    "visible": false,
-                    "searchable": false
-                },
-            ],
+
             "order": [[ 1, 'asc' ]],
             "language": {
             "url": "//cdn.datatables.net/plug-ins/1.10.19/i18n/Indonesian.json"
         }
-        } );
-
-    
-        t.on( 'order.dt search.dt', function () {
-            t.column(0, {search:'applied', order:'applied'}).nodes().each( function (cell, i) {
-                cell.innerHTML = i+1;
-            } );
-        } ).draw();        
+        } );       
     } );
 </script>
 @endsection
