@@ -85,7 +85,7 @@
                                             <label for="kelas">Kode Referral</label>
                                             <p><small>*diisi jika memiliki kode Referral dari marketing</small></p>
                                             <input type="text" class="form-control" name="referral" id="referral"
-                                            placeholder="xxxx-xxxxx-xxxxx" required>
+                                            placeholder="xxxxxx">
                                         </div>
                                     </div><!--end col-->
 

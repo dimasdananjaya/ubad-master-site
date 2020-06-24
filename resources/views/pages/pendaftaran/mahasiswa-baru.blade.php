@@ -25,7 +25,8 @@
                     <img class="card-img-top" src="/resources/logo/isi-formulir.svg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title"><b>1. Isi Formulir Online</b></h5>
-                        <p class="card-text">Isi formulir online dengan menekan tombol dibawah, pastikan data yang anda isi sesuai</p>
+                        <p class="card-text">Isi formulir online dengan menekan tombol dibawah, pastikan data yang anda isi sesuai, Setelah mengisi formulir secara online admin kami akan memproses formulir dan akan menghubungi via Whatsapp
+                            dalam waktu 24 jam</p>
                         <a href="/form-pendaftaran" class="btn btn-primary btn-md text-center">Isi Formulir Pendaftaran Disini</a>
                     </div><!--card body-->
                 </div><!--card-->
@@ -35,9 +36,12 @@
                 <div class="card">
                     <img class="card-img-top" src="/resources/logo/diproses.svg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title"><b>2. Menunggu Validasi Formulir</b></h5>
-                        <p class="card-text">Setelah mengisi formulir secara online admin kami akan memproses formulir dan akan menghubungi via Whatsapp
-                            dalam waktu 24 jam
+                        <h5 class="card-title"><b>2. Penyerahan Persyaratan</b></h5>
+                        <p class="card-text">
+                            Calon manahasiswa baru menyerahkan kelengkapan berkas persyaratan pendaftaran berupa : <br>
+                            1. Fotocopy Ijazah (Legalisir)<br>
+                            2. Fotocopy Rapor (Legalisir)<br>
+                            3. Fotocopy KTP
                         </p>
                         <a href="/status-pendaftaran" class="btn btn-primary btn-md text-center">Cek Status Pendaftaran</a>
                     </div><!--card body-->
@@ -51,7 +55,7 @@
                         <h5 class="card-title"><b>3. Pembayaran Pendaftaran dan Initial Payment</b></h5>
                         <p class="card-text">Setelah data divalidasi selanjutnya calon mahasiswa wajib membayar <b>Biaya Pendaftaran dan Initial Payment</b>
                         jumlah biaya bergantung pada Program Studi yang dipilih, hubungi admin kami dengan menekan tombol Whatsapp di pojok kanan bawah
-                        untuk mengetahui biaya yang harus dibayar
+                        untuk mengetahui biaya yang harus dibayar. Bukti pembayaran dapat dibawa langsung ke Universitas Bali Dwipa atau dikirimkan online via Whatssapp di tombol pojok kanan bawah
                         </p>
                     </div><!--card body-->
                 </div><!--card-->
@@ -80,6 +84,8 @@
                     </div><!--card body-->
                 </div><!--card-->
             </div><!--col 6-->
+
+            
         </div><!--row-->
     </div><!--container-->
     <div class="mahasiswa-baru-question">

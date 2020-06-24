@@ -18,6 +18,7 @@
             <table id="tabel-status-pendaftaran" class="table table-sm table-striped table-hover table-responsive-sm table-responsive-md">
                 <thead>
                     <th>Nama</th>
+                    <th>Program Studi</th>
                     <th>Status Pendaftaran</th>
                     <th>Tahap Selanjutnya</th>
                 </thead>
@@ -25,6 +26,7 @@
                     @foreach ($dataPendaftar as $dp)
                         <tr>
                             <td>{{$dp->nama}}</td>
+                            <td>{{$dp->prodi}}</td>
                             @if($dp->status=='diproses')
                             <td>Diproses</td>
                             @elseif($dp->status=='diterima')

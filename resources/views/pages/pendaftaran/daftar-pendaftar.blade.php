@@ -59,8 +59,6 @@
                                     </div>
                                     <div class="modal-body">                  
                                         {!!Form::open(['action'=>['PendaftaranController@update', $dtp->id_pendaftaran], 'method'=>'PUT'])!!}
-                                 
-                                         
                                             {{Form::label('Status','Status :')}}
                                             <select name="status" class="form-group form-control">
                                                 <option value="diproses">Diproses</option>
@@ -68,6 +66,7 @@
                                                 <option value="penyerahan-persyaratan">Penyerahan Persyaratan</option>
                                                 <option value="pembayaran1">Pembayaran Pendaftaran dan Initial Payment</option>
                                                 <option value="registrasi-ulang">Registrasi Ulang</option>
+                                                <option value="selesai">Selesai</option>
                                             </select>
                                             {{Form::submit('Update',['class'=>'btn btn-warning'])}}
                                         {!!Form::close()!!}
