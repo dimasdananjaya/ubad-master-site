@@ -52,7 +52,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-
+    <!--ckeditor-->
+    <script src="https://cdn.ckeditor.com/ckeditor5/20.0.0/classic/ckeditor.js"></script>
 </head>
 
 <body>
@@ -195,7 +196,8 @@
     <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
+
+<script>
         AOS.init();
 
         $(".carousel").slick({
@@ -234,7 +236,7 @@
             ]
             });
 
-            $(".carousel-berita").slick({
+        $(".carousel-berita").slick({
             dots: false,
             arrows:true,
             infinite: false,
@@ -269,7 +271,7 @@
             ]
             });
 
-            $(".carousel-qa").slick({
+        $(".carousel-qa").slick({
             dots: true,
             arrows:true,
             infinite: false,
@@ -303,12 +305,7 @@
             // instead of a settings object
             ]
             });
-
-            $( function() {
-                $( "#datepicker" ).datepicker();
-            } );
-        
-    </script>
+</script>
 
 <!-- Getbutton.io widget -->
 <script type="text/javascript">
@@ -326,7 +323,5 @@
 </script>
 <!-- /Getbutton.io widget -->
 
-<!--end datatable-->
 </body>
-
 </html>

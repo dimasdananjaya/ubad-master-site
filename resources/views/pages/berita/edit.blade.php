@@ -17,7 +17,7 @@
                 </div>
                 <div class="form-group">
                     <label for="body">Post description</label>
-                    <textarea id="editor" class="form-control" name="body" id="article-ckeditor" cols="30" rows="10"
+                    <textarea id="editor" class="form-control" name="body" id="editor" cols="30" rows="10"
                         required>{!! $post->body !!}</textarea>
                 </div>
                 <div class="form-group">
@@ -32,4 +32,15 @@
     </div>
     {{-- @include('inc.footer') --}}
 </div>
+
+<script>
+    ClassicEditor
+            .create( document.querySelector( '#editor' ) )
+            .then( editor => {
+                    console.log( editor );
+            } )
+            .catch( error => {
+                    console.error( error );
+            } );
+</script>
 @endsection

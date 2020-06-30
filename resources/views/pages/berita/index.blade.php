@@ -20,18 +20,21 @@
                             <h3><a href="{{route('blogs.show', $post->id)}}">{{ $post->title }}</a></h3>
                             <p class="blog-post-meta">Posted at : {{ $post->created_at }} | by : {{ $post->user->name}}
                             </p>
-                            <p>{{$post->body}} <a href="{{route('blogs.show', $post->id)}}">>>Read more
-                                    <<</a> </p> </div> </div> </div> @endforeach {{ $posts->links() }} @else <p>
-                                        <h2>No Posts Found !!!</h2>
-                            </p>
-                            <p>
-                                <h2><a href="/login">Login</a> or <a href="/signup">Signup</a> to create new Post ....
-                                </h2>
-                            </p>
-                            @endif
-                        </div>
+                            <p>{!!$post->body!!} 
+                                <a class="btn btn-primary" href="{{route('blogs.show', $post->id)}}">Read more</a> 
+                            </p> 
+                        </div> 
+                    </div> 
+                </div> 
+                @endforeach 
+                {{ $posts->links() }} 
+                @else 
+                <p><h2>No Posts Found !!!</h2></p>
+                <p><h2><a href="/login">Login</a> or <a href="/signup">Signup</a> to create new Post ....</h2></p>
+                @endif
                     </div>
                 </div>
+            </div>
                 {{-- @include('inc.footer') --}}
             </div>
         </div>

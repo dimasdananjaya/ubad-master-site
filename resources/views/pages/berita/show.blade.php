@@ -16,6 +16,7 @@
             </div>
         </div>
     
+        @if(Auth::check())
         <div class="col-md-4">
             <div class="well">
                 <h1>Options</h1>
@@ -28,6 +29,9 @@
                 </form>
             </div>
         </div>
+        @else
+
+        @endif
  
     </div>
     {{-- @include('inc.footer') --}}

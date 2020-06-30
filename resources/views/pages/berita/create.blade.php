@@ -33,10 +33,18 @@
 
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
-        </div>
-    </div>
+        </div><!--col md8-->
+    </div><!--row-->
+</div><!-- container-->
 
-</div>
-
-
+<script>
+    ClassicEditor
+            .create( document.querySelector( '#editor' ) )
+            .then( editor => {
+                    console.log( editor );
+            } )
+            .catch( error => {
+                    console.error( error );
+            } );
+</script>
 @endsection
