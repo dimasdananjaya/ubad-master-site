@@ -128,7 +128,7 @@ nav .navbar-nav li a {
 .masthead {
     width: 100%;
     height: 30vw;
-    background-image: url("/resources/logo/hero.jpg");
+    background-image: url("/resources/logo/hero.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -163,7 +163,7 @@ header p {
 
 #prodi .card-img-top {
     width: 9em;
-    height: 7em;
+    height: 10em;
     padding-top: 1em;
     display: block;
     margin-left: auto;
@@ -1078,7 +1078,6 @@ text-align: center;
 #daftar-pendaftar .card{
     padding: 2em 2em 2em 2em;
     box-shadow: 5px 5px 0px 0px #b3d9ff;
-    margin-top: 1em;
 }
 /****************end daftar-pendaftar*************/
 
