@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.admin-layout')
 
 @section('content')
     <section id="daftar-pendaftar">
@@ -87,23 +87,19 @@
 
     <script type="text/javascript">
         $(document).ready(function() {
-            var t = $('#tabel-pendaftar').DataTable( {
-                "columnDefs": [ {
-                    "searchable": false,
-                    "orderable": false,
-                    "targets": 0
-                } ],
-                "order": [[ 1, 'asc' ]],
-                "language": {
-                "url": "//cdn.datatables.net/plug-ins/1.10.19/i18n/Indonesian.json"
-            }
+            var table = $('#tabel-pendaftar').DataTable( {
+                lengthChange: false,
+                buttons: [ 'copy', 'excel', 'pdf', 'colvis' ]
             } );
         
-            t.on( 'order.dt search.dt', function () {
-                t.column(0, {search:'applied', order:'applied'}).nodes().each( function (cell, i) {
+            table.buttons().container()
+                .appendTo( '#tabel-pendaftar_wrapper .col-md-6:eq(0)' );
+
+            table.on( 'order.dt search.dt', function () {
+                table.column(0, {search:'applied', order:'applied'}).nodes().each( function (cell, i) {
                     cell.innerHTML = i+1;
                 } );
-            } ).draw();        
+            } ).draw();
         } );
     </script>
 @endsection

@@ -53,7 +53,7 @@ class PendaftaranController extends Controller
         $simpan->status='diproses';
         
         $simpan->save();
-        alert()->success('Data Tersimpan !', '');
+        alert()->success('Data Pendaftaran Tersimpan !', '');
         return view('pages.pendaftaran.validated');
     }
 

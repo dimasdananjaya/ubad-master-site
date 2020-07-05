@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="card">
-                        <img class="card-img-top mx-auto" src="/resources/logo/partner.png" alt="Card image cap">
+                        <img class="card-img-top mx-auto" src="/resources/logo/daftar-pendaftar.svg" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Daftar Pendaftar</h5>
                           <p class="card-text">Kelola Data Pendaftaran Calon Mahasiswa</p>
@@ -17,7 +17,7 @@
         
                     <div class="col-lg-6">
                         <div class="card">
-                            <img class="card-img-top mx-auto" src="/resources/logo/periode.png" alt="Card image cap">
+                            <img class="card-img-top mx-auto" src="/resources/logo/periode.svg" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title">Periode</h5>
                               <p class="card-text">Kelola Periode Pendaftaran</p>
@@ -27,7 +27,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="card">
-                            <img class="card-img-top mx-auto" src="/resources/logo/blog.png" alt="Card image cap">
+                            <img class="card-img-top mx-auto" src="/resources/logo/blog.svg" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title">Blog</h5>
                               <p class="card-text">Kelola Blog/Berita Website Ubad</p>
@@ -38,7 +38,7 @@
 
                     <div class="col-lg-6">
                         <div class="card">
-                            <img class="card-img-top mx-auto" src="/resources/logo/qa.svg" alt="Card image cap">
+                            <img class="card-img-top mx-auto" src="/resources/logo/qa-admin.svg" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title">FAQ</h5>
                               <p class="card-text">Kelola FAQ </p>

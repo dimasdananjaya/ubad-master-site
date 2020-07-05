@@ -331,7 +331,7 @@
         
     </div>
     <div class="col-lg-12">
-        <a href={{route('blogs.index')}} style="color:#fff; background-color:#6886c5; text-align:center !important;" class="btn mx-auto text-center">Lihat Semua Berita</a>
+        <a href={{route('blogs.index')}} style="color:#fff; width:12em;" class="btn d-block mx-auto text-center btn-success mt-2">Lihat Semua Berita</a>
     </div>
   </div><!--aos-->
 </article>

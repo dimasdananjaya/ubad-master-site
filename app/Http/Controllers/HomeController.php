@@ -27,7 +27,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $posts = Blogs::all();
+        $posts = Blogs::latest()->limit(5)->get();
         $dataFAQ=FAQModel::all();
         return view('index')
         ->with('posts', $posts)
