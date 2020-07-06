@@ -148,8 +148,8 @@
         <div class="row">
             <div data-aos="fade-right" class="col-lg-4">
                 <div class="card">
-                    <h4 data-aos="fade-left" class="text-center"><b>Kelas Perkuliahan Yang Cocok Dengan Jadwalmu</b></h4>
-                    <img class="img-fluid" src="/resources/logo/why-kelas.png">
+                    <h4 data-aos="fade-left" class="text-center"><b>Kelas Perkuliahan Yang Pas Dengan Jadwalmu</b></h4>
+                    <img class="img-fluid" src="/resources/logo/why-kelas.svg">
                     <p data-aos="fade-right" class="why-kelas">Ingin kuliah penuh dari pagi sampai sore atau kuliah part
                         time sambil kerja? Jangan
                         khawatir kamu
@@ -162,7 +162,7 @@
             <div data-aos="fade-left" class="col-lg-4">
                 <div class="card">
                     <h4 class="text-center" data-aos="fade-left"><b>Dosen Dan Tenaga Kependidikan Handal</b></h4>
-                    <img class="img-fluid" src="/resources/logo/why-dosen.png">
+                    <img class="img-fluid" src="/resources/logo/why-dosen.svg">
                     <p data-aos="fade-left" class="why-dosen">Dosen di Universitas Bali Dwipa merupakan dosen-dosen yang
                         ahli dibidangnya dengan gelar Magister, Doktor, Professor, hingga Philosophy Doctor (Ph.D) tamatan
                         perguruan Tinggi Negeri, Swasta dan Luar Negeri serta merupakan praktisi dibidangnya masing-masing.
@@ -173,7 +173,7 @@
             <div data-aos="fade-right" class="col-lg-4">
                 <div class="card">
                     <h4 class="text-center"><b>Biaya Perkuliahan Yang Terjangkau</b></h4>
-                    <img class="img-fluid" src="/resources/logo/why-keuangan.png">
+                    <img class="img-fluid" src="/resources/logo/why-keuangan.svg">
                     <p data-aos="fade-right" class="why-kelas">Ingin kuliah tapi bermasalah dengan keuangan? Jangan khawatir
                         di Universitas Bali Dwipa biaya perkuliahan dapat dicicil tiap semesternya<p>
                 </div>

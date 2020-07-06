@@ -229,11 +229,11 @@ header p {
 }
 
 #why img {
-    width: 15em;
-    height: 12em;
+    width: 20em;
+    height: 18em;
     display: block;
     margin: 0 auto;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 #why .why-kelas {
