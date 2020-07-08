@@ -10,6 +10,8 @@
             <form action="{{route('blogs.update', $post->id)}}" method="POST" enctype="multipart/form-data">
                 {{ csrf_field() }}
                 <input type="hidden" name="_method" value="PUT">
+                <input type="hidden" name="user_id" value="{{Auth::user()->user_id}}">
+                <input type="hidden" name="cover_image" value="{{$post->cover_image}}">
                 <div class="form-group">
                     <label for="title">Post title</label>
                     <input type="title" class="form-control" name="title" id="title" value="{!! $post->title !!}"

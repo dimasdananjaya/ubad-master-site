@@ -14,6 +14,7 @@
 
             <form action="{{route('blogs.store')}}" method="POST" enctype="multipart/form-data">
                 {{ csrf_field() }}
+                <input type="hidden" name="user_id" value="{{Auth::user()->user_id}}">
                 <div class="form-group">
                     <label for="title">Post title</label>
                     <input type="title" class="form-control" name="title" id="title"

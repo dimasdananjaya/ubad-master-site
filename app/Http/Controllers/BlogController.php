@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Blogs;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
+use Validator;
+use Alert;
 
 class BlogController extends Controller
 {
@@ -53,14 +55,19 @@ class BlogController extends Controller
             'cover_image' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
 
+        $post = new Blogs;
+
         if ($request->hasFile('cover_image')) {
-            $image = $request->file('cover_image');
-            $name = time() . '.' . $image->getClientOriginalExtension();
-            $destinationPath = public_path('public/images/cover_image/');
-            $image->move($destinationPath, $name);
+            $file = $request->file('cover_image');
+            $name = time() . '.' . $file->getClientOriginalExtension();
+            //$destinationPath = public_path('/resources/file');
+            $path = $request->file('cover_image')->storeAs(
+                'public/blog_cover_image', $name
+            );
+            //$file->move($destinationPath, $name);
 
             // Create Post
-            $post = new Blogs;
+
             $post->title = $request->input('title');
             $post->body = $request->input('body');
             $post->user_id = auth()->user()->id;
@@ -96,7 +103,6 @@ class BlogController extends Controller
     public function edit($id)
     {
         $post = Blogs::find($id);
-        // check of correct user
 
         return view('pages.berita.edit')->with('post', $post);
     }
@@ -110,27 +116,50 @@ class BlogController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $this->validate($request, [
+        $post=Blogs::find($id);
+
+        $validator = Validator::make($request->all(), [
             'title' => 'required',
             'body' => 'required',
-            'cover_image' => 'required',
+            'cover_image' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
 
-        if ($request->hasFile('cover_image')) {
-            $image = $request->file('cover_image');
-            $name = time() . '.' . $image->getClientOriginalExtension();
-            $destinationPath = public_path('public/images/cover_image/');
-            $image->move($destinationPath, $name);
+        if ($validator->fails()) {
+            alert()->error('Pembuatan Blog Gagal !', 'Isi Formulir Dengan Benar');
+            return back();
+        }
 
-            // Create Post
-            $post = Blogs::find($id);
+        elseif($request->hasFile('cover_image')){
+
+            $delete = $request->input('cover_image'); //cari nama file
+            Storage::delete('public/blog_cover_image/'.$delete); //hapus file
+
+            $file = $request->file('cover_image');
+            $name = time() . '.' . $file->getClientOriginalExtension();
+            //$destinationPath = public_path('/resources/file');
+            $path = $request->file('cover_image')->storeAs(
+                'public/blog_cover_image', $name
+            );
+            //$file->move($destinationPath, $name);
+
+            $post->cover_image = $name;
             $post->title = $request->input('title');
             $post->body = $request->input('body');
-            $post->user_id = auth()->user()->id;
-            $post->cover_image = $name;
-            $post->save();
+            $post->user_id = $request->input('user_id');
 
-            return redirect('/blogs')->with('success', 'Post created successfully');
+            $post->save();
+            alert()->success('Blog Diupdate !', '');
+            return back();
+        }
+
+        else{
+            $data->title = $request->input('title');
+            $data->body = $request->input('body');
+            $data->user_id = $request->input('user_id');
+            
+            $data->save();
+            alert()->success('Blog Diupdate !', '');
+            return back();
         }
     }
 
@@ -140,11 +169,12 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($id,Request $request)
     {
         $post = Blogs::find($id);
         // check of correct user
-
+        $delete = $post->cover_image; //cari nama file
+        Storage::delete('public/blog_cover_image/'.$delete); //hapus file
         $post->delete();
         return redirect('/blogs')->with('success', 'Post deleted successfully');
     }
