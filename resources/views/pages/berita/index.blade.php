@@ -17,7 +17,7 @@
                     <div class="col-md-8 col-sm-8 col-lg-8">
                         <div class="container">
                             <h3><a href="{{route('blogs.show', $post->id)}}">{{ $post->title }}</a></h3>
-                            <p class="blog-post-meta">Posted at : {{ $post->created_at }} | by : {{ $post->user->name}}
+                            <p class="blog-post-meta">Posted at : {{ $post->created_at }}
                             </p>
                             <p>{!!$post->body!!} 
                                 <a class="btn btn-primary" href="{{route('blogs.show', $post->id)}}">Read more</a> 

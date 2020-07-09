@@ -319,7 +319,7 @@
     <div class="carousel-berita">
         @foreach ($posts as $p)
         <div class="card">
-        <img class="card-img-top" src="{{ asset('storage/blog_cover_image/'.$p->cover_image) }}" alt="{{$p->cover_image}}">
+            <img class="card-img-top" src="{{ asset('storage/blog_cover_image/'.$p->cover_image) }}" alt="{{$p->cover_image}}">
             <div class="card-body">
                 <h5 class="card-title"><a href="{{route('blogs.show', $p->id)}}">{{ $p->title }}</a></h5>
                 <!--<p>{{$p->body}}</p>-->

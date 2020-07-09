@@ -45,3 +45,7 @@ Route::get('/status-pendaftaran', 'RouteController@statusPendaftaranPage')->name
 Route::resource('blogs', 'BlogController');
 Route::resource('pendaftaran', 'PendaftaranController');
 Route::resource('faq', 'FAQController');
+
+Route::get('/linkstorage', function () {
+    Artisan::call('storage:link');
+});
