@@ -327,14 +327,12 @@
             </div>
         </div>
         @endforeach
-        
     </div>
     <div class="col-lg-12">
+        <p class="text-center" style="color: #fff;"><small>swipe to see more</small></p>
         <a href={{route('blogs.index')}} style="color:#fff; width:12em;" class="btn d-block mx-auto text-center btn-success mt-2">Lihat Semua Berita</a>
     </div>
   </div><!--aos-->
 </article>
-
-
 
 @endsection
