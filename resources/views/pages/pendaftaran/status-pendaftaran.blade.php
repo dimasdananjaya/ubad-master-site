@@ -30,7 +30,7 @@
                             @if($dp->status=='diproses')
                             <td>Diproses</td>
                             @elseif($dp->status=='diterima')
-                            <td>Diterima</td>
+                            <td>Formulir Diterima</td>
                             @elseif($dp->status=='penyerahan-persyaratan')
                             <td>Penyerahan Persyaratan</td>
                             @elseif($dp->status=='pembayaran1')
@@ -80,11 +80,11 @@
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-head">
-                    <img class="qa-icon" src="/resources/logo/qa.svg"><p class="qa-question"><b>Diterima</b></p>
+                    <img class="qa-icon" src="/resources/logo/qa.svg"><p class="qa-question"><b>Formulir Diterima</b></p>
                     </div>
                     <div class="card-body">
                         <p>
-                            Jika status pendaftaran adalah <b>'Diterima'</b> maka data formulir pendaftaran website telah diterima, lanjut ke tahap
+                            Jika status pendaftaran adalah <b>'Formulir Diterima'</b> maka data formulir pendaftaran website telah diterima, lanjut ke tahap
                             <b>Penyerahan Persyaratan</b>
                         <p>
                     </div><!--card-body-->

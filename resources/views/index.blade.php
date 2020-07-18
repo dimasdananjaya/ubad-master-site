@@ -150,12 +150,14 @@
                 <div class="card">
                     <h4 data-aos="fade-left" class="text-center"><b>Kelas Perkuliahan Yang Pas Dengan Jadwalmu</b></h4>
                     <img class="img-fluid" src="/resources/logo/why-kelas.svg">
-                    <p data-aos="fade-right" class="why-kelas">Ingin kuliah penuh dari pagi sampai sore atau kuliah part
-                        time sambil kerja? Jangan
-                        khawatir kamu
-                        dapat memilih Kelas Reguler atau Kelas Karyawan Universitas Bali Dwipa, Kelas Reguler cocok untuk
-                        kamu yang ingin menghabiskan waktu penuh untuk belajar di kampus dan Kelas Karyawan cocok untuk kamu
-                        yang sedang mencari penghasilan tapi ingin melanjutkan kuliah<p>
+                    <div class="card-body">
+                        <p data-aos="fade-right" class="why-kelas">Ingin kuliah penuh dari pagi sampai sore atau kuliah part
+                            time sambil kerja? Jangan
+                            khawatir kamu
+                            dapat memilih Kelas Reguler atau Kelas Karyawan Universitas Bali Dwipa, Kelas Reguler cocok untuk
+                            kamu yang ingin menghabiskan waktu penuh untuk belajar di kampus dan Kelas Karyawan cocok untuk kamu
+                            yang sedang mencari penghasilan tapi ingin melanjutkan kuliah<p>
+                    </div>
                 </div>
             </div>
 
@@ -163,10 +165,12 @@
                 <div class="card">
                     <h4 class="text-center" data-aos="fade-left"><b>Dosen Dan Tenaga Kependidikan Handal</b></h4>
                     <img class="img-fluid" src="/resources/logo/why-dosen.svg">
-                    <p data-aos="fade-left" class="why-dosen">Dosen di Universitas Bali Dwipa merupakan dosen-dosen yang
-                        ahli dibidangnya dengan gelar Magister, Doktor, Professor, hingga Philosophy Doctor (Ph.D) tamatan
-                        perguruan Tinggi Negeri, Swasta dan Luar Negeri serta merupakan praktisi dibidangnya masing-masing.
-                    <p>
+                    <div class="card-body">
+                        <p data-aos="fade-left" class="why-dosen">Dosen di Universitas Bali Dwipa merupakan dosen-dosen yang
+                            ahli dibidangnya dengan gelar Magister, Doktor, Professor, hingga Philosophy Doctor (Ph.D) tamatan
+                            perguruan Tinggi Negeri, Swasta dan Luar Negeri serta merupakan praktisi dibidangnya masing-masing.
+                        <p>
+                    </div>
                 </div>
             </div>
 
@@ -174,8 +178,10 @@
                 <div class="card">
                     <h4 class="text-center"><b>Biaya Perkuliahan Yang Terjangkau</b></h4>
                     <img class="img-fluid" src="/resources/logo/why-keuangan.svg">
-                    <p data-aos="fade-right" class="why-kelas">Ingin kuliah tapi bermasalah dengan keuangan? Jangan khawatir
-                        di Universitas Bali Dwipa biaya perkuliahan dapat dicicil tiap semesternya<p>
+                    <div class="card-body">
+                        <p data-aos="fade-right" class="why-kelas">Ingin kuliah tapi bermasalah dengan keuangan? Jangan khawatir
+                            di Universitas Bali Dwipa biaya perkuliahan dapat dicicil tiap semesternya<p>
+                    </div>
                 </div>
             </div>
 
