@@ -51,6 +51,7 @@ class PendaftaranController extends Controller
         $simpan->kelas=$request->input('kelas');
         $simpan->referral=$request->input('referral');
         $simpan->status='diproses';
+        $simpan->jalur='JBT';
         
         $simpan->save();
         alert()->success('Data Pendaftaran Tersimpan !', '');

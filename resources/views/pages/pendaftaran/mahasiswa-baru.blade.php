@@ -10,7 +10,7 @@
             10 Program Studi pilihan tersedia untukmu. <br>Ikuti tata cara pendaftaran dibawah untuk melakukan pendaftaran
         <p>
 
-        <img class="mx-auto d-block" src="/resources/logo/mahasiswa-baru.svg">
+        <img class="mx-auto d-block hero-image" src="/resources/logo/mahasiswa-baru.svg">
     </div>
     <div class="container">
         <!-- Full Page Image Header with Vertically Centered Content -->
@@ -18,6 +18,7 @@
             <div class="col-lg-12">
                 <h3 class="text-center mt-2"><b>Alur Pendaftaran</b></h3>
                 <hr>
+                <img class="img-responsive" src="/resources/logo/alur-pendaftaran.svg" alt="Card image cap">
             </div><!--col 12-->
 
             <div class="col-lg-6">
