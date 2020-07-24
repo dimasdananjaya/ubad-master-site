@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <img src="/resources/logo/group.png" />
+                <img src="/resources/logo/humas.svg" />
             </div>
             <div class="col-lg-8">
                 <h1>Program Studi Hubungan Masyarakat</h1>

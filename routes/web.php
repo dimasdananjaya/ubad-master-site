@@ -32,6 +32,7 @@ Route::get('/visi-misi', 'RouteController@visiMisiPage')->name('visi-misi');
 Route::get('/mahasiswa-baru', 'RouteController@mahasiswaBaruPage')->name('mahasiswa-baru');
 Route::get('/seleksi-online', 'RouteController@seleksiOnlinePage')->name('seleksi-online');
 Route::get('/staff', 'RouteController@staffPage')->name('staff');
+Route::get('/biaya-perkuliahan', 'RouteController@biayaPerkuliahanPage')->name('biaya-perkuliahan');
 
 Route::get('/admin-page', 'Admin@adminPage')->name('admin-page');
 Route::get('/daftar-pendaftar', 'Admin@daftarPendaftar')->name('daftar-pendaftar');

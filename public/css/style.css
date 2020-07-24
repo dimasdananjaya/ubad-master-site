@@ -162,8 +162,8 @@ header p {
 }
 
 #prodi .card-img-top {
-    width: 9em;
-    height: 10em;
+    width: 15em;
+    height: 14em;
     padding-top: 1em;
     display: block;
     margin-left: auto;
@@ -614,9 +614,9 @@ footer {
 
 }
 
-#prodi-content .col-lg-4 img {
-    width: 16em;
-    height: 18em;
+#prodi-content img {
+    width: 22em;
+    height: 21em;
     display: block;
     margin: 0 auto;
 }

@@ -24,7 +24,7 @@
         <!--AOS-->
         <div data-aos="fade-down" class="carousel">
             <div class="card" style="width: 18rem;">
-                <img src="/resources/logo/chlorophyll.png" class="card-img-top" alt="..." />
+                <img src="/resources/logo/pangan.svg" class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">Teknologi Pangan</h5>
                     <p class="card-text">
@@ -36,7 +36,7 @@
             </div>
 
             <div class="card" style="width: 18rem;">
-                <img src="/resources/logo/dna.png" class="card-img-top" alt="..." />
+                <img src="/resources/logo/biomedis.svg" class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">Teknik Biomedis</h5>
                     <p class="card-text">
@@ -47,7 +47,7 @@
             </div>
 
             <div class="card" style="width: 18rem;">
-                <img src="/resources/logo/brain.png" class="card-img-top" alt="..." />
+                <img src="/resources/logo/psikologi.svg" class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">Psikologi</h5>
                     <p class="card-text">
@@ -58,7 +58,7 @@
             </div>
 
             <div class="card" style="width: 18rem;">
-                <img src="/resources/logo/lunch.png" class="card-img-top" alt="..." />
+                <img src="/resources/logo/gizi.svg" class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">Gizi</h5>
                     <p class="card-text">
@@ -69,7 +69,7 @@
             </div>
 
             <div class="card" style="width: 18rem;">
-                <img src="/resources/logo/pills.png" class="card-img-top" alt="..." />
+                <img src="/resources/logo/farmasi.svg" class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">Farmasi</h5>
                     <p class="card-text">
@@ -80,7 +80,7 @@
             </div>
 
             <div class="card" style="width: 18rem;">
-                <img src="/resources/logo/accounting.png" class="card-img-top" alt="..." />
+                <img src="/resources/logo/akuntansi.svg" class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">Akuntansi</h5>
                     <p class="card-text">
@@ -91,7 +91,7 @@
             </div>
 
             <div class="card" style="width: 18rem;">
-                <img src="/resources/logo/group.png" class="card-img-top" alt="..." />
+                <img src="/resources/logo/humas.svg" class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">Hubungan Masyarakat</h5>
                     <p class="card-text">
@@ -102,7 +102,7 @@
             </div>
 
             <div class="card" style="width: 18rem;">
-                <img src="/resources/logo/books.png" class="card-img-top" alt="..." />
+                <img src="/resources/logo/bahasa-inggris.svg" class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">Bahasa Inggris</h5>
                     <p class="card-text">
@@ -113,7 +113,7 @@
             </div>
 
             <div class="card" style="width: 18rem;">
-                <img src="/resources/logo/defendant.png" class="card-img-top" alt="..." />
+                <img src="/resources/logo/hukum.svg" class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">Hukum</h5>
                     <p class="card-text">
@@ -124,7 +124,7 @@
             </div>
 
             <div class="card" style="width: 18rem;">
-                <img src="/resources/logo/programming.png" class="card-img-top" alt="..." />
+                <img src="/resources/logo/sistem-informasi.svg" class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">Sistem Informasi</h5>
                     <p class="card-text">

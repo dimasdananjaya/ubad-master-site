@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <img src="/resources/logo/books.png" />
+                <img src="/resources/logo/bahasa-inggris.svg" />
             </div>
             <div class="col-lg-8">
                 <h1>Program Studi Bahasa Inggris</h1>

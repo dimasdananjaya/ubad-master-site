@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <img src="/resources/logo/dna.png" />
+                <img src="/resources/logo/biomedis.svg" />
             </div>
             <div class="col-lg-8">
                 <h1>Program Studi Teknik Biomedis</h1>

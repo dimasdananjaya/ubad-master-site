@@ -94,4 +94,8 @@ class RouteController extends Controller
     public function staffPage(){
         return view('pages.profil.staff');
     }
+
+    public function biayaPerkuliahanPage(){
+        return view('pages.pendaftaran.biaya-pendaftaran');
+    }
 }

@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <img src="/resources/logo/brain.png" />
+                <img src="/resources/logo/psikologi.svg" />
             </div>
             <div class="col-lg-8">
                 <h1>Program Studi Psikologi</h1>
