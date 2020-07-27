@@ -31,7 +31,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/style.css?ver=1') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css" rel="stylesheet">
 
@@ -140,7 +140,7 @@
                         </ul>
                     </li>
                     <li class="nav-item"><a href="https://siakad.balidwipa.ac.id/" class="nav-link">SIAKAD</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">E-Library</a></li>
+                    <li class="nav-item"><a href="https://elibrary.balidwipa.ac.id/" class="nav-link">E-Library</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right ml-auto">
                     <li class="nav-item">

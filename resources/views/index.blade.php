@@ -135,7 +135,7 @@
             </div>
         </div>
         <!--end carousel-->
-        <p data-aos="fade-left" style="color:#fff;" class="text-center">Geser Kartu Untuk Lihat Selanjutnya</p>
+        <p style="color:#fff;" class="text-center">Geser Kartu Untuk Lihat Selanjutnya</p>
     </div>
     <!--end container-->
 </section>
