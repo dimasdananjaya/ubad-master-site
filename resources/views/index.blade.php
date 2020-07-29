@@ -198,14 +198,14 @@
 </div>
 
 <!--Fasilitas-->
-<section class="fdb-block" id="fasilitas">
+<section id="fasilitas">
   <div class="container">
     <div class="row justify-content-center">
         <div class="col-12 text-center">
             <h2>Fasilitas Perkuliahan</h2>
         </div>
         <div class="col-8">
-            <img alt="image" src="/resources/logo/fitur2.svg">
+            <img alt="image" src="/resources/logo/facility.svg">
         </div>
 
         <div class="col-md-4">
@@ -246,7 +246,36 @@
     </div><!--row-->
   </div><!--container-->
 </section>
-<!--end fitur-->
+<!--end fasilitas-->
+
+<!--maps-->
+<section id="maps">
+<hr>
+  <div class="container">
+    <div class="row text-center justify-content-center">
+      <div class="col-12 col-md-8 col-lg-7">
+        <h3 class="mt-2"><b>Lokasi Kampus Di Pusat Kota Denpasar, Bali</b></h3>
+        <p class="lead">Temukan Lokasi Kampus Kami di Google Maps</p>
+        <hr>
+      </div>
+    </div>
+    <div class="row-70"></div>
+    <div class="row">
+      <div class="col-12 col-md-8 col-lg m-auto">
+        <img src="/resources/logo/maps.svg" class="mx-auto d-block">
+      </div>
+      <div class="col-12 col-md-8 col-lg pt-5 m-auto pt-lg-0">
+        <iframe class="mb-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41638.02696696796!2d115.2035
+        0808024739!3d-8.6472130286007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2409e274f3ab9%3A0x4192f0bddc5b5374!2sBali%20Dwipa%20University!5e0!3m2!1sen!2sid!4v1595523072696!5m2!1sen!2sid"
+          width="100%" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+
+        <p><strong>Alamat : </strong> Jalan Pulau Flores No.5 Denpasar, Bali 80114</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--maps-->
+
 <!--Pendaftaran-->
 <section id="pendaftaran">
     <div class="container h-100">
@@ -274,7 +303,7 @@
 
 <!--QA-->
 <section id="qa">
-    <div class="container h-100">
+    <div class="container">
         <div class="col-lg-12">
             <h2 class="faq-title">Frequently Asked Question</h2>
         </div>
@@ -336,7 +365,7 @@
     </div>
     <div class="col-lg-12">
         <p class="text-center" style="color: #fff;"><small>swipe to see more</small></p>
-        <a href={{route('blogs.index')}} style="color:#fff; width:12em;" class="btn d-block mx-auto text-center btn-success mt-2">Lihat Semua Berita</a>
+        <a href={{route('blogs.index')}} style="color:#fff; width:12em;" class="btn d-block mx-auto text-center btn-success mt-2 pb-2">Lihat Semua Berita</a>
     </div>
   </div><!--aos-->
 </article>
