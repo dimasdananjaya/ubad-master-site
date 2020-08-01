@@ -2,8 +2,11 @@
 
 @section('content')
 <section id="staff" class="pb-5">
-    <div class="container">
-        <h1 class="text-center">Dosen Universitas Bali Dwipa</h1>
+    <div class="col-lg-12 header pb-4 pt-3">
+        <h1><b>Dosen Universitas Bali Dwipa</b></h1>
+        <p>Tenaga Dosen Professional dan Handal Untuk Mendukungmu Hingga Gelar Sarjana</p>
+    </div>
+    <div class="container-staff">
         <div class="row">
             <!-- Team member -->
                 <div class="card-deck">
@@ -159,8 +162,8 @@
                 </div><!--card deck-->
             <!-- ./Team member -->      
         </div><!--row-->
-        <h1 class="text-center" style="margin-top: 30px;">Dan Lebih Dari 20+ Dosen Lainnya </h1>
-        <p class="text-center" style="color: #fff;"><small>Halaman Ini Akan Diperbarui Untuk <br> Menampilkan Seluruh Dosen</small></p>
+        <h1 class="text-center" style="margin-top: 30px; color:#0e9aa7  !important;">Dan Lebih Dari 20+ Dosen Lainnya </h1>
+        <p class="text-center" style="color: #0e9aa7;"><small>Halaman Ini Akan Diperbarui Untuk <br> Menampilkan Seluruh Dosen</small></p>
 </section>
 
 @endsection

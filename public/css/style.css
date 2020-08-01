@@ -838,8 +838,14 @@ footer {
 
 /****************************************** Staff ***********************/
 
-#staff {
-    background:#40bad5;
+#staff .header{
+    text-align: center;
+    color: #fff;
+    background-color: #0e9aa7;
+}
+
+#staff .container-staff{
+    padding: 2em 2em 2em 2em;
 }
 
 #staff .small-center{
@@ -848,10 +854,9 @@ footer {
 }
 
 #staff .card{
-    box-shadow: 5px 5px 0px 0px #00909e;
-    border-radius: 40px;
     margin: 15px 15px 15px 15px;
     background-color: #ffffff;
+    box-shadow: 1px 1px 1px 1px rgba(6, 146, 240, 0.637);
 }
 
 #staff h1{
@@ -892,22 +897,16 @@ footer {
 }
 
 #staff .s1{
-    background-color: #4cbbb9;
-    color: #fff;
     margin-bottom: 5px;
     border-radius: 10px;
 }
 
 #staff .s2{
-    background-color: #00909e;
-    color: #fff;
     margin-bottom: 5px;
     border-radius: 10px;
 }
 
 #staff .s3{
-    background-color: #0779e4;
-    color: #fff;
     margin-bottom: 5px;
     border-radius: 10px;
 }
@@ -917,6 +916,8 @@ footer {
     width: 10rem;
     color: #ffffff;
 }
+
+
 
 /*****************************************************************/
 
@@ -1046,6 +1047,21 @@ text-align: center;
 
 
 /**** status-pendaftaran ****/
+
+/**** biaya-perkuliahan ****/
+#biaya-perkuliahan{
+    background-color: rgba(6, 146, 240, 0.637);
+}
+
+#biaya-perkuliahan .white-text{
+    color: #fff;
+}
+
+#biaya-perkuliahan img{
+    width: 14em;
+    height: 15em;
+}
+/**** end biaya-perkuliahan ****/
 
 
 /****************************************** admin area *****************************/

@@ -138,6 +138,9 @@
                             <li>
                                 <a href="{{URL::route('status-pendaftaran')}}" class="dropdown-item">Cek Status Pendaftaran</a>
                             </li>
+                            <li>
+                                <a href="{{URL::route('biaya-perkuliahan')}}" class="dropdown-item">Biaya Perkuliahan</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item"><a href="https://siakad.balidwipa.ac.id/" class="nav-link">SIAKAD</a></li>

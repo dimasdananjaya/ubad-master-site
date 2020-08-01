@@ -137,6 +137,9 @@
                             <li>
                                 <a href="{{URL::route('status-pendaftaran')}}" class="dropdown-item">Cek Status Pendaftaran</a>
                             </li>
+                            <li>
+                                <a href="{{URL::route('biaya-perkuliahan')}}" class="dropdown-item">Biaya Perkuliahan</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item"><a href="https://siakad.balidwipa.ac.id/" class="nav-link">SIAKAD</a></li>
@@ -306,12 +309,12 @@
             });
 
             $(".carousel-biaya").slick({
+            arrows: true,
+            infinite: true,
+            speed: 150,
             dots: true,
-            arrows:true,
-            infinite: false,
-            speed: 300,
             autoplay: true,
-            autoplaySpeed: 3000,
+            autoplaySpeed: 5000,
             slidesToShow: 3,
             slidesToScroll: 3,
             responsive: [{
@@ -319,20 +322,22 @@
                 settings: {
                 slidesToShow: 3,
                 slidesToScroll: 3,
-                infinite: false,
-                dots: false
+                infinite: true,
+                arrows: true
                 }
             }, {
                 breakpoint: 600,
                 settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToScroll: 2,
+                arrows: true
                 }
             }, {
                 breakpoint: 480,
                 settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                arrows: true
                 }
             } // You can unslick at a given breakpoint now by adding:
             // settings: "unslick"

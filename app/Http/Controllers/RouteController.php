@@ -96,6 +96,6 @@ class RouteController extends Controller
     }
 
     public function biayaPerkuliahanPage(){
-        return view('pages.pendaftaran.biaya-pendaftaran');
+        return view('pages.pendaftaran.biaya-perkuliahan');
     }
 }
