@@ -22,10 +22,13 @@
               <li>PKKMB : <br> Rp. 500.000 *</li>
               <li>Jas Almamater : <br> Rp. 500.000 *</li>
               <li>Per-Semester + (20 sks) : <br>Rp. 6.000.000</li>
+              <li>Biaya SKS Per-Semester : <br>Rp. 100.000 **</li>
               <li> <small>*) dibayar hanya pada semester 1</small></li>
+              <li> <small>**) dibayar sesuai jumlah sks yang diambil per-semester</small></li>
             </ul>
             <p class="text-center">Total Biaya Semester 1 : <br><b> Rp 9.500.000 </b></p>
             <p class="text-center">Total Biaya Semester 2-8 (20 sks) : <br><b> Rp 6.000.000 </b></p>
+
             <a class="btn btn-primary d-block mx-auto" href="{{URL::route('mahasiswa-baru')}}">Daftar Mahasiswa Baru</a>
           </div><!--card body-->
         </div><!--card-->
@@ -40,7 +43,9 @@
               <li>PKKMB : <br> Rp. 500.000 *</li>
               <li>Jas Almamater : <br> Rp. 500.000 *</li>
               <li>Per-Semester + (20 sks) : <br>Rp. 6.000.000</li>
+              <li>Harga Per-SKS : <br>Rp. 100.000 **</li>
               <li> <small>*) dibayar hanya pada semester 1</small></li>
+              <li> <small>**) dibayar sesuai jumlah sks yang diambil per-semester</small></li>
             </ul>
             <p class="text-center">Total Biaya Semester 1 : <br><b> Rp 9.500.000 </b></p>
             <p class="text-center">Total Biaya Semester 2-8 (20 sks) : <br><b> Rp 6.000.000 </b></p>
@@ -58,7 +63,9 @@
               <li>PKKMB : <br> Rp. 500.000 *</li>
               <li>Jas Almamater : <br> Rp. 500.000 *</li>
               <li>Per-Semester + (20 sks) : <br>Rp. 5.000.000</li>
+              <li>Harga Per-SKS : <br>Rp. 100.000 **</li>
               <li> <small>*) dibayar hanya pada semester 1</small></li>
+              <li> <small>**) dibayar sesuai jumlah sks yang diambil per-semester</small></li>
             </ul>
             <p class="text-center">Total Biaya Semester 1 : <br><b> Rp 8.500.000 </b></p>
             <p class="text-center">Total Biaya Semester 2-8 (20 sks) : <br><b> Rp 5.000.000 </b></p>
@@ -76,7 +83,9 @@
               <li>PKKMB : <br> Rp. 500.000 *</li>
               <li>Jas Almamater : <br> Rp. 500.000 *</li>
               <li>Per-Semester + (20 sks) : <br>Rp. 4.500.000</li>
+              <li>Harga Per-SKS : <br>Rp. 100.000 **</li>
               <li> <small>*) dibayar hanya pada semester 1</small></li>
+              <li> <small>**) dibayar sesuai jumlah sks yang diambil per-semester</small></li>
             </ul>
             <p class="text-center">Total Biaya Semester 1 : <br><b> Rp 8.000.000 </b></p>
             <p class="text-center">Total Biaya Semester 2-8 (20 sks) : <br><b> Rp 4.500.000 </b></p>
@@ -94,7 +103,9 @@
               <li>PKKMB : <br> Rp. 500.000 *</li>
               <li>Jas Almamater : <br> Rp. 500.000 *</li>
               <li>Per-Semester + (20 sks) : <br>Rp. 6.000.000</li>
+              <li>Harga Per-SKS : <br>Rp. 100.000 **</li>
               <li> <small>*) dibayar hanya pada semester 1</small></li>
+              <li> <small>**) dibayar sesuai jumlah sks yang diambil per-semester</small></li>
             </ul>
             <p class="text-center">Total Biaya Semester 1 : <br><b> Rp 9.500.000 </b></p>
             <p class="text-center">Total Biaya Semester 2-8 (20 sks) :<br><b> Rp 6.000.000 </b></p>
@@ -112,7 +123,9 @@
               <li>PKKMB : <br> Rp. 500.000 *</li>
               <li>Jas Almamater : <br> Rp. 500.000 *</li>
               <li>Per-Semester + (20 sks) : <br>Rp. 3.500.000</li>
+              <li>Harga Per-SKS : <br>Rp. 75.000 **</li>
               <li> <small>*) dibayar hanya pada semester 1</small></li>
+              <li> <small>**) dibayar sesuai jumlah sks yang diambil per-semester</small></li>
             </ul>
             <p class="text-center">Total Biaya Semester 1 : <br><b> Rp 7.000.000 </b></p>
             <p class="text-center">Total Biaya Semester 2-8 (20 sks) : <br><b> Rp 3.500.000 </b></p>
@@ -130,7 +143,9 @@
               <li>PKKMB : <br> Rp. 500.000 *</li>
               <li>Jas Almamater : <br> Rp. 500.000 *</li>
               <li>Per-Semester + (20 sks) : <br>Rp. 3.500.000</li>
+              <li>Biaya SKS Per-Semester : <br>Rp. 75.000 **</li>
               <li> <small>*) dibayar hanya pada semester 1</small></li>
+              <li> <small>**) dibayar sesuai jumlah sks yang diambil per-semester</small></li>
             </ul>
             <p class="text-center">Total Biaya Semester 1 : <br><b> Rp 7.000.000 </b></p>
             <p class="text-center">Total Biaya Semester 2-8 (20 sks) : <br><b> Rp 3.500.000 </b></p>
@@ -148,7 +163,9 @@
               <li>PKKMB : <br> Rp. 500.000 *</li>
               <li>Jas Almamater : <br> Rp. 500.000 *</li>
               <li>Per-Semester + (20 sks) : <br>Rp. 3.500.000</li>
+              <li>Biaya SKS Per-Semester : <br>Rp. 75.000 **</li>
               <li> <small>*) dibayar hanya pada semester 1</small></li>
+              <li> <small>**) dibayar sesuai jumlah sks yang diambil per-semester</small></li>
             </ul>
             <p class="text-center">Total Biaya Semester 1 : <br><b> Rp 7.000.000 </b></p>
             <p class="text-center">Total Biaya Semester 2-8 (20 sks) : <br><b> Rp 3.500.000 </b></p>
@@ -166,7 +183,9 @@
               <li>PKKMB : <br> Rp. 500.000 *</li>
               <li>Jas Almamater : <br> Rp. 500.000 *</li>
               <li>Per-Semester + (20 sks) : <br>Rp. 3.500.000</li>
+              <li>Biaya SKS Per-Semester : <br>Rp. 75.000 **</li>
               <li> <small>*) dibayar hanya pada semester 1</small></li>
+              <li> <small>**) dibayar sesuai jumlah sks yang diambil per-semester</small></li>
             </ul>
             <p class="text-center">Total Biaya Semester 1 : <br><b> Rp 7.000.000 </b></p>
             <p class="text-center">Total Biaya Semester 2-8 (20 sks) : <br><b> Rp 3.500.000 </b></p>
@@ -184,7 +203,9 @@
               <li>PKKMB : <br> Rp. 500.000 *</li>
               <li>Jas Almamater : <br> Rp. 500.000 *</li>
               <li>Per-Semester + (20 sks) : <br>Rp. 4.500.000</li>
+              <li>Biaya SKS Per-Semester : <br>Rp. 100.000 **</li>
               <li> <small>*) dibayar hanya pada semester 1</small></li>
+              <li> <small>**) dibayar sesuai jumlah sks yang diambil per-semester</small></li>
             </ul>
             <p class="text-center">Total Biaya Semester 1 : <br><b> Rp 8.000.000 </b></p>
             <p class="text-center">Total Biaya Semester 2-8 (20 sks) : <br><b> Rp 4.500.000 </b></p>
@@ -192,8 +213,8 @@
           </div><!--card body-->
         </div><!--card-->
       </div><!--card deck-->
+      <p class="text-center" style="color: #fff;"><small>geser untuk lihat yang lain</small></p>
     </div><!--carouse biaya-->
- 
 
   </div><!--container-->
 </section>
