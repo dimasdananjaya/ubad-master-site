@@ -93,7 +93,7 @@
             <div class="card" style="width: 18rem;">
                 <img src="/resources/logo/humas.svg" class="card-img-top" alt="..." />
                 <div class="card-body">
-                    <h5 class="card-title">Hubungan Masyarakat</h5>
+                    <h5 class="card-title">Humas</h5>
                     <p class="card-text">
                         Jenjang Pendidikan : S1
                     </p>

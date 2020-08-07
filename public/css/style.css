@@ -1061,6 +1061,10 @@ text-align: center;
     width: 14em;
     height: 15em;
 }
+
+#biaya-perkuliahan li{
+    margin-top: 1em;
+}
 /**** end biaya-perkuliahan ****/
 
 
