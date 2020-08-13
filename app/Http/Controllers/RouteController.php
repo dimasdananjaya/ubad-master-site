@@ -67,6 +67,7 @@ class RouteController extends Controller
         return view('pages/profil/visi-misi');
     }
 
+    #pendaftaran
     public function mahasiswaBaruPage()
     {
         return view('pages/pendaftaran/mahasiswa-baru');
@@ -88,6 +89,11 @@ class RouteController extends Controller
     public function statusPendaftaranPage(){
         $dataPendaftar=DB::table('pendaftaran')->orderBy('nama','asc')->get();
         return view('pages.pendaftaran.status-pendaftaran')->with('dataPendaftar',$dataPendaftar);
+    }
+
+    //Marketer Page
+    public function marketerPage(){
+        return view('pages.marketer.marketer-page');
     }
 
     //HALAMAN PROFIL STAFF

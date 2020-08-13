@@ -140,6 +140,9 @@
                             <li>
                                 <a href="{{URL::route('biaya-perkuliahan')}}" class="dropdown-item">Biaya Perkuliahan</a>
                             </li>
+                            <li>
+                                <a href="{{URL::route('marketer-page')}}" class="dropdown-item">Affiliate Marketer</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item"><a href="https://siakad.balidwipa.ac.id/" class="nav-link">SIAKAD</a></li>
