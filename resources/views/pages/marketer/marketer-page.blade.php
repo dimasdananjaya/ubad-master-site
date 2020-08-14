@@ -15,7 +15,7 @@
                 <li>Komisi Per-Mahasiswa untuk Marketer</li>
                 <li>Potongan Biaya Kuliah (Bagi mahasiswa Universitas Bali Dwipa)</li>
             </p>
-            <a href="https://forms.gle/tnhRuHBW4Qx85LsCA" class="btn btn-success d-block mx-auto">Lihat Panduan Disini</a>
+            <a href="https://drive.google.com/file/d/17xrKlxdKyvj17vJYIa7klV-bmvuTnNmu/view?usp=sharing" class="btn btn-success d-block mx-auto">Lihat Panduan Disini</a>
             <a href="https://forms.gle/tnhRuHBW4Qx85LsCA" class="btn btn-primary d-block mx-auto">Daftar Sebagai Marketer</a>
         </div><!--card-->
     </div><!--container-->

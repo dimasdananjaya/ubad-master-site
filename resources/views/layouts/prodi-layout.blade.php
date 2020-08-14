@@ -32,7 +32,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css?v=1') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 
@@ -137,6 +137,9 @@
                             </li>
                             <li>
                                 <a href="{{URL::route('biaya-perkuliahan')}}" class="dropdown-item">Biaya Perkuliahan</a>
+                            </li>
+                            <li>
+                                <a href="{{URL::route('marketer-page')}}" class="dropdown-item">Affiliate Marketer</a>
                             </li>
                         </ul>
                     </li>
