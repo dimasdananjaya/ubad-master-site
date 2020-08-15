@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use DB;
 use App\PendaftaranModel;
+use App\MarketerModel;
 
 class RouteController extends Controller
 {
@@ -93,7 +94,20 @@ class RouteController extends Controller
 
     //Marketer Page
     public function marketerPage(){
-        return view('pages.marketer.marketer-page');
+        $dataMarketer=DB::table('marketers')->orderBy('nama_lengkap','asc')->get();
+        return view('pages.marketer.marketer-page')->with('dataMarketer',$dataMarketer);
+    }
+
+    public function registerMarketer(){
+        return view('pages.marketer.register-marketer');
+    }
+
+    public function kelolaMarketer(){
+        return view('pages.marketer.kelola-marketer');
+    }
+
+    public function marketerValidated(){
+        return view('pages.marketer.marketer-validated');
     }
 
     //HALAMAN PROFIL STAFF

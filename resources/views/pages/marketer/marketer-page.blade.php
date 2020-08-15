@@ -18,6 +18,26 @@
             <a href="https://drive.google.com/file/d/17xrKlxdKyvj17vJYIa7klV-bmvuTnNmu/view?usp=sharing" class="btn btn-success d-block mx-auto">Lihat Panduan Disini</a>
             <a href="https://forms.gle/tnhRuHBW4Qx85LsCA" class="btn btn-primary d-block mx-auto">Daftar Sebagai Marketer</a>
         </div><!--card-->
+
+        <h3 class="lead mt-5">Daftar Marketer Resmi Universitas Bali Dwipa</h3>
+        <table class="table table-striped table-bordered table-hover mt-2">
+            <thead>
+                <th>Nama</th>
+                <th>Whatsapp</th>
+                <th>Email</th>
+                <th>Status</th>
+            </thead>
+            <tbody>
+                @foreach ($dataMarketer as $dtm)
+                    <tr>
+                        <td>{{$dtm->nama_lengkap}}</td>
+                        <td>{{$dtm->whatsapp}}</td>
+                        <td>{{$dtm->email}}</td>
+                        <td>{{$dtm->status}}</td>
+                    </tr>   
+                @endforeach
+            </tbody>
+        </table>
     </div><!--container-->
 </section>
 @endsection

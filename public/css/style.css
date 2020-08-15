@@ -341,7 +341,7 @@ header p {
     transition: 0.4s;
 }
 
-/************* Marketer ***********/
+/************* Marketer : kelola,register,page ***********/
 #marketer .btn{
     width: 20em;
     margin-top: 2em;
@@ -356,6 +356,11 @@ header p {
     max-width: 60em;
     padding:1em 1em 1em 1em;
     box-shadow: 1px 1px 1px 1px rgba(6, 146, 240, 0.637);
+}
+
+#marketer thead{
+color: #ffffff;
+background-color: #157f94;
 }
 /************* End Marketer ***********/
 

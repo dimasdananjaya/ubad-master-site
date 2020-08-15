@@ -43,11 +43,14 @@ Route::get('/form-pendaftaran', 'RouteController@formPendaftaran')->name('form-p
 Route::get('/status-pendaftaran', 'RouteController@statusPendaftaranPage')->name('status-pendaftaran');
 
 Route::get('/marketer-page', 'RouteController@marketerPage')->name('marketer-page');
+Route::get('/kelola-marketer', 'RouteController@kelolaMarketer')->name('kelola-marketer');
+Route::get('/register-marketer', 'RouteController@registerMarketer')->name('register-marketer');
 
 // Blogs route
 Route::resource('blogs', 'BlogController');
 Route::resource('pendaftaran', 'PendaftaranController');
 Route::resource('faq', 'FAQController');
+Route::resource('marketer', 'MarketerController');
 
 Route::get('/linkstorage', function () {
     Artisan::call('storage:link');
