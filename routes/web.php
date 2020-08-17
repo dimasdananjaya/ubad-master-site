@@ -45,6 +45,7 @@ Route::get('/status-pendaftaran', 'RouteController@statusPendaftaranPage')->name
 Route::get('/marketer-page', 'RouteController@marketerPage')->name('marketer-page');
 Route::get('/kelola-marketer', 'RouteController@kelolaMarketer')->name('kelola-marketer');
 Route::get('/register-marketer', 'RouteController@registerMarketer')->name('register-marketer');
+Route::get('/marketer-validated', 'RouteController@validatedMarketer')->name('validated-marketer');
 
 // Blogs route
 Route::resource('blogs', 'BlogController');

@@ -38,7 +38,7 @@
                     <div class="form-group">
                         <input type="file" class="form-control-file" name="foto" id="foto">
                     </div>
-                    <p for="exampleFormControlFile1"><small> ukuran max 2mb </small></p>
+                    <p for="exampleFormControlFile1"><small style="color: red;"> ukuran max 500kb </small></p>
                 </div>
 
                 <button type="submit" class="btn btn-primary mx-auto d-block">Daftar</button>

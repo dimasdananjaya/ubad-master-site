@@ -103,11 +103,12 @@ class RouteController extends Controller
     }
 
     public function kelolaMarketer(){
-        return view('pages.marketer.kelola-marketer');
+        $dataMarketer=DB::table('marketers')->orderBy('nama_lengkap','asc')->get();
+        return view('pages.marketer.kelola-marketer')->with('dataMarketer',$dataMarketer);
     }
 
-    public function marketerValidated(){
-        return view('pages.marketer.marketer-validated');
+    public function validatedMarketer(){
+        return view('pages.marketer.validated-marketer');
     }
 
     //HALAMAN PROFIL STAFF

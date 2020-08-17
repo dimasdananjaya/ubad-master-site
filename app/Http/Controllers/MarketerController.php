@@ -54,14 +54,14 @@ class MarketerController extends Controller
             'alamat' => 'required',
             'whatsapp' => 'required|unique:marketers,whatsapp',
             'email' => 'required',
-            'foto' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048'
+            'foto' => 'image|mimes:jpeg,png,jpg,gif,svg|max:550'
         ]);
 
         $data = new MarketerModel;
 
         if ($request->hasFile('foto')) {
             $file = $request->file('foto');
-            $name = time() . '.' . $file->getClientOriginalExtension();
+            $name = $request->input('nama_lengkap'). '.' . $file->getClientOriginalExtension();
             //$destinationPath = public_path('/resources/file');
             $path = $request->file('foto')->storeAs(
                 'public/foto_affiliate_marketer', $name
@@ -76,7 +76,6 @@ class MarketerController extends Controller
             $data->email = $request->input('email');
             $data->foto = $name;
             $data->status = 'awaiting';
-            $data->referral='';
             $data->save();
             alert()->success('Pendaftaran Marketer Berhasil !', 'anda telah didaftarkan menjadi Marketer Universitas Bali Dwipa');
             return view('pages.marketer.validated-marketer');
@@ -126,7 +125,7 @@ class MarketerController extends Controller
             'whatsapp' => 'required|unique:marketers,whatsapp',
             'referral' => 'required|unique:marketers,referral',
             'email' => 'required',
-            'foto' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048'
+            'foto' => 'image|mimes:jpeg,png,jpg,gif,svg|max:550'
         ]);
 
         if ($validator->fails()) {
@@ -140,7 +139,7 @@ class MarketerController extends Controller
             Storage::delete('public/foto_affiliate_marketer/'.$delete); //hapus file
 
                 $file = $request->file('foto');
-                $name = time() . '.' . $file->getClientOriginalExtension();
+                $name = $request->input('nama_lengkap'). '.' . $file->getClientOriginalExtension();
                 //$destinationPath = public_path('/resources/file');
                 $path = $request->file('foto')->storeAs(
                     'public/foto_affiliate_marketer', $name
