@@ -49,7 +49,7 @@ class MarketerController extends Controller
      */
     public function store(Request $request)
     {
-        $this->validate($request, [
+        $validator = Validator::make($request->all(), [
             'nama_lengkap' => 'required',
             'alamat' => 'required',
             'whatsapp' => 'required|unique:marketers,whatsapp',
@@ -59,7 +59,12 @@ class MarketerController extends Controller
 
         $data = new MarketerModel;
 
-        if ($request->hasFile('foto')) {
+        if ($validator->fails()) {
+            alert()->error('Registrasi Gagal !', 'Isi Formulir Dengan Benar');
+            return back();
+        }
+
+        elseif ($request->hasFile('foto')) {
             $file = $request->file('foto');
             $name = $request->input('nama_lengkap'). '.' . $file->getClientOriginalExtension();
             //$destinationPath = public_path('/resources/file');
@@ -67,8 +72,6 @@ class MarketerController extends Controller
                 'public/foto_affiliate_marketer', $name
             );
             //$file->move($destinationPath, $name);
-
-            // Create Post
 
             $data->nama_lengkap = $request->input('nama_lengkap');
             $data->alamat = $request->input('alamat');
@@ -120,12 +123,11 @@ class MarketerController extends Controller
         $data=MarketerModel::find($id);
 
         $validator = Validator::make($request->all(), [
-            'nama_lengkap' => 'required',
-            'alamat' => 'required',
-            'whatsapp' => 'required|unique:marketers,whatsapp',
-            'referral' => 'required|unique:marketers,referral',
-            'email' => 'required',
-            'foto' => 'image|mimes:jpeg,png,jpg,gif,svg|max:550'
+            'rekening' => 'required',
+            'referral' => 'required',
+            'bank' => 'required',
+            'an' => 'required',
+            'status' => 'required',
         ]);
 
         if ($validator->fails()) {
@@ -135,33 +137,38 @@ class MarketerController extends Controller
 
         elseif($request->hasFile('foto')){
 
-            $delete = $request->input('foto'); //cari nama file
-            Storage::delete('public/foto_affiliate_marketer/'.$delete); //hapus file
+            
+            //$delete = $request->input('foto'); //cari nama file
+            //Storage::delete('public/foto_affiliate_marketer/'.$delete); //hapus file
 
-                $file = $request->file('foto');
-                $name = $request->input('nama_lengkap'). '.' . $file->getClientOriginalExtension();
+              //  $file = $request->file('foto');
+                //$name = $request->input('nama_lengkap'). '.' . $file->getClientOriginalExtension();
                 //$destinationPath = public_path('/resources/file');
-                $path = $request->file('foto')->storeAs(
-                    'public/foto_affiliate_marketer', $name
-                );
+                //$path = $request->file('foto')->storeAs(
+                 //   'public/foto_affiliate_marketer', $name
+                //);
                 //$file->move($destinationPath, $name);
     
-                // Create Post
-    
-                $data->nama_lengkap = $request->input('nama_lengkap');
-                $data->alamat = $request->input('alamat');
-                $data->whatsapp = $request->input('whatsapp');
-                $data->email = $request->input('email');
-                $data->foto = $name;
+
+                $data->bank = $request->input('bank');
+                $data->rekening = $request->input('rekening');
+                $data->an = $request->input('an');
                 $data->status = $request->input('status');
                 $data->referral = $request->input('referral');
-                $data->foto = $name;
                 $data->save();
-                alert()->success('Update Marketer Berhasil !', 'anda telah didaftarkan menjadi Marketer Universitas Bali Dwipa');
+                alert()->success('Update Marketer Berhasil !', 'data Marketer telah diubah');
                 return back();
     
-            } else {
-                alert()->error('Update Gagal !', 'periksa kembali data');
+            } 
+            else {
+                $data->bank = $request->input('bank');
+                $data->rekening = $request->input('rekening');
+                $data->an = $request->input('an');
+                $data->status = $request->input('status');
+                $data->referral = $request->input('referral');
+                $data->save();
+                alert()->success('Update Marketer Berhasil !', 'data Marketer telah diubah');
+    
                 return back();
             }
     }

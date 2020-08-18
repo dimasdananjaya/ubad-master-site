@@ -21,12 +21,12 @@
               <li>DP3 : <br><s> Rp. 10 Juta </s><br><p style="color: #0f4c75;"> Rp.2.5 Juta (potongan 75%) *</p></li>
               <li>PKKMB : <br> Rp. 500.000 *</li>
               <li>Jas Almamater : <br> Rp. 500.000 *</li>
-              <li><b>Per-Semester</b><br>SPP : Rp. 3 Juta <br>SKS (20) : Rp. 2 Juta <br><small>(Biaya Per-SKS : Rp. 100.000) **</small></li>
+              <li><b>Per-Semester</b><br>SPP : Rp. 2.5 Juta <br>SKS (20) : Rp. 2 Juta <br><small>(Biaya Per-SKS : Rp. 100.000) **</small></li>
               <li> <small>*) dibayar hanya pada semester 1</small></li>
               <li> <small>**) dibayar sesuai jumlah sks yang diambil per-semester</small></li>
             </ul>
-            <p class="text-center">Total Biaya Semester 1 : <br><b> Rp 8.5 Juta </b></p>
-            <p class="text-center">Rata-Rata Total Biaya Semester 2-8 (20 sks) : <br><b> Rp 5 Juta </b></p>
+            <p class="text-center">Total Biaya Semester 1 : <br><b> Rp 8 Juta </b></p>
+            <p class="text-center">Rata-Rata Total Biaya Semester 2-8 (20 sks) : <br><b> Rp 4.5 Juta </b></p>
 
             <a class="btn btn-primary d-block mx-auto" href="{{URL::route('mahasiswa-baru')}}">Daftar Mahasiswa Baru</a>
           </div><!--card body-->
@@ -41,7 +41,7 @@
               <li>DP3 : <br><s> Rp. 10 jt </s><br><p style="color: #0f4c75;"> Rp.2.5 jt (potongan 75%) *</p></li>
               <li>PKKMB : <br> Rp. 500.000 *</li>
               <li>Jas Almamater : <br> Rp. 500.000 *</li>
-              <li><b>Per-Semester</b><br>SPP : Rp. 3 Juta <br>SKS (20) : Rp. 2 Juta <br><small>(Biaya Per-SKS : Rp. 100.000) **</small></li>
+              <li><b>Per-Semester</b><br>SPP : Rp. 4 Juta <br>SKS (20) : Rp. 2 Juta <br><small>(Biaya Per-SKS : Rp. 100.000) **</small></li>
               <li> <small>*) dibayar hanya pada semester 1</small></li>
               <li> <small>**) dibayar sesuai jumlah sks yang diambil per-semester</small></li>
             </ul>
@@ -79,12 +79,12 @@
               <li>DP3 : <br><s> Rp. 10 Juta </s><br><p style="color: #0f4c75;"> Rp.2.5 Juta (potongan 75%) *</p></li>
               <li>PKKMB : <br> Rp. 500.000 *</li>
               <li>Jas Almamater : <br> Rp. 500.000 *</li>
-              <li><b>Per-Semester</b><br>SPP : Rp. 2.5 Juta <br>SKS (20) : Rp. 2 Juta <br><small>(Biaya Per-SKS : Rp. 100.000) **</small></li>
+              <li><b>Per-Semester</b><br>SPP : Rp. 3 Juta <br>SKS (20) : Rp. 2 Juta <br><small>(Biaya Per-SKS : Rp. 100.000) **</small></li>
               <li> <small>*) dibayar hanya pada semester 1</small></li>
               <li> <small>**) dibayar sesuai jumlah sks yang diambil per-semester</small></li>
             </ul>
-            <p class="text-center">Total Biaya Semester 1 : <br><b> Rp 8.000.000 </b></p>
-            <p class="text-center">Rata-Rata Total Biaya Semester 2-8 (20 sks) : <br><b> Rp 4.500.000 </b></p>
+            <p class="text-center">Total Biaya Semester 1 : <br><b> Rp 8.500.000 </b></p>
+            <p class="text-center">Rata-Rata Total Biaya Semester 2-8 (20 sks) : <br><b> Rp 5.000.000 </b></p>
             <a class="btn btn-primary d-block mx-auto" href="{{URL::route('mahasiswa-baru')}}">Daftar Mahasiswa Baru</a>
           </div><!--card body-->
         </div><!--card-->

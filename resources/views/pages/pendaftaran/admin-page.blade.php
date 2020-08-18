@@ -46,6 +46,17 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <img class="card-img-top mx-auto" src="/resources/logo/marketer.svg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Marketers</h5>
+                              <p class="card-text">Kelola Marketers </p>
+                              <a href="/kelola-marketer" class="btn btn-primary btn-block">Pilih</a>
+                            </div>
+                        </div>
+                    </div>
             </div><!--row-->
             <a class="btn btn-block btn-primary mt-3" href="{{ route('logout') }}"
             onclick="event.preventDefault();
