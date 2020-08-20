@@ -7,6 +7,7 @@
                 <h3>Daftar Marketer</h3>
                 <table id="tabel-marketer" class="table table-striped table-bordered table-hover mt-2 table-responsive-sm table-responsive-md">
                     <thead>
+                        <th>No.</th>
                         <th>Nama</th>
                         <th>Whatsapp</th>
                         <th>Email</th>
@@ -20,6 +21,7 @@
                     <tbody>
                         @foreach ($dataMarketer as $dtm)
                             <tr>
+                                <td></td>
                                 <td>{{$dtm->nama_lengkap}}</td>
                                 <td>{{$dtm->whatsapp}}</td>
                                 <td>{{$dtm->email}}</td>
@@ -68,6 +70,7 @@
                         @endforeach
                     </tbody>
                 </table>
+                <a href="/admin-page" class="btn btn-primary btn-block mt-2">Kembali ke Admin Page</a>
             </div><!--card-->
         </div><!--container-->
     </section>
