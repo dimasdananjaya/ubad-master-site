@@ -41,6 +41,7 @@ Route::get('/periode', 'Admin@periode')->name('periode');
 Route::get('/validated', 'RouteController@validated')->name('validated');
 Route::get('/form-pendaftaran', 'RouteController@formPendaftaran')->name('form-pendaftaran');
 Route::get('/status-pendaftaran', 'RouteController@statusPendaftaranPage')->name('status-pendaftaran');
+Route::get('/kalender-akademik', 'RouteController@kalenderAkademikPage')->name('kalender-akademik');
 
 Route::get('/marketer-page', 'RouteController@marketerPage')->name('marketer-page');
 Route::get('/kelola-marketer', 'RouteController@kelolaMarketer')->name('kelola-marketer');

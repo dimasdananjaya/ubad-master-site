@@ -119,4 +119,10 @@ class RouteController extends Controller
     public function biayaPerkuliahanPage(){
         return view('pages.pendaftaran.biaya-perkuliahan');
     }
+
+    //Akademik
+
+    public function kalenderAkademikPage(){
+        return view('pages.akademik.kalender-akademik');
+    }
 }
