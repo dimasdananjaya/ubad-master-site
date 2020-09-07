@@ -27,7 +27,7 @@ class MarketerController extends Controller
      */
     public function index()
     {
-        $marketers = MarketerModel::all();
+        $marketers = MarketerModel::where('status','Official Marketer');
         return view('pages.marketer.kelola-marketer')->with('marketers', $marketers);
     }
 

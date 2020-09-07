@@ -40,9 +40,11 @@
                         <h5 class="card-title"><b>2. Penyerahan Persyaratan</b></h5>
                         <p class="card-text">
                             Calon manahasiswa baru menyerahkan kelengkapan berkas persyaratan pendaftaran berupa : <br>
-                            1. Fotocopy Ijazah (Legalisir)<br>
-                            2. Fotocopy Rapor (Legalisir)<br>
-                            3. Fotocopy KTP
+                            1. Ijazah (Legalisir)<br>
+                            2. Rapor (Legalisir)<br>
+                            3. KTP
+
+                            <small>*seluruh persyaratan dikirim ke email pmb@balidwipa.ac.id</small>
                         </p>
                         <a href="/status-pendaftaran" class="btn btn-primary btn-md text-center">Cek Status Pendaftaran</a>
                     </div><!--card body-->
@@ -57,6 +59,7 @@
                         <p class="card-text">Setelah data divalidasi selanjutnya calon mahasiswa wajib membayar <b>Biaya Pendaftaran dan Initial Payment</b>
                         jumlah biaya bergantung pada Program Studi yang dipilih, hubungi admin kami dengan menekan tombol Whatsapp di pojok kanan bawah
                         untuk mengetahui biaya yang harus dibayar. Bukti pembayaran dapat dibawa langsung ke Universitas Bali Dwipa atau dikirimkan online via Whatssapp di tombol pojok kanan bawah
+                        <small>*tata cara pembayaran akan diberikan setelah mengumpulkan berkas pendaftaran oleh admin</small>
                         </p>
                     </div><!--card body-->
                 </div><!--card-->
