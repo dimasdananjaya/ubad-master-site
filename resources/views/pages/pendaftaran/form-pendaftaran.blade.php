@@ -70,12 +70,11 @@
                                             </select>
                                         </div>
                                     </div><!--end col-->
-                                    <div class="col-lg-12">
+                                    <div class="col-lg-12" style="visibility: hidden;">
                                         <div class="form-group">
-                                            <label for="kelas">Pilihan Kelas</label>
+                                            <label for="kelas">Kelas</label>
                                             <select name="kelas" class="form-group form-control">
-                                                <option value="Reguler" class="form-control">Reguler</option>
-                                                <option value="Karyawan" class="form-control">Karyawan</option>
+                                                <option value="Reguler" class="form-control" selected>Reguler</option>
                                             </select>
                                         </div>
                                     </div><!--end col-->

@@ -116,4 +116,45 @@
         </div>
     </div>
 </section>
+
+<section id="merdeka-belajar">
+    <div class="container-fluid">
+        <h3 class="text-center mb-3 mt-4"><b>Kampus Merdeka, Merdeka Belajar !</b></h3>
+        <p class="text-center mb-5">Dalam mendukung program Merdeka Belajar oleh Kementerian Pendidikan dan Kebudayaan Republik Indonesia dan mensupport 
+            calon mahasiswa baru <br> dalam masa Pandemi COVID-19 ini Universitas Bali Dwipa
+            memberikan <b>5 Kebebasan</b> bagi Calon Mahasiswa Baru diantaranya : </p>
+        <div class="row">
+            <div class="col-lg-4 mt-5">
+                <img class="mx-auto d-block" src="/resources/logo/bebas-uang-pendaftaran.svg">
+                <h5 class="text-center mt-2"><b>Bebas Uang Pendaftaran</b></h5>
+                <p class="text-center">Pendaftaran Online Gratis ! <br> Anda dapat langsung mendaftar tanpa membayar </p>
+            </div><!--col-lg-4-->
+
+            <div class="col-lg-4 mt-5">
+                <img class="mx-auto d-block" src="/resources/logo/bebas-waktu-pendaftaran.svg">
+                <h5 class="text-center mt-2"><b>Bebas Waktu Pendaftaran</b></h5>
+                <p class="text-center">Pendaftaran Online Dimanapun Kapanpun <br> Anda dapat langsung mendaftar dimanapun dan kapanpun secara online </p>
+            </div><!--col-lg-4-->
+
+            <div class="col-lg-4 mt-5">
+                <img class="mx-auto d-block" src="/resources/logo/bebas-waktu-kuliah.svg">
+                <h5 class="text-center mt-2"><b>Bebas Waktu Kuliah</b></h5>
+                <p class="text-center">Perkuliahan Dapat Dilakukan Online <br> Anda dapat mengikuti kuliah secara Online kami memiliki sistem E-Learning yang akan
+                membantu kalian dalam melakukan perkuliahan dimanapun dan kapanpun</p>
+            </div><!--col-lg-4-->
+
+            <div class="col-lg-6 mt-5">
+                <img class="mx-auto d-block" src="/resources/logo/bebas-waktu-bayar-kuliah.svg">
+                <h5 class="text-center mt-2"><b>Bebas Waktu Bayar Kuliah</b></h5>
+                <p class="text-center">Punya Kendala Dalam Pembayaran? <br> Pembayaran Uang Kuliah dapat dibayar kapanpun <br>dan dicicil hingga sebelum Semester berakhir </p>
+            </div><!--col-lg-4-->
+
+            <div class="col-lg-6 mt-5">
+                <img class="mx-auto d-block" src="/resources/logo/bebas-kuliah-3-semester.svg">
+                <h5 class="text-center mt-2"><b>Bebas Kuliah 3 Semester Diluar Prodi</b></h5>
+                <p class="text-center">Perkuliahan Merdeka Belajar <br> Mahasiswa berhak mengambil 3 semester diluar program studinya sesuai dengan prgoram merdeka balajar</p>
+            </div><!--col-lg-4-->
+        </div><!--row-->
+    </div><!--container-fluid-->
+</section><!--merdeka belajar-->
 @endsection
