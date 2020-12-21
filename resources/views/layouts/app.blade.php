@@ -130,13 +130,13 @@
                         <a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#">Pendaftaran<b
                                 class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            {{--<li>
+                            <li>
                                 <a href="{{URL::route('mahasiswa-baru')}}" class="dropdown-item">Pendaftaran Mahasiswa
                                     Baru</a>
                             </li>
                             <li>
                                 <a href="{{URL::route('status-pendaftaran')}}" class="dropdown-item">Cek Status Pendaftaran</a>
-                            </li>--}}
+                            </li>
                             <li>
                                 <a href="{{URL::route('biaya-perkuliahan')}}" class="dropdown-item">Biaya Perkuliahan</a>
                             </li>

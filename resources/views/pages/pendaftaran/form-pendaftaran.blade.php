@@ -4,16 +4,13 @@
     <section id="form-pendaftaran">
         <div class="container">
             <div class="row">
-                <div data-aos="fade-left" class="col-lg-6" style="margin-top:1%;">
+                <div data-aos="fade-left" class="col-lg-6 mt-2">
                     <h2 data-aos="fade-left" class="text-center"><b>Pendaftaran Mahasiswa Baru</b></h2>
                     <hr>
                     <p style="text-align:justify" class="text-center" data-aos="fade-left" class="why-dosen lead">
                         Silahkan mengisi formulir berikut ini untuk melakukan pendaftaran kolom diisi selengkap mungkin dan merupakan data yang sebenarnya.
                     <p>
-                    <img style="  display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                    width: 65%;" class="mx-auto" src="/resources/logo/pendaftaran-form.jpg">
+                    <img class="mx-auto" src="/resources/logo/pendaftaran-form.jpg">
                 </div>
 
                 <div class="col-lg-6">
