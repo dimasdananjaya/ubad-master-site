@@ -202,7 +202,7 @@
                     <p>Whatsapp : 085792463944</p>
                     <p>Phone : 081339827770</p>
                     <p><small>Icons and Pictures by: <a href="https://www.flaticon.com">www.flaticon.com</a> and <a href="https://www.freepik.com"> www.freepik.com</a></small></p>
-                    <p><small>@ 2020 Universitas Bali Dwipa </small></p>
+                    <p><small>@ 2021 Universitas Bali Dwipa </small></p>
                 </div>
                 </div>
     
