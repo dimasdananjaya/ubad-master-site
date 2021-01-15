@@ -94,7 +94,9 @@ class RouteController extends Controller
 
     //Marketer Page
     public function marketerPage(){
-        $dataMarketer=DB::table('marketers')->orderBy('nama_lengkap','asc')->get();
+        $dataMarketer=DB::table('marketers')
+        ->where('status', '=', 'Official Marketer')
+        ->orderBy('nama_lengkap','asc')->get();
         return view('pages.marketer.marketer-page')->with('dataMarketer',$dataMarketer);
     }
 
