@@ -25,7 +25,7 @@
             <thead>
                 <th>Nama</th>
                 <th>Whatsapp</th>
-                <th>Email</th>
+                <th>Kode Referral</th>
                 <th>Status</th>
             </thead>
             <tbody>
@@ -33,7 +33,7 @@
                     <tr>
                         <td>{{$dtm->nama_lengkap}}</td>
                         <td>{{$dtm->whatsapp}}</td>
-                        <td>{{$dtm->email}}</td>
+                        <td>{{$dtm->referral}}</td>
                         <td>{{$dtm->status}}</td>
                     </tr>   
                 @endforeach

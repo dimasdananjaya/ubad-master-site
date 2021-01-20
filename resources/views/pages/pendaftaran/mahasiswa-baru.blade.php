@@ -4,6 +4,7 @@
 <section id="mahasiswa-baru">
     <div data-aos="fade-left" class="col-lg-12 maba-header">
         <h2 data-aos="fade-left" class="text-center"><b>Pendaftaran Mahasiswa Baru Dibuka !</b></h2>
+        <h4 data-aos="fade-up" class="text-center"><b>GELOMBANG EARLY BIRD 2021</b></h4>
         <hr>
         <p style="text-align:justify" class="text-center card-text" data-aos="fade-left" class="why-dosen lead">
             Daftarkan dirimu sekarang untuk bergabung dengan Universitas Bali Dwipa,
