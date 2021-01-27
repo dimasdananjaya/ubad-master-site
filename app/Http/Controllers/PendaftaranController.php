@@ -52,6 +52,7 @@ class PendaftaranController extends Controller
         $simpan->referral=$request->input('referral');
         $simpan->status='diproses';
         $simpan->jalur='EARLY BIRD';
+        $simpan->sekolah=$request->input('sekolah');
         
         $simpan->save();
         alert()->success('Data Pendaftaran Tersimpan !', '');

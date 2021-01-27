@@ -15,6 +15,7 @@
                         <th>Email</th>
                         <th>Prodi</th>
                         <th>Tanggal Pendaftaran</th>
+                        <th>Asal Sekolah</th>
                         <th>Jalur</th>
                         <th>Status</th>
                         <th>Referral</th>
@@ -32,6 +33,7 @@
                             <td>{{$dtp->email}}</td>
                             <td>{{$dtp->prodi}}</td>
                             <td>{{$dtp->tanggal_pendaftaran}}</td>
+                            <td>{{$dtp->sekolah}}</td>
                             <td>{{$dtp->jalur}}</td>
                             <td>{{$dtp->status}}</td>
                             <td>{{$dtp->referral}}</td>

@@ -52,6 +52,13 @@
                                     </div><!--end col-->
                                     <div class="col-lg-12">
                                         <div class="form-group">
+                                            <label for="sekolah">Asal Sekolah SMA/SMK</label>
+                                            <input type="sekolah" class="form-control" name="sekolah" id="sekolah"
+                                            placeholder="" required>
+                                        </div>
+                                    </div><!--end col-->
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
                                             <label for="prodi">Program Studi Pilihan</label>
                                             <select name="prodi" class="form-group form-control">
                                                 <option value="Teknologi Pangan" class="form-control">Teknologi Pangan</option>
