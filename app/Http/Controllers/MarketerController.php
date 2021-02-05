@@ -54,7 +54,7 @@ class MarketerController extends Controller
             'alamat' => 'required',
             'whatsapp' => 'required|unique:marketers,whatsapp',
             'email' => 'required',
-            'foto' => 'image|mimes:jpeg,png,jpg,gif,svg|max:550'
+            'foto' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048'
         ]);
 
         $data = new MarketerModel;
