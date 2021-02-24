@@ -10,7 +10,7 @@
                 <div class="card-body">
                     <p class="card-text text-center">
                         <b>Pendaftaran Affiliate Marketer Berhasil ! </b><br>
-                        <small class="pt-3">admin kami akan menghubungi anda dalam waktu 18 Jam kerja</small>
+                        <small class="pt-3">Silahkan Cek Kode Referal Pada Tautan Berikut : <a href="https://balidwipa.ac.id/marketer-page">Cek Referral </a>dalam waktu 48jam</small>
                         <a href="https://balidwipa.ac.id/" class="btn btn-success btn-block mt-3">Kembali ke Halaman Utama</a>
                     </p>
                 </div><!--card-body-->
