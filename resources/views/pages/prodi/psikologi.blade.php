@@ -8,7 +8,7 @@
                 <img src="/resources/logo/psikologi.svg" />
             </div>
             <div class="col-lg-8">
-                <h1>Program Studi Psikologi</h1>
+                <h1>Program Studi Psikologi (S1 S.Psi)</h1>
                 <hr />
                 <p><b>Visi :</b></p>
                 <p>

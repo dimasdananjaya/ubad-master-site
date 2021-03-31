@@ -8,7 +8,7 @@
                 <img src="/resources/logo/biomedis.svg" />
             </div>
             <div class="col-lg-8">
-                <h1>Program Studi Teknik Biomedis</h1>
+                <h1>Program Studi Teknik Biomedis (S1 S.T)</h1>
                 <hr />
                 <p><b>Visi :</b></p>
                 <p>

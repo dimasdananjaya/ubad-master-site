@@ -9,7 +9,7 @@
                 <img src="/resources/logo/humas.svg" />
             </div>
             <div class="col-lg-8">
-                <h1>Program Studi Hubungan Masyarakat</h1>
+                <h1>Program Studi Hubungan Masyarakat (S1 S.I.Kom)</h1>
                 <hr />
                 <p><b>Visi :</b></p>
                 <p>

@@ -8,7 +8,7 @@
                 <img src="/resources/logo/akuntansi.svg" />
             </div>
             <div class="col-lg-8">
-                <h1>Program Studi Akuntansi</h1>
+                <h1>Program Studi Akuntansi (S1 S.Ak)</h1>
                 <hr />
                 <p><b>Visi :</b></p>
                 <p>

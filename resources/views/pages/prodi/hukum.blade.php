@@ -8,7 +8,7 @@
                 <img src="/resources/logo/hukum.svg" />
             </div>
             <div class="col-lg-8">
-                <h1>Program Studi Hukum</h1>
+                <h1>Program Studi Hukum (S1 S.H)</h1>
                 <hr />
                 <p><b>Visi :</b></p>
                 <p>

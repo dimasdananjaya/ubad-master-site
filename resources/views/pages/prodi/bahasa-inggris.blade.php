@@ -8,7 +8,7 @@
                 <img src="/resources/logo/bahasa-inggris.svg" />
             </div>
             <div class="col-lg-8">
-                <h1>Program Studi Bahasa Inggris</h1>
+                <h1>Program Studi Bahasa Inggris (S1 S.iL)</h1>
                 <hr />
                 <p><b>Visi :</b></p>
                 <p>

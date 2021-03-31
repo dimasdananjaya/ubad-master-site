@@ -8,7 +8,7 @@
                 <img src="/resources/logo/gizi.svg" />
             </div>
             <div class="col-lg-8">
-                <h1>Program Studi Gizi</h1>
+                <h1>Program Studi Gizi (S1 S.Gz)</h1>
                 <hr />
                 <p><b>Visi :</b></p>
                 <p>

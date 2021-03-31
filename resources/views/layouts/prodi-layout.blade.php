@@ -148,6 +148,7 @@
                                 class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li class="nav-item"><a href="https://kampusbersama.id/auth/login" class="dropdown-item">Kampus Bersama</a></li>
+                            <li class="nav-item"><a href="#" class="dropdown-item">SIAKAD</a></li>
                             <li class="nav-item"><a href="https://elibrary.balidwipa.ac.id/" class="dropdown-item">E-Library</a></li>
                             <li class="nav-item"><a href="https://balidwipa.ac.id/kalender-akademik" class="dropdown-item">Kalender Akademik</a></li>
                         </ul>

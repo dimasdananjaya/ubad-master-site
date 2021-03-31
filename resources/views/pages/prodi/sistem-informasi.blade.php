@@ -8,7 +8,7 @@
                 <img src="/resources/logo/sistem-informasi.svg" />
             </div>
             <div class="col-lg-8">
-                <h1>Program Studi Sistem Informasi</h1>
+                <h1>Program Studi Sistem Informasi (S1 S.Kom)</h1>
                 <hr />
                 <p><b>Visi :</b></p>
                 <p>

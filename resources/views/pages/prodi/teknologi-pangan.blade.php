@@ -8,7 +8,7 @@
                 <img src="/resources/logo/pangan.svg" />
             </div>
             <div class="col-lg-8">
-                <h1>Program Studi Teknologi Pangan</h1>
+                <h1>Program Studi Teknologi Pangan (S1 S.TP)</h1>
                 <hr />
                 <p><b>Visi :</b></p>
                 <p>

@@ -24,6 +24,32 @@
     </div><!--row-->
 </section>
 
+<!--Berita-->
+<article id="berita">
+    <div data-aos="fade-up">
+    <h2 class="text-center">Berita / Artikel</h2>
+  
+    <div class="carousel-berita">
+        @foreach ($posts as $p)
+        <div class="card">
+            <img class="card-img-top" src="{{ asset('storage/blog_cover_image/'.$p->cover_image) }}" alt="{{$p->cover_image}}">
+
+            <div class="card-body">
+                <p class="text-center mt-3">Uploaded At : {{$p->created_at}}</p>
+                <h5 class="card-title"><a href="{{route('blogs.show', $p->id)}}">{{ $p->title }}</a></h5>
+                <!--<p>{{$p->body}}</p>-->
+                <a class="btn btn-primary text-center d-block mx-auto" href="{{route('blogs.show', $p->id)}}">Read more </a>
+            </div>
+        </div>
+        @endforeach
+    </div>
+    <div class="col-lg-12">
+        <p class="text-center" style="color: #fff;"><small>swipe to see more</small></p>
+        <a href={{route('blogs.index')}} style="color:#fff; width:12em;" class="btn d-block mx-auto text-center btn-success mt-2 pb-2">Lihat Semua Berita</a>
+    </div>
+  </div><!--aos-->
+</article>
+
 <!-- Prodi -->
 <section id="prodi" class="py-5">
     <div class="container-fluid">
@@ -354,29 +380,5 @@
         </div>
     </div>
 </section>
-
-<!--Berita-->
-<article id="berita">
-    <div data-aos="fade-up">
-    <h2 class="text-center">Berita / Artikel</h2>
-  
-    <div class="carousel-berita">
-        @foreach ($posts as $p)
-        <div class="card">
-            <img class="card-img-top" src="{{ asset('storage/blog_cover_image/'.$p->cover_image) }}" alt="{{$p->cover_image}}">
-            <div class="card-body">
-                <h5 class="card-title"><a href="{{route('blogs.show', $p->id)}}">{{ $p->title }}</a></h5>
-                <!--<p>{{$p->body}}</p>-->
-                <a class="btn btn-primary text-center d-block mx-auto" href="{{route('blogs.show', $p->id)}}">Read more </a>
-            </div>
-        </div>
-        @endforeach
-    </div>
-    <div class="col-lg-12">
-        <p class="text-center" style="color: #fff;"><small>swipe to see more</small></p>
-        <a href={{route('blogs.index')}} style="color:#fff; width:12em;" class="btn d-block mx-auto text-center btn-success mt-2 pb-2">Lihat Semua Berita</a>
-    </div>
-  </div><!--aos-->
-</article>
 
 @endsection
