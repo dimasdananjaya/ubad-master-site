@@ -5,7 +5,7 @@
         <div class="container-fluid">
             <div class="card">
                 <h3>Daftar Calon Mahasiswa</h3>
-                <table id="tabel-pendaftar" class="table table-sm table-hover table-responsive-sm table-responsive-md" style="width: 100%;">
+                <table id="tabel-pendaftar" class="table table-sm table-hover table-responsive">
                     <thead>
                         <th>No.</th>
                         <th>ID.</th>
