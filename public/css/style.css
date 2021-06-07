@@ -127,8 +127,8 @@ nav .navbar-nav li a {
 /**** banner section ****/
 .masthead {
     width: 100%;
-    height: 30vw;
-    background-image: url("/resources/logo/hero.jpg");
+    height: 27em;
+    background-image: url("/resources/logo/hero1.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

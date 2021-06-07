@@ -8,7 +8,7 @@
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12 text-center">
-
+                    <img class="mx-auto d-block pr-3" src="/resources/logo/logo-ubad-putih.png" style="width: 25em; height:25em;">
                 </div>
             </div>
         </div>
