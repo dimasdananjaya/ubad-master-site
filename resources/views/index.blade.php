@@ -18,8 +18,8 @@
 <section id="protokol">
     <div class="row pt-3 pb-3">
         <div class="col-lg-12">
-            <p class="lead text-center">Protokol Kesehatan COVID-19 <br> Universitas Bali Dwipa</p>
-            <a href="https://drive.google.com/file/d/14JOWhdAaDq0grg05zElXEXbdxPsRIOdH/view?usp=sharing" style="width: 12em;" class="btn d-block mx-auto text-center btn-success mt-2 pb-2">Download Protokol</a>
+            <p class="lead text-center">PENDAFTARAN MAHASISWA BARU 2021/2022<br>PERIODE JUNI-JULI<br> Universitas Bali Dwipa</p>
+            <a href="https://balidwipa.ac.id/mahasiswa-baru" style="width: 12em;" class="btn d-block mx-auto text-center btn-success mt-2 pb-2">Klik Disini</a>
         </div><!--col-12-->
     </div><!--row-->
 </section>
