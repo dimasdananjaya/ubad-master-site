@@ -139,11 +139,6 @@ header p {
     color: #fff;
 }
 
-#protokol{
-    background-color: #0f4c75;
-    color: #ffffff;
-}
-
 /****** Prodi Carousel ****/
 
 .carousel {
@@ -985,17 +980,29 @@ footer {
 /*****************************************************************/
 
 /**** Mahasiswa baru ****/
-#mahasiswa-baru .maba-header{
-    color: #fff;
-    background-color: #0e9aa7;
-    padding-top: 2em;
-    padding-bottom: 0.5em;
+.maba-header{
+    width: 100%;
+    height: 30em;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    background-image: url("/resources/logo/banner-mahasiswa.jpeg");
+    position: relative;
 }
 
-#mahasiswa-baru .hero-image{
-    width: 30em;
-    height: 30em;
-    
+.cover{
+    background-color: rgba(30, 30, 29, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.text-centered{
+    padding-top: 7em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 #mahasiswa-baru .card-img-top {

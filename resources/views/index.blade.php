@@ -2,7 +2,7 @@
 
 @section('content')
 
-<!-- Full Page Image Header with Vertically Centered Content -->
+<!-- Full Page Image Header with Vertically Centered Content
 <header data-aos="fade-down" class="masthead">
     <div class="layer">
         <div class="container h-100">
@@ -14,14 +14,28 @@
         </div>
     </div>
 </header>
+-->
 
-<section id="protokol">
-    <div class="row pt-3 pb-3">
-        <div class="col-lg-12">
-            <p class="lead text-center">PENDAFTARAN MAHASISWA BARU 2021/2022<br>PERIODE JUNI-JULI<br> Universitas Bali Dwipa</p>
-            <a href="https://balidwipa.ac.id/mahasiswa-baru" style="width: 12em;" class="btn d-block mx-auto text-center btn-success mt-2 pb-2">Klik Disini</a>
-        </div><!--col-12-->
-    </div><!--row-->
+<div data-aos="fade-left" class="col-lg-12 maba-header">
+    <div class="cover">
+        <div class="text-centered">
+            <h2 data-aos="fade-left" class="text-center"><b>Pendaftaran Mahasiswa Baru 2021/2022 Dibuka </b></h2>
+            <h4 data-aos="fade-up" class="text-center"><b>Periode Juni-Juli 2021</b></h4>
+            <p style="text-align:justify" class="text-center card-text" data-aos="fade-left" class="why-dosen lead">
+                Daftarkan dirimu sekarang untuk bergabung dengan Universitas Bali Dwipa,
+                10 Program Studi pilihan tersedia untukmu. <br>Ikuti tata cara pendaftaran dibawah untuk melakukan pendaftaran
+            <p>
+            <div class="row pt-3 pb-3">
+                <div class="col-lg-12">
+                    <a href="https://balidwipa.ac.id/mahasiswa-baru" style="width: 12em;" class="btn d-block mx-auto text-center btn-success mt-2 pb-2">Klik Disini</a>
+                </div><!--col-12-->
+            </div><!--row-->
+        </div><!--mt-4-->
+    </div><!--cover-->
+</div><!--maba-header--> 
+
+<section id="pendaftaran-banner">
+
 </section>
 
 <!--Berita-->
