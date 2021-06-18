@@ -57,3 +57,4 @@ Route::resource('marketer', 'MarketerController');
 Route::get('/linkstorage', function () {
     Artisan::call('storage:link');
 });
+

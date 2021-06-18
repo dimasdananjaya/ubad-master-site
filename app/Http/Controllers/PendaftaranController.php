@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\PendaftaranModel;
 use DB;
+use Mail;
 
 class PendaftaranController extends Controller
 {
@@ -53,9 +54,33 @@ class PendaftaranController extends Controller
         $simpan->status='diproses';
         $simpan->jalur='EARLY BIRD';
         $simpan->sekolah=$request->input('sekolah');
-        
         $simpan->save();
-        alert()->success('Data Pendaftaran Tersimpan !', '');
+
+        $emailAddress=$request->input('email');
+
+        Mail::raw('Halo pendaftar calon mahasiswa baru Bali Dwipa University
+    
+        Formulir pendaftaran online anda sudah kami terima, mohon melanjutkan ke tahap selanjutnya dengan menghubungi admin kami di Whatsapp : 085792463944
+        
+        Cek status pendaftaran disini https://balidwipa.ac.id/daftar-pendaftar
+        
+        ttd, 
+        admin Universitas Bali Dwipa
+        
+        
+        --
+        Universitas Bali Dwipa
+        Jalan Pulau Flores No.5
+        Denpasar, Bali 80114
+        Email : info@balidwipa.ac.id
+        Whatsapp : 085792463944
+        Phone : 081339827770', function ($mail) use($emailAddress) {
+            $mail->from('universitasbalidwipa@gmail.com');
+            $mail->to($emailAddress);
+            $mail->subject('PENDAFTARAN MAHASISWA BARU');
+         });
+
+        alert()->success('Data Pendaftaran Tersimpan !', 'Lihat email anda untuk instruksi lebih lanjut');
         return view('pages.pendaftaran.validated');
     }
 
@@ -110,6 +135,6 @@ class PendaftaranController extends Controller
         DB::table('pendaftaran')->where('id_pendaftaran', '=', $id)->delete();
         alert()->success('Data Terhapus !', '');
         return back();
-    }
+    }  
 
 }
