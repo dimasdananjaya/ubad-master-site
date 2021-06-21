@@ -16,7 +16,7 @@
                 <div data-aos="fade-left" class="col-lg-6" style="margin-top:1%;">
                     <hr>
                     <p style="text-align:justify" class="text-center" data-aos="fade-left" class="why-dosen lead">
-                        Anda telah berhasil melakukan pendaftaran, <b>SILAHKAN MENGECEK KOTAK MASUK EMAIL YANG TELAH ANDA DAFTARKAN,</b> Info Lebih lanjut klik ikon whatsapp di kanan bawah atau hubungi : <br>
+                        Anda telah berhasil melakukan pendaftaran, <b>SILAHKAN MENGECEK KOTAK MASUK EMAIL YANG TELAH ANDA DAFTARKAN,</b> Info Lebih lanjut klik ikon whatsapp di kanan bawah<br>
                         Atau hubungi admin kami pada kontak dibawah ini<br>
                         <b>Whatsapp : 085792463944</b><br>
                         <b>Phone    : 081339827770</b>
