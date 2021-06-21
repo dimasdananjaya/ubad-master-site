@@ -57,28 +57,20 @@ class PendaftaranController extends Controller
         $simpan->save();
 
         $emailAddress=$request->input('email');
+        $nama=$request->input('nama');
+        $prodi=$request->input('prodi');
 
-        Mail::raw('Halo pendaftar calon mahasiswa baru Bali Dwipa University
-    
-        Formulir pendaftaran online anda sudah kami terima, mohon melanjutkan ke tahap selanjutnya dengan menghubungi admin kami di Whatsapp : 085792463944
-        
-        Cek status pendaftaran disini https://balidwipa.ac.id/daftar-pendaftar
-        
-        ttd, 
-        admin Universitas Bali Dwipa
-        
-        
-        --
-        Universitas Bali Dwipa
-        Jalan Pulau Flores No.5
-        Denpasar, Bali 80114
-        Email : info@balidwipa.ac.id
-        Whatsapp : 085792463944
-        Phone : 081339827770', function ($mail) use($emailAddress) {
+        $data = [
+            'nama'=>$nama,
+            'prodi'=>$prodi,
+        ];
+     
+        Mail::send('mail.StatusPendaftaranDiterima',$data,function ($mail) use($emailAddress) {
             $mail->from('universitasbalidwipa@gmail.com');
             $mail->to($emailAddress);
             $mail->subject('PENDAFTARAN MAHASISWA BARU');
          });
+    
 
         alert()->success('Data Pendaftaran Tersimpan !', 'Lihat email anda untuk instruksi lebih lanjut');
         return view('pages.pendaftaran.validated');
@@ -116,10 +108,26 @@ class PendaftaranController extends Controller
     public function update(Request $request, $id)
     {
         $simpan=PendaftaranModel::find($id);
-
         $simpan->status=$request->input('status');
         
+        $status=$request->input('status');
+        $nama=$request->input('nama');
+        $prodi=$request->input('prodi');
+        $emailAddress=$request->input('email');
+
         $simpan->save();
+
+        $data = [
+            'nama'=>$nama,
+            'prodi'=>$prodi,
+        ];
+     
+        Mail::send('mail.StatusPendaftaranSelesai',$data,function ($mail) use($emailAddress) {
+            $mail->from('universitasbalidwipa@gmail.com');
+            $mail->to($emailAddress);
+            $mail->subject('PENDAFTARAN MAHASISWA BARU');
+        });
+    
         alert()->success('Data Tersimpan !', '');
         return redirect()->back();
     }

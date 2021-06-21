@@ -39,7 +39,6 @@
                             <td>{{$dtp->referral}}</td>
                             <td>
                                 <a class="btn btn-success" style="color:#fff;float:left; margin-right:20px;" data-toggle="modal" data-target="#pendaftar-edit-modal{{$dtp->id_pendaftaran}}">Edit</a>
-
                             </td>
                             <td>
                                 {!!Form::open(['action'=>['PendaftaranController@destroy', $dtp->id_pendaftaran]])!!}
@@ -70,6 +69,9 @@
                                                 <option value="registrasi-ulang">Registrasi Ulang</option>
                                                 <option value="selesai">Selesai</option>
                                             </select>
+                                            {{Form::hidden('email', $dtp->email)}}
+                                            {{Form::hidden('nama', $dtp->nama)}}
+                                            {{Form::hidden('prodi', $dtp->prodi)}}
                                             {{Form::submit('Update',['class'=>'btn btn-warning'])}}
                                         {!!Form::close()!!}
                                     </div>
