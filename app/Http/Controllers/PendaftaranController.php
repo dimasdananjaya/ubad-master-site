@@ -117,16 +117,19 @@ class PendaftaranController extends Controller
 
         $simpan->save();
 
-        $data = [
-            'nama'=>$nama,
-            'prodi'=>$prodi,
-        ];
-     
-        Mail::send('mail.StatusPendaftaranSelesai',$data,function ($mail) use($emailAddress) {
-            $mail->from('universitasbalidwipa@gmail.com');
-            $mail->to($emailAddress);
-            $mail->subject('PENDAFTARAN MAHASISWA BARU');
-        });
+        if($status=='selesai')
+        {
+            $data = [
+                'nama'=>$nama,
+                'prodi'=>$prodi,
+            ];
+        
+            Mail::send('mail.StatusPendaftaranSelesai',$data,function ($mail) use($emailAddress) {
+                $mail->from('universitasbalidwipa@gmail.com');
+                $mail->to($emailAddress);
+                $mail->subject('PENDAFTARAN MAHASISWA BARU');
+            });
+        }
     
         alert()->success('Data Tersimpan !', '');
         return redirect()->back();
