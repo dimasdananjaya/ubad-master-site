@@ -52,7 +52,7 @@ class PendaftaranController extends Controller
         $simpan->kelas=$request->input('kelas');
         $simpan->referral=$request->input('referral');
         $simpan->status='diproses';
-        $simpan->jalur='EARLY BIRD';
+        $simpan->jalur='JBT';
         $simpan->sekolah=$request->input('sekolah');
         $simpan->save();
 
