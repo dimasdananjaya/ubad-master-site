@@ -27,7 +27,7 @@
             <p>
             <div class="row pt-3 pb-3">
                 <div class="col-lg-12">
-                    <a href="https://balidwipa.ac.id/mahasiswa-baru" style="width: 12em;" class="btn d-block mx-auto text-center btn-success mt-2 pb-2">Klik Disini</a>
+                    <a href="https://balidwipa.ac.id/mahasiswa-baru" style="width: 12em; background-color:#ffffff; color:#064420;" class="btn d-block mx-auto text-center mt-2 pb-2">Klik Disini</a>
                 </div><!--col-12-->
             </div><!--row-->
         </div><!--mt-4-->

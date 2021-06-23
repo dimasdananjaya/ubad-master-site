@@ -54,7 +54,7 @@
                 </div><!--col-lg-4-->
 
                 <div class="col-lg-12">
-                    <a href="/form-pendaftaran" class="btn btn-primary btn-md text-center mx-auto d-block mt-4" style="width: 23em; background-color:#40a8c4; border-radius:1em 1em 1em 1em;">Berminat Bergabung? <br> Klik Disini Untuk Daftar Online</a>
+                    <a href="/form-pendaftaran" class="btn btn-primary btn-md text-center mx-auto d-block mt-4" style="width: 23em; background-color:#04009A; border-radius:1em 1em 1em 1em;">Berminat Bergabung? <br> Klik Disini Untuk Daftar Online</a>
                 </div><!--div class-->
             </div><!--row-->
         </div><!--container-fluid-->
